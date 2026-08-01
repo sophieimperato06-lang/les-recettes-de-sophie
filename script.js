@@ -1,264 +1,47 @@
+const FAVORITES_KEY="sophieRecipeFavorites";let RECIPES=[];
+function readFavorites(){try{return JSON.parse(localStorage.getItem(FAVORITES_KEY)||"[]")}catch{return[]}}
+function writeFavorites(ids){localStorage.setItem(FAVORITES_KEY,JSON.stringify(ids))}
+function escapeHtml(v){return String(v??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function normalize(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+async function loadRecipes(){const r=await fetch("data/recipes.json",{cache:"no-store"});if(!r.ok)throw new Error("Impossible de charger les recettes.");const d=await r.json();RECIPES=d.recipes||[];pruneFavorites();return RECIPES}
+function pruneFavorites(){const valid=new Set(RECIPES.map(r=>r.id));writeFavorites([...new Set(readFavorites().filter(id=>valid.has(id)))])}
+function recipeHref(r){return`recette.html?id=${encodeURIComponent(r.id)}`}
+function renderRecipeTile(r){const tags=[...(r.tags||[]),r.category].join(" | ");return`<article class="recipe-tile" data-recipe-id="${escapeHtml(r.id)}" data-search="${escapeHtml(normalize([r.title,r.subtitle,r.description,tags].join(" ")))}" data-filters="${escapeHtml(tags)}"><a href="${recipeHref(r)}" aria-label="Ouvrir ${escapeHtml(r.title)}"><img src="${escapeHtml(r.webImage)}" alt="${escapeHtml(r.imageAlt)}" loading="lazy" /><span>${escapeHtml(r.category)}</span><strong>${escapeHtml(r.title)}</strong><small>${escapeHtml(r.subtitle)}</small></a><button type="button" class="favorite-button" data-recipe-id="${escapeHtml(r.id)}">Ajouter aux favoris</button></article>`}
+function updateFavoriteButtons(){const f=readFavorites();document.querySelectorAll(".favorite-button[data-recipe-id]").forEach(b=>{const a=f.includes(b.dataset.recipeId);b.classList.toggle("is-favorite",a);b.setAttribute("aria-pressed",a?"true":"false");b.textContent=a?"Retirer des favoris":"Ajouter aux favoris"})}
+function setupFavorites(){document.addEventListener("click",e=>{const b=e.target.closest(".favorite-button[data-recipe-id]");if(!b)return;const id=b.dataset.recipeId;const f=readFavorites();writeFavorites(f.includes(id)?f.filter(x=>x!==id):[...f,id]);updateFavoriteButtons();if(document.querySelector("#favoriteList"))renderFavorites()});updateFavoriteButtons()}
+function renderHome(){const h=document.querySelector("#latestRecipes");if(h)h.innerHTML=RECIPES.map(renderRecipeTile).join("")}
+function renderRecipeList(){const h=document.querySelector("#recipeList");if(h)h.innerHTML=RECIPES.map(renderRecipeTile).join("")}
+function renderFavorites(){const h=document.querySelector("#favoriteList");if(!h)return;const f=readFavorites();const s=RECIPES.filter(r=>f.includes(r.id));h.innerHTML=s.length?s.map(renderRecipeTile).join(""):"<p>Aucun favori pour le moment.</p>";updateFavoriteButtons()}
+function setupSearch(){const q=document.querySelector("#search"),box=document.querySelector("#filters"),reset=document.querySelector("#resetFilters"),count=document.querySelector("#resultCount"),res=document.querySelector("#searchResults");if(!q||!box||!res||!count)return;const filters=[...new Set(RECIPES.flatMap(r=>[...(r.tags||[]),r.category]))];box.innerHTML=filters.map(f=>`<label><input type="checkbox" value="${escapeHtml(f)}" /> ${escapeHtml(f)}</label>`).join("");function selected(){return[...box.querySelectorAll("input:checked")].map(i=>i.value)}function apply(){const query=normalize(q.value.trim()),sel=selected();const visible=RECIPES.filter(r=>{const text=normalize([r.title,r.subtitle,r.description,r.category,...(r.tags||[])].join(" "));const avail=new Set([r.category,...(r.tags||[])]);return(!query||text.includes(query))&&sel.every(x=>avail.has(x))});res.innerHTML=visible.map(renderRecipeTile).join("")||"<p>Aucune recette ne correspond \u00e0 cette recherche.</p>";count.textContent=`${visible.length} recette${visible.length>1?"s":""} affich\u00e9e${visible.length>1?"s":""}`;box.querySelectorAll("label").forEach(l=>l.classList.toggle("active",l.querySelector("input").checked));updateFavoriteButtons()}q.addEventListener("input",apply);box.addEventListener("change",apply);if(reset)reset.addEventListener("click",()=>{q.value="";box.querySelectorAll("input").forEach(i=>i.checked=false);apply()});apply()}
+function formatQuantity(v){const r=Math.round(v*10)/10;return Number.isInteger(r)?String(r):String(r).replace(".",",")}
+function renderIngredients(r){return r.ingredients.map(i=>{if(i.quantity===null||i.quantity===undefined)return`<li>${escapeHtml(i.text)}</li>`;return`<li data-base-quantity="${i.quantity}" data-unit="${escapeHtml(i.unit||"")}" data-label-singular="${escapeHtml(i.labelSingular)}" data-label-plural="${escapeHtml(i.labelPlural||i.labelSingular)}"><strong class="ingredient-quantity">${formatQuantity(i.quantity)}${i.unit?` ${escapeHtml(i.unit)}`:""}</strong> <span class="ingredient-label">${escapeHtml(i.labelSingular)}</span></li>`}).join("")}
+function renderNutrition(n){return`<section class="web-info-card web-info-card--nutrition"><h3>${escapeHtml(n.title)}</h3><table><thead><tr><th></th>${n.columns.map(c=>`<th>${escapeHtml(c)}</th>`).join("")}</tr></thead><tbody>${n.rows.map(row=>`<tr>${row.map((cell,i)=>i===0?`<th>${escapeHtml(cell)}</th>`:`<td>${escapeHtml(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></section>`}
+function renderInfoModules(r){return["goal","tip","serving","variant","storage","day"].map(k=>{const m=r.sections[k];return m?`<section class="web-info-card web-info-card--${k}">${m.icon?`<img class="web-info-card__icon" src="${escapeHtml(m.icon)}" alt="" aria-hidden="true" />`:""}<div><h3>${escapeHtml(m.title)}</h3><p>${escapeHtml(m.body)}</p></div></section>`:""}).join("")}
+function renderRecipeDetail(){const h=document.querySelector("#recipeDetail");if(!h)return;const params=new URLSearchParams(location.search);const id=params.get("id")||RECIPES[0]?.id;const r=RECIPES.find(x=>x.id===id||x.slug===id)||RECIPES[0];if(!r){h.innerHTML="<section class='panel'><p>Aucune recette disponible.</p></section>";return}document.title=`${r.title} - Les Recettes de Sophie`;h.innerHTML=`<article class="single-recipe web-recipe"><header class="web-recipe-hero"><div class="web-recipe-title"><p class="kicker">${escapeHtml(r.category)}</p><h1>${escapeHtml(r.title)} <span class="subtitle">${escapeHtml(r.subtitle)}</span></h1><p>${escapeHtml(r.description)}</p><div class="web-recipe-tags">${(r.tagsDetailed||[]).map(t=>`<span class="${normalize(t.label).includes("jour modere")?"tag-day-moderate":normalize(t.label).includes("jour bas")?"tag-day-low":""}">${escapeHtml(t.label)}</span>`).join("")}</div><div class="web-recipe-actions kitchen-mode-anchor"><button type="button" class="favorite-button" data-recipe-id="${escapeHtml(r.id)}">Ajouter aux favoris</button><a class="download-button" href="${escapeHtml(r.recipePdf)}" target="_blank" rel="noopener">T\u00e9l\u00e9charger la fiche PDF</a></div></div><figure class="web-recipe-photo web-recipe-photo--framed"><img class="web-recipe-photo__image" src="${escapeHtml(r.webImage)}" alt="${escapeHtml(r.imageAlt)}" /><img class="web-recipe-photo__frame" src="assets/cadres/cadre_photo_cercle_partiel_botanique_officiel.png" alt="" aria-hidden="true" /></figure></header><section class="web-recipe-meta" aria-label="Informations pratiques">${r.heroMeta.map(i=>`<div>${i.icon?`<img src="${escapeHtml(i.icon)}" alt="" aria-hidden="true" />`:""}<strong>${escapeHtml(i.value)}</strong><span>${escapeHtml(i.label)}</span></div>`).join("")}</section><section class="portion-calculator panel" aria-label="Calculateur de portions"><div><h2>Calculateur de portions</h2><p>Quantit\u00e9s affich\u00e9es pour <strong class="portion-calculator__current">1 portion</strong>.</p></div><div class="portion-calculator__buttons">${[1,2,3,4,5,6].map(v=>`<button type="button" data-servings="${v}" aria-pressed="${v===1?"true":"false"}" class="${v===1?"active":""}">${v}</button>`).join("")}</div></section><div class="web-recipe-content"><section class="web-recipe-main panel"><h2>Ingr\u00e9dients recalcul\u00e9s</h2><ul class="ingredient-list">${renderIngredients(r)}</ul><h2>Pr\u00e9paration</h2><ol>${r.preparation.map(s=>`<li>${escapeHtml(s)}</li>`).join("")}</ol></section><aside class="web-recipe-side">${renderInfoModules(r)}${renderNutrition(r.nutrition)}</aside></div></article>`;setupPortionCalculator();setupKitchenMode();updateFavoriteButtons()}
+function setupPortionCalculator(){document.querySelectorAll(".portion-calculator").forEach(calc=>{const buttons=[...calc.querySelectorAll("button[data-servings]")],current=calc.querySelector(".portion-calculator__current"),items=[...document.querySelectorAll("[data-base-quantity]")];function update(s){items.forEach(item=>{const base=Number(item.dataset.baseQuantity),unit=item.dataset.unit||"",q=item.querySelector(".ingredient-quantity"),label=item.querySelector(".ingredient-label");if(q)q.textContent=`${formatQuantity(base*s)}${unit?` ${unit}`:""}`;if(label)label.textContent=s>1?item.dataset.labelPlural:item.dataset.labelSingular});buttons.forEach(b=>{const a=Number(b.dataset.servings)===s;b.classList.toggle("active",a);b.setAttribute("aria-pressed",a?"true":"false")});if(current)current.textContent=`${s} portion${s>1?"s":""}`}buttons.forEach(b=>b.addEventListener("click",()=>update(Number(b.dataset.servings))));update(1)})}
+function setupKitchenMode(){const host=document.querySelector(".kitchen-mode-anchor");if(!host||host.querySelector(".kitchen-mode"))return;const wrap=document.createElement("div");wrap.className="kitchen-mode";const button=document.createElement("button");button.type="button";button.className="kitchen-mode__button";button.setAttribute("aria-pressed","false");button.textContent="Mode cuisine \u2014 Garder l\u2019\u00e9cran allum\u00e9";const status=document.createElement("p");status.className="kitchen-mode__status";status.setAttribute("aria-live","polite");wrap.append(button,status);const pdf=host.querySelector(".download-button");if(pdf)host.insertBefore(wrap,pdf);else host.appendChild(wrap);let wakeLock=null,requested=false;function setState(active,msg=""){button.classList.toggle("active",active);button.setAttribute("aria-pressed",active?"true":"false");button.textContent=active?"Mode cuisine actif \u2014 D\u00e9sactiver":"Mode cuisine \u2014 Garder l\u2019\u00e9cran allum\u00e9";status.textContent=msg}async function release(msg="Mode cuisine d\u00e9sactiv\u00e9."){if(wakeLock){const s=wakeLock;wakeLock=null;try{await s.release()}catch{}}setState(false,msg)}async function request(){if(!navigator.wakeLock||typeof navigator.wakeLock.request!=="function"){requested=false;setState(false,"Mode cuisine indisponible sur ce navigateur ou dans ce mode d\u2019\u00e9conomie d\u2019\u00e9nergie.");return}if(document.visibilityState!=="visible")return;try{wakeLock=await navigator.wakeLock.request("screen");wakeLock.addEventListener("release",()=>{wakeLock=null;if(requested&&document.visibilityState==="visible")setState(false,"Le verrouillage a \u00e9t\u00e9 interrompu. Il sera retent\u00e9 au retour sur la recette.")});setState(true,"\u00c9cran maintenu allum\u00e9 tant que cette recette reste ouverte.")}catch{wakeLock=null;requested=false;setState(false,"Impossible d\u2019activer le mode cuisine. Le navigateur ou la batterie peut le bloquer.")}}button.addEventListener("click",async()=>{requested=!requested;if(requested)await request();else await release()});document.addEventListener("visibilitychange",async()=>{if(document.visibilityState==="visible"&&requested&&!wakeLock)await request()});if(!navigator.wakeLock||typeof navigator.wakeLock.request!=="function")status.textContent="Mode cuisine disponible uniquement sur les navigateurs compatibles."}
 
-const searchInput = document.querySelector("#search");
-const filterBox = document.querySelector("#filters");
-const resetButton = document.querySelector("#resetFilters");
-const resultCount = document.querySelector("#resultCount");
-const cards = [...document.querySelectorAll(".recipe-card")];
-const quickButtons = [...document.querySelectorAll(".quick-filter")];
-const favoriteButtons = [...document.querySelectorAll(".favorite-button")];
-const FAVORITES_KEY = "sophieRecipeFavorites";
-
-function readFavorites() {
-  try {
-    return JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]");
-  } catch {
-    return [];
+async function loadProducts(){
+  const host=document.querySelector("#productList");
+  if(!host)return;
+  const count=document.querySelector("#productCount"),search=document.querySelector("#productSearch");
+  const response=await fetch("data/products.json",{cache:"no-store"});
+  if(!response.ok){host.innerHTML="<p>Impossible de charger les produits pour le moment.</p>";return;}
+  const data=await response.json();
+  const products=data.products||[];
+  function productCard(product){
+    const tags=(product.tags||[]).map(tag=>`<span>${escapeHtml(tag)}</span>`).join("");
+    return `<article class="product-card"><div class="product-card__icon" aria-hidden="true"></div><div><p class="product-card__category">${escapeHtml(product.category)}</p><h2>${escapeHtml(product.name)}</h2><p><strong>${escapeHtml(product.brand)}</strong></p><p class="product-card__store">${escapeHtml(product.store)}</p><p>${escapeHtml(product.notes)}</p><div class="product-card__tags">${tags}</div></div></article>`;
   }
-}
-
-function writeFavorites(ids) {
-  localStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
-}
-
-function updateFavoriteButtons() {
-  const favorites = readFavorites();
-  favoriteButtons.forEach((button) => {
-    const active = favorites.includes(button.dataset.recipeId);
-    button.classList.toggle("is-favorite", active);
-    button.textContent = active ? "Retirer des favoris" : "Ajouter aux favoris";
-  });
-}
-
-favoriteButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const id = button.dataset.recipeId;
-    const favorites = readFavorites();
-    const next = favorites.includes(id) ? favorites.filter((item) => item !== id) : [...favorites, id];
-    writeFavorites(next);
-    updateFavoriteButtons();
-  });
-});
-
-const favoriteList = document.querySelector("#favoriteList");
-if (favoriteList) {
-  const recipes = JSON.parse(favoriteList.dataset.recipes || "[]");
-  const favorites = readFavorites();
-  const selected = recipes.filter((recipe) => favorites.includes(recipe.id));
-  favoriteList.innerHTML = selected.length
-    ? selected.map((recipe) => `<a class="recipe-tile" href="${recipe.href}"><span>${recipe.id}</span><strong>${recipe.name}</strong><small>${recipe.category}</small></a>`).join("")
-    : "<p>Aucun favori pour le moment.</p>";
-}
-
-function selectedFilters() {
-  if (!filterBox) return [];
-  return [...filterBox.querySelectorAll("input:checked")].map((input) => input.value);
-}
-
-function refreshActiveLabels() {
-  if (!filterBox) return;
-  filterBox.querySelectorAll("label").forEach((label) => {
-    const input = label.querySelector("input");
-    label.classList.toggle("active", input.checked);
-  });
-  quickButtons.forEach((button) => {
-    button.classList.toggle("active", selectedFilters().includes(button.dataset.filter));
-  });
-}
-
-function applyFilters() {
-  if (!searchInput || !filterBox || !resultCount) return;
-  const query = searchInput.value.trim().toLowerCase();
-  const filters = selectedFilters();
-  let visible = 0;
-
-  cards.forEach((card) => {
-    const textMatch = !query || card.dataset.search.includes(query);
-    const available = card.dataset.filters.split("|");
-    const filterMatch = filters.every((filter) => available.includes(filter));
-    const show = textMatch && filterMatch;
-    card.classList.toggle("hidden", !show);
-    if (show) visible += 1;
-  });
-
-  resultCount.textContent = `${visible} recette${visible > 1 ? "s" : ""} affichee${visible > 1 ? "s" : ""}`;
-  refreshActiveLabels();
-}
-
-if (filterBox) filterBox.addEventListener("change", applyFilters);
-if (searchInput) searchInput.addEventListener("input", applyFilters);
-if (resetButton) {
-  resetButton.addEventListener("click", () => {
-    searchInput.value = "";
-    filterBox.querySelectorAll("input").forEach((input) => { input.checked = false; });
-    applyFilters();
-  });
-}
-
-quickButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const value = button.dataset.filter;
-    if (!filterBox) {
-      window.location.href = `recherche.html?filter=${encodeURIComponent(value)}`;
-      return;
-    }
-    const input = filterBox.querySelector(`input[value="${CSS.escape(value)}"]`);
-    if (input) input.checked = !input.checked;
-    document.querySelector(".toolbar").scrollIntoView({ behavior: "smooth", block: "start" });
-    applyFilters();
-  });
-});
-
-if (filterBox) {
-  const params = new URLSearchParams(window.location.search);
-  const initialFilter = params.get("filter");
-  if (initialFilter) {
-    const input = filterBox.querySelector(`input[value="${CSS.escape(initialFilter)}"]`);
-    if (input) input.checked = true;
+  function render(){
+    const query=normalize(search?.value||"");
+    const filtered=products.filter(product=>normalize([product.name,product.brand,product.store,product.category,product.notes,...(product.tags||[])].join(" ")).includes(query));
+    host.innerHTML=filtered.map(productCard).join("")||"<p>Aucun produit ne correspond \u00e0 cette recherche.</p>";
+    if(count)count.textContent=`${filtered.length} produit${filtered.length>1?"s":""} affich\u00e9${filtered.length>1?"s":""}`;
   }
+  if(search)search.addEventListener("input",render);
+  render();
 }
 
-updateFavoriteButtons();
-applyFilters();
-
-function setupKitchenMode() {
-  const recipe = document.querySelector(".single-recipe");
-  if (!recipe) return;
-
-  const host = recipe.querySelector(".kitchen-mode-anchor") || recipe.querySelector(".recipe-head > div") || recipe;
-  const wrapper = document.createElement("div");
-  wrapper.className = "kitchen-mode";
-
-  const button = document.createElement("button");
-  button.type = "button";
-  button.className = "kitchen-mode__button";
-  button.setAttribute("aria-pressed", "false");
-  button.textContent = "Mode cuisine — Garder l’écran allumé";
-
-  const status = document.createElement("p");
-  status.className = "kitchen-mode__status";
-  status.setAttribute("aria-live", "polite");
-
-  wrapper.append(button, status);
-  const anchor = host.classList.contains("kitchen-mode-anchor") ? host : null;
-  const favoriteButton = host.querySelector(".favorite-button");
-  if (anchor) {
-    anchor.appendChild(wrapper);
-  } else if (favoriteButton) {
-    favoriteButton.insertAdjacentElement("afterend", wrapper);
-  } else {
-    host.appendChild(wrapper);
-  }
-
-  let wakeLock = null;
-  let kitchenModeRequested = false;
-
-  function setState(active, message) {
-    button.classList.toggle("active", active);
-    button.setAttribute("aria-pressed", active ? "true" : "false");
-    button.textContent = active
-      ? "Mode cuisine actif — Désactiver"
-      : "Mode cuisine — Garder l’écran allumé";
-    status.textContent = message || "";
-  }
-
-  async function releaseWakeLock(message) {
-    if (wakeLock) {
-      const sentinel = wakeLock;
-      wakeLock = null;
-      try {
-        await sentinel.release();
-      } catch {
-        // The lock may already have been released by the browser.
-      }
-    }
-    setState(false, message || "Mode cuisine désactivé.");
-  }
-
-  async function requestWakeLock() {
-    if (!navigator.wakeLock || typeof navigator.wakeLock.request !== "function") {
-      kitchenModeRequested = false;
-      setState(false, "Mode cuisine indisponible sur ce navigateur.");
-      return;
-    }
-
-    if (document.visibilityState !== "visible") return;
-
-    try {
-      wakeLock = await navigator.wakeLock.request("screen");
-      wakeLock.addEventListener("release", () => {
-        wakeLock = null;
-        if (kitchenModeRequested && document.visibilityState === "visible") {
-          setState(false, "Le verrouillage a été interrompu par le navigateur ou l’économie d’énergie.");
-        }
-      });
-      setState(true, "Écran maintenu allumé tant que cette recette reste ouverte.");
-    } catch {
-      wakeLock = null;
-      kitchenModeRequested = false;
-      setState(false, "Impossible d’activer le mode cuisine. Le navigateur, la batterie ou l’économie d’énergie peut le bloquer.");
-    }
-  }
-
-  button.addEventListener("click", async () => {
-    kitchenModeRequested = !kitchenModeRequested;
-    if (kitchenModeRequested) {
-      await requestWakeLock();
-    } else {
-      await releaseWakeLock("Mode cuisine désactivé.");
-    }
-  });
-
-  document.addEventListener("visibilitychange", async () => {
-    if (document.visibilityState === "visible" && kitchenModeRequested && !wakeLock) {
-      await requestWakeLock();
-    }
-  });
-
-  if (!navigator.wakeLock || typeof navigator.wakeLock.request !== "function") {
-    status.textContent = "Mode cuisine disponible uniquement sur les navigateurs compatibles.";
-  }
-}
-
-setupKitchenMode();
-
-function formatQuantity(value) {
-  const rounded = Math.round(value * 10) / 10;
-  return Number.isInteger(rounded) ? String(rounded) : String(rounded).replace(".", ",");
-}
-
-function setupPortionCalculator() {
-  const calculator = document.querySelector(".portion-calculator");
-  if (!calculator) return;
-
-  const buttons = [...calculator.querySelectorAll("button[data-servings]")];
-  const ingredients = [...document.querySelectorAll("[data-base-quantity]")];
-  const current = calculator.querySelector(".portion-calculator__current");
-
-  function updatePortions(servings) {
-    ingredients.forEach((item) => {
-      const base = Number(item.dataset.baseQuantity);
-      const unit = item.dataset.unit || "";
-      const scaled = formatQuantity(base * servings);
-      const quantity = item.querySelector(".ingredient-quantity");
-      if (quantity) quantity.textContent = `${scaled}${unit ? ` ${unit}` : ""}`;
-    });
-
-    buttons.forEach((button) => {
-      const active = Number(button.dataset.servings) === servings;
-      button.classList.toggle("active", active);
-      button.setAttribute("aria-pressed", active ? "true" : "false");
-    });
-
-    if (current) {
-      current.textContent = `${servings} portion${servings > 1 ? "s" : ""}`;
-    }
-  }
-
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => updatePortions(Number(button.dataset.servings)));
-  });
-
-  updatePortions(1);
-}
-
-setupPortionCalculator();
+async function init(){try{await loadRecipes();renderHome();renderRecipeList();setupSearch();renderFavorites();renderRecipeDetail();await loadProducts();setupFavorites()}catch(e){console.error(e);document.querySelectorAll("#latestRecipes,#recipeList,#searchResults,#favoriteList,#recipeDetail").forEach(h=>h.innerHTML="<p>Impossible de charger les recettes pour le moment.</p>")}}
+init();

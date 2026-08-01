@@ -22,3 +22,8 @@ Ces r?gles concernent uniquement le site web. Elles ne modifient pas le Design S
 
 - Modèle officiel des pages recettes web : docs/modele-page-recette-web.md.
 
+
+
+## Nettoyage recettes v2
+
+La branche `refonte-recettes-v2` conserve un commit de sauvegarde avant nettoyage. La collection active du site utilise maintenant une source de donnees partagee dans `data/recipes.json` et une page detaillee commune `recette.html`. La page web affiche du HTML lisible et la fiche A4 reste disponible uniquement via le PDF de telechargement.

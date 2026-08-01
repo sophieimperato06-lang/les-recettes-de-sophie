@@ -1,0 +1,382 @@
+{
+  "products": [
+    {
+      "name": "Bacon maigre 3 % MG",
+      "brand": "Herta",
+      "store": "Supermarch\u00e9",
+      "category": "Frais sal\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "bacon",
+        "sal\u00e9",
+        "prot\u00e9ines"
+      ]
+    },
+    {
+      "name": "Bonjour Classique",
+      "brand": "Bonjour",
+      "store": "Site Bonjour",
+      "category": "Pain et tartines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Site Bonjour.",
+      "tags": [
+        "bonjour",
+        "tartine"
+      ]
+    },
+    {
+      "name": "Bonjour Kids Choco-Noisette",
+      "brand": "Bonjour",
+      "store": "Site Bonjour",
+      "category": "Enfant",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Site Bonjour.",
+      "tags": [
+        "bonjour",
+        "enfants",
+        "chocolat"
+      ]
+    },
+    {
+      "name": "Cacao maigre alcalinis\u00e9",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Cacao et chocolat",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "cacao",
+        "koro"
+      ]
+    },
+    {
+      "name": "Cancoillotte ail",
+      "brand": "selon disponibilit\u00e9",
+      "store": "Supermarch\u00e9",
+      "category": "Frais sal\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "fromage",
+        "ail"
+      ]
+    },
+    {
+      "name": "Chocolat noir Dessert 70 %",
+      "brand": "Nestl\u00e9 Dessert",
+      "store": "Supermarch\u00e9",
+      "category": "Cacao et chocolat",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "chocolat",
+        "dessert"
+      ]
+    },
+    {
+      "name": "Collag\u00e8ne marin sauvage Naticol\u00ae neutre",
+      "brand": "Nutripure",
+      "store": "Nutripure",
+      "category": "Compl\u00e9ment",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Nutripure.",
+      "tags": [
+        "collag\u00e8ne",
+        "nutripure"
+      ]
+    },
+    {
+      "name": "Compote de pommes SSA",
+      "brand": "marque U",
+      "store": "Supermarch\u00e9",
+      "category": "Base moelleuse",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "compote",
+        "sans sucres ajout\u00e9s"
+      ]
+    },
+    {
+      "name": "La myrtille SSA",
+      "brand": "marque U",
+      "store": "Supermarch\u00e9",
+      "category": "Fruit",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "myrtille",
+        "sans sucres ajout\u00e9s"
+      ]
+    },
+    {
+      "name": "Farine de cacahu\u00e8te",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Farines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "cacahu\u00e8te",
+        "koro"
+      ]
+    },
+    {
+      "name": "Farine de grand \u00e9peautre T110",
+      "brand": "Du Grain au Pain",
+      "store": "Du Grain au Pain",
+      "category": "Farines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "tags": [
+        "\u00e9peautre",
+        "farine"
+      ]
+    },
+    {
+      "name": "Farine de petit \u00e9peautre T130",
+      "brand": "Du Grain au Pain",
+      "store": "Du Grain au Pain",
+      "category": "Farines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "tags": [
+        "\u00e9peautre",
+        "farine"
+      ]
+    },
+    {
+      "name": "Farine de seigle T130",
+      "brand": "Du Grain au Pain",
+      "store": "Du Grain au Pain",
+      "category": "Farines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "tags": [
+        "seigle",
+        "farine"
+      ]
+    },
+    {
+      "name": "Farine de sarrasin T110",
+      "brand": "Du Grain au Pain",
+      "store": "Du Grain au Pain",
+      "category": "Farines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "tags": [
+        "sarrasin",
+        "farine"
+      ]
+    },
+    {
+      "name": "Filets de maquereaux grill\u00e9s au naturel",
+      "brand": "Saupiquet",
+      "store": "Supermarch\u00e9",
+      "category": "Poisson",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "maquereaux",
+        "sal\u00e9"
+      ]
+    },
+    {
+      "name": "Flocons d'avoine bio",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Base petit-d\u00e9jeuner",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "avoine",
+        "koro",
+        "bowlcake"
+      ]
+    },
+    {
+      "name": "Fraises lyophilis\u00e9es",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Fruit",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "fraises",
+        "koro"
+      ]
+    },
+    {
+      "name": "Fusilli de pois chiches bio",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "P\u00e2tes et f\u00e9culents",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "pois chiches",
+        "p\u00e2tes"
+      ]
+    },
+    {
+      "name": "Lait d'avoine Barista",
+      "brand": "Oatly",
+      "store": "Amazon en abonnement ou Supermarch\u00e9",
+      "category": "Boisson v\u00e9g\u00e9tale",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Amazon en abonnement ou Supermarch\u00e9.",
+      "tags": [
+        "avoine",
+        "boisson"
+      ]
+    },
+    {
+      "name": "P\u00e2tes Protein+",
+      "brand": "Barilla",
+      "store": "Supermarch\u00e9",
+      "category": "P\u00e2tes et f\u00e9culents",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "p\u00e2tes",
+        "prot\u00e9ines"
+      ]
+    },
+    {
+      "name": "Poudre d'amande compl\u00e8te",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Amandes et ol\u00e9agineux",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "amande",
+        "koro"
+      ]
+    },
+    {
+      "name": "Prot\u00e9ine v\u00e9g\u00e9tale go\u00fbt chocolat",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Compl\u00e9ment prot\u00e9in\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "prot\u00e9ines",
+        "chocolat"
+      ]
+    },
+    {
+      "name": "Prot\u00e9ine v\u00e9g\u00e9tale nature",
+      "brand": "Nutripure",
+      "store": "Nutripure",
+      "category": "Compl\u00e9ment prot\u00e9in\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Nutripure.",
+      "tags": [
+        "prot\u00e9ines",
+        "nutripure"
+      ]
+    },
+    {
+      "name": "Pur\u00e9e de cacahu\u00e8te",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Pur\u00e9es d'ol\u00e9agineux",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "cacahu\u00e8te",
+        "topping"
+      ]
+    },
+    {
+      "name": "Pur\u00e9e de noisettes",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Pur\u00e9es d'ol\u00e9agineux",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "noisette",
+        "koro"
+      ]
+    },
+    {
+      "name": "Pur\u00e9e de pistaches",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Pur\u00e9es d'ol\u00e9agineux",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "pistache",
+        "koro"
+      ]
+    },
+    {
+      "name": "Sirop d'\u00e9rable bio",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Sucrants",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "\u00e9rable",
+        "koro"
+      ]
+    },
+    {
+      "name": "Skyr nature",
+      "brand": "Yoplait",
+      "store": "Supermarch\u00e9",
+      "category": "Frais prot\u00e9in\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "skyr",
+        "prot\u00e9ines"
+      ]
+    },
+    {
+      "name": "Soja Crispies cacao",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Topping",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "soja",
+        "cacao",
+        "prot\u00e9ines"
+      ]
+    },
+    {
+      "name": "Sucre de fleur de coco bio",
+      "brand": "selon disponibilit\u00e9",
+      "store": "Greenweez",
+      "category": "Sucrants",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Greenweez.",
+      "tags": [
+        "sucre coco",
+        "greenweez"
+      ]
+    },
+    {
+      "name": "Tofu mexicain",
+      "brand": "Tossolia",
+      "store": "Naturalia / magasin bio",
+      "category": "V\u00e9g\u00e9tal sal\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Naturalia / magasin bio.",
+      "tags": [
+        "tofu",
+        "sal\u00e9"
+      ]
+    },
+    {
+      "name": "Wasa Fibres",
+      "brand": "Wasa",
+      "store": "Supermarch\u00e9",
+      "category": "Pain et tartines",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "tags": [
+        "wasa",
+        "fibres"
+      ]
+    },
+    {
+      "name": "Whey Isolate Native",
+      "brand": "Nutripure",
+      "store": "Nutripure",
+      "category": "Compl\u00e9ment prot\u00e9in\u00e9",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Nutripure.",
+      "tags": [
+        "whey",
+        "prot\u00e9ines"
+      ]
+    },
+    {
+      "name": "Xylitol",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Sucrants",
+      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "xylitol",
+        "koro"
+      ]
+    }
+  ]
+}

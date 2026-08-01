@@ -94,3 +94,37 @@ Chaque recette web doit pouvoir utiliser :
 - police Allura : `assets/fonts/Allura/Allura-Regular.ttf`.
 
 Ces règles deviennent la base pour créer les prochaines pages recettes web du premier coup.
+
+
+## Tableau nutritionnel web
+
+Le tableau des valeurs nutritionnelles peut afficher 3 colonnes de macros au meme emplacement. Les intitules de colonnes sont variables selon la recette, par exemple `1 portion`, `+ topping`, `variante proteinee`, `version fruit`, ou `objectif 30 g prot.`. La structure HTML reste identique et seules les donnees changent dans `data/recipes.json`.
+
+## Tags sous le titre
+
+Les tags affiches sous le titre sont des libelles texte, sans pictogramme. Les pictogrammes de categorie sont trop petits a cet emplacement et ne doivent pas etre reintegres automatiquement.
+
+Couleurs validees :
+
+- `Jour Modere` : terracotta / orange pastel officiel `#E8A17A` ;
+- `Jour Bas` : vert olive officiel `#6E7F63`.
+
+Les autres tags restent dans le style doux neutre de la page.
+
+## Page produits web
+
+Le site contient un onglet `Produits` alimente par `data/products.json`. Chaque produit indique le nom, la marque, le lieu d'achat, la categorie, les notes et les tags. Les decors botaniques web reutilisent l'asset existant `assets/cadres/cadre_photo_cercle_partiel_botanique_officiel.png` en decoration legere ; aucun asset du Design System n'est modifie.
+
+## Pictogrammes web
+
+Les pages recettes web utilisent les copies locales des pictogrammes officiels dans `assets/pictos/` et leurs versions d'affichage dans `assets/pictos/web/`. Ces fichiers proviennent du Design System mais sont copies cote site pour ne jamais modifier les assets officiels.
+
+Regles validees :
+
+- les pictogrammes `Cuisson`, `Difficulte`, `Conservation` et `Jour Modere` doivent etre recadres cote web autour du dessin visible, afin de ne pas paraitre plus petits a cause de marges transparentes ou de fond residuel ;
+- les pictogrammes du cartouche pratique doivent avoir une presence visuelle comparable entre eux ;
+- les pictogrammes des modules de droite doivent etre assez grands et contrastes pour rester lisibles ;
+- les tags sous le titre restent en texte seul ;
+- les pictogrammes officiels du Design System ne sont jamais modifies directement.
+
+Les chemins des pictogrammes utilises par chaque recette sont definis dans `data/recipes.json`.
