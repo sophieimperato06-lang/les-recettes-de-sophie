@@ -119,3 +119,146 @@ if (filterBox) {
 
 updateFavoriteButtons();
 applyFilters();
+
+function setupKitchenMode() {
+  const recipe = document.querySelector(".single-recipe");
+  if (!recipe) return;
+
+  const host = recipe.querySelector(".kitchen-mode-anchor") || recipe.querySelector(".recipe-head > div") || recipe;
+  const wrapper = document.createElement("div");
+  wrapper.className = "kitchen-mode";
+
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "kitchen-mode__button";
+  button.setAttribute("aria-pressed", "false");
+  button.textContent = "Mode cuisine — Garder l’écran allumé";
+
+  const status = document.createElement("p");
+  status.className = "kitchen-mode__status";
+  status.setAttribute("aria-live", "polite");
+
+  wrapper.append(button, status);
+  const anchor = host.classList.contains("kitchen-mode-anchor") ? host : null;
+  const favoriteButton = host.querySelector(".favorite-button");
+  if (anchor) {
+    anchor.appendChild(wrapper);
+  } else if (favoriteButton) {
+    favoriteButton.insertAdjacentElement("afterend", wrapper);
+  } else {
+    host.appendChild(wrapper);
+  }
+
+  let wakeLock = null;
+  let kitchenModeRequested = false;
+
+  function setState(active, message) {
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", active ? "true" : "false");
+    button.textContent = active
+      ? "Mode cuisine actif — Désactiver"
+      : "Mode cuisine — Garder l’écran allumé";
+    status.textContent = message || "";
+  }
+
+  async function releaseWakeLock(message) {
+    if (wakeLock) {
+      const sentinel = wakeLock;
+      wakeLock = null;
+      try {
+        await sentinel.release();
+      } catch {
+        // The lock may already have been released by the browser.
+      }
+    }
+    setState(false, message || "Mode cuisine désactivé.");
+  }
+
+  async function requestWakeLock() {
+    if (!navigator.wakeLock || typeof navigator.wakeLock.request !== "function") {
+      kitchenModeRequested = false;
+      setState(false, "Mode cuisine indisponible sur ce navigateur.");
+      return;
+    }
+
+    if (document.visibilityState !== "visible") return;
+
+    try {
+      wakeLock = await navigator.wakeLock.request("screen");
+      wakeLock.addEventListener("release", () => {
+        wakeLock = null;
+        if (kitchenModeRequested && document.visibilityState === "visible") {
+          setState(false, "Le verrouillage a été interrompu par le navigateur ou l’économie d’énergie.");
+        }
+      });
+      setState(true, "Écran maintenu allumé tant que cette recette reste ouverte.");
+    } catch {
+      wakeLock = null;
+      kitchenModeRequested = false;
+      setState(false, "Impossible d’activer le mode cuisine. Le navigateur, la batterie ou l’économie d’énergie peut le bloquer.");
+    }
+  }
+
+  button.addEventListener("click", async () => {
+    kitchenModeRequested = !kitchenModeRequested;
+    if (kitchenModeRequested) {
+      await requestWakeLock();
+    } else {
+      await releaseWakeLock("Mode cuisine désactivé.");
+    }
+  });
+
+  document.addEventListener("visibilitychange", async () => {
+    if (document.visibilityState === "visible" && kitchenModeRequested && !wakeLock) {
+      await requestWakeLock();
+    }
+  });
+
+  if (!navigator.wakeLock || typeof navigator.wakeLock.request !== "function") {
+    status.textContent = "Mode cuisine disponible uniquement sur les navigateurs compatibles.";
+  }
+}
+
+setupKitchenMode();
+
+function formatQuantity(value) {
+  const rounded = Math.round(value * 10) / 10;
+  return Number.isInteger(rounded) ? String(rounded) : String(rounded).replace(".", ",");
+}
+
+function setupPortionCalculator() {
+  const calculator = document.querySelector(".portion-calculator");
+  if (!calculator) return;
+
+  const buttons = [...calculator.querySelectorAll("button[data-servings]")];
+  const ingredients = [...document.querySelectorAll("[data-base-quantity]")];
+  const current = calculator.querySelector(".portion-calculator__current");
+
+  function updatePortions(servings) {
+    ingredients.forEach((item) => {
+      const base = Number(item.dataset.baseQuantity);
+      const unit = item.dataset.unit || "";
+      const scaled = formatQuantity(base * servings);
+      const quantity = item.querySelector(".ingredient-quantity");
+      if (quantity) quantity.textContent = `${scaled}${unit ? ` ${unit}` : ""}`;
+    });
+
+    buttons.forEach((button) => {
+      const active = Number(button.dataset.servings) === servings;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+
+    if (current) {
+      current.textContent = `${servings} portion${servings > 1 ? "s" : ""}`;
+    }
+  }
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => updatePortions(Number(button.dataset.servings)));
+  });
+
+  updatePortions(1);
+}
+
+setupPortionCalculator();

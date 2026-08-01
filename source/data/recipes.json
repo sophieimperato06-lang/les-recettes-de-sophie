@@ -1,0 +1,559 @@
+{
+  "title": "Les Recettes de Sophie",
+  "subtitle": "Nutrition - Recomposition corporelle - Carb Cycling",
+  "categories": [
+    "Petit-dejeuners",
+    "Dejeuners / Diners",
+    "Pains, wraps et accompagnements",
+    "Desserts",
+    "Collations",
+    "Sauces, tartinades et condiments",
+    "Boissons",
+    "Recettes anti-gaspillage"
+  ],
+  "recipes": [
+    {
+      "id": "R001",
+      "name": "Acai Bowl proteine",
+      "category": "Petit-dejeuners",
+      "tags": ["Jour Bas", "sans cuisson", "blender", "riche en proteines", "vegetarien"],
+      "image": "assets/R001.png",
+      "servings": "1 portion",
+      "prep_time": "5 min",
+      "cook_time": "0 min",
+      "difficulty": "Tres facile",
+      "main_ingredient": "acai",
+      "cooking_mode": "Sans cuisson",
+      "batch_cooking": false,
+      "ingredients": [
+        "120 g de skyr 0 %",
+        "15 g de whey isolate vanille ou neutre",
+        "7,5 g de poudre d'acai bio",
+        "15 g de banane congelee",
+        "65 g de framboises ou myrtilles surgelees",
+        "15 ml de boisson vegetale sans sucres ajoutes",
+        "5 g de sirop d'agave"
+      ],
+      "preparation": [
+        "Versez dans un blender le skyr, la whey, l'acai et la boisson vegetale.",
+        "Ajoutez la banane et les fruits rouges encore surgeles.",
+        "Mixez jusqu'a obtenir une texture tres epaisse et cremeuse.",
+        "Versez dans un bol bien froid.",
+        "Ajoutez le sirop d'agave.",
+        "Decorez avec les toppings de votre choix."
+      ],
+      "cooking_tips": "Placez le bol 10 a 15 minutes au congelateur avant de servir pour une texture encore plus glacee.",
+      "storage": "A deguster immediatement. Ne se congele pas.",
+      "macros_total": {
+        "kcal": "231",
+        "proteins_g": "25,5",
+        "carbs_g": "17,5",
+        "fat_g": "5",
+        "fiber_g": "6"
+      },
+      "macros_per_serving": {
+        "kcal": "231",
+        "proteins_g": "25,5",
+        "carbs_g": "17,5",
+        "fat_g": "5",
+        "fiber_g": "6"
+      },
+      "variants": [
+        "Avec granola : 263 kcal, 26 g proteines, 21 g glucides, 7 g lipides, 6,5 g fibres.",
+        "Chocolat : + 5 g cacao degraisse.",
+        "Pistache : + 5 g puree de pistache.",
+        "Exotique : fruits rouges + mangue.",
+        "Faible en glucides : sans banane, fruits rouges a 80 g."
+      ],
+      "serving_suggestions": [
+        "5 g de granola proteine maison",
+        "Quelques fruits rouges frais",
+        "Feuilles de menthe"
+      ],
+      "compatibility": ["Jour Bas"],
+      "notes": "Frais, gourmand et proteine. Version nature compatible jour bas."
+    },
+    {
+      "id": "R002",
+      "name": "Piadina IG Bas Sophie",
+      "category": "Pains, wraps et accompagnements",
+      "tags": ["Jour Bas", "IG bas", "poele", "riche en proteines"],
+      "image": "assets/R002.jpg",
+      "servings": "1",
+      "prep_time": "a completer",
+      "cook_time": "a completer",
+      "difficulty": "a completer",
+      "main_ingredient": "farine IG bas",
+      "cooking_mode": "Poele",
+      "batch_cooking": false,
+      "ingredients": ["a completer"],
+      "preparation": ["a completer"],
+      "cooking_tips": "a completer",
+      "storage": "a completer",
+      "macros_total": {
+        "kcal": "a completer",
+        "proteins_g": "a completer",
+        "carbs_g": "a completer",
+        "fat_g": "a completer",
+        "fiber_g": "a completer"
+      },
+      "macros_per_serving": {
+        "kcal": "a completer",
+        "proteins_g": "a completer",
+        "carbs_g": "a completer",
+        "fat_g": "a completer",
+        "fiber_g": "a completer"
+      },
+      "variants": ["a completer"],
+      "serving_suggestions": ["a completer"],
+      "compatibility": ["Jour Bas"],
+      "notes": "a completer"
+    },
+    {
+      "id": "R003",
+      "name": "Clafouflan aux abricots",
+      "category": "Petit-dejeuners",
+      "tags": ["Jour Bas", "Air Fryer", "riche en proteines", "meal prep"],
+      "image": "assets/R003.png",
+      "servings": "6 portions",
+      "prep_time": "10 min",
+      "cook_time": "25/30 min",
+      "difficulty": "Facile",
+      "main_ingredient": "abricots",
+      "cooking_mode": "Air Fryer",
+      "batch_cooking": true,
+      "ingredients": [
+        "Abricots bien murs, environ 280 g",
+        "200 g yaourt grec 0 %",
+        "6 oeufs",
+        "40 g Maizena",
+        "18 g miel ou sirop d'agave",
+        "Poudre de vanille",
+        "1 c. a cafe de levure chimique",
+        "15 g amandes effilees sur le dessus",
+        "Accompagnement : 200 g skyr nature 0 %",
+        "5 g puree de pistache facultative"
+      ],
+      "preparation": [
+        "Lave les abricots, denoyaute-les et coupe-les en quartiers.",
+        "Fais compoter les abricots avec le miel ou le sirop d'agave 5 a 7 minutes. Laisse tiedir.",
+        "Bats les oeufs avec le yaourt grec.",
+        "Ajoute la Maizena, la vanille et la levure, puis melange bien.",
+        "Incorpore les abricots compotes a la preparation.",
+        "Verse dans un moule adapte a l'air fryer.",
+        "Ajoute les amandes effilees sur le dessus.",
+        "Cuis en mode BAKE a 170 degres C pendant 25/30 minutes.",
+        "Laisse tiedir avant de decouper."
+      ],
+      "cooking_tips": "La cuisson plus douce a 170 degres C donne une texture plus flan et evite de trop secher les bords.",
+      "storage": "3 jours au refrigerateur. Se deguste froid ou tiede.",
+      "macros_total": {
+        "kcal": "950",
+        "proteins_g": "61",
+        "carbs_g": "75",
+        "fat_g": "47",
+        "fiber_g": "6"
+      },
+      "macros_per_serving": {
+        "kcal": "158",
+        "proteins_g": "10",
+        "carbs_g": "12,5",
+        "fat_g": "7,9",
+        "fiber_g": "a completer"
+      },
+      "macros_with_serving_suggestion": {
+        "label": "Avec 200 g skyr",
+        "kcal": "270",
+        "proteins_g": "29",
+        "carbs_g": "20",
+        "fat_g": "8",
+        "fiber_g": "a completer"
+      },
+      "variants": ["Puree de pistache facultative"],
+      "serving_suggestions": ["1 portion + 200 g de skyr nature 0 % pour viser 30 g de proteines"],
+      "compatibility": ["Jour Bas"],
+      "notes": "Petit-dejeuner complet, sain et gourmand."
+    },
+    {
+      "id": "R004",
+      "name": "Spaghetti proteines au saumon fume",
+      "category": "Dejeuners / Diners",
+      "tags": ["Jour Modere", "Jour Haut", "pates proteinees", "riche en proteines", "poele"],
+      "image": "assets/R004.png",
+      "servings": "4 portions",
+      "prep_time": "10 min",
+      "cook_time": "12 min",
+      "difficulty": "Facile",
+      "main_ingredient": "saumon fume",
+      "cooking_mode": "Poele",
+      "batch_cooking": false,
+      "ingredients": [
+        "400 g de spaghetti proteines Barilla",
+        "300 g de saumon fume",
+        "250 ml de creme fraiche",
+        "1 c. a soupe de Maizena",
+        "Poivre, citron ou aneth selon gout"
+      ],
+      "preparation": [
+        "Faites cuire les spaghetti dans une grande casserole d'eau salee, puis egouttez-les en gardant un peu d'eau de cuisson.",
+        "Dans une poele, faites chauffer doucement la creme fraiche.",
+        "Delayez la Maizena dans un peu d'eau froide, puis versez dans la sauce.",
+        "Laissez epaissir 2 a 3 minutes a feu doux.",
+        "Ajoutez les spaghetti puis le saumon fume coupe en morceaux hors du feu ou a feu tres doux.",
+        "Servez avec citron, poivre et aneth."
+      ],
+      "cooking_tips": "Ajoutez un peu d'eau de cuisson des pates pour une sauce plus nappante sans ajouter de creme.",
+      "storage": "a completer",
+      "macros_total": {
+        "kcal": "2195",
+        "proteins_g": "141",
+        "carbs_g": "268",
+        "fat_g": "51",
+        "fiber_g": "12"
+      },
+      "macros_per_serving": {
+        "kcal": "549",
+        "proteins_g": "35,3",
+        "carbs_g": "67",
+        "fat_g": "12,8",
+        "fiber_g": "3,1"
+      },
+      "variants": ["Objectif 30 g atteint par portion, ajout inutile."],
+      "serving_suggestions": ["Salade verte ou courgettes grillees", "Citron et aneth pour alleger le gout", "Eviter pain ou dessert sucre si jour modere"],
+      "compatibility": ["Jour Modere", "Jour Haut"],
+      "notes": "Plat proteine et riche en glucides : ideal jour modere ou haut, ou apres une seance."
+    },
+    {
+      "id": "R005",
+      "name": "Granola proteine Jour Bas",
+      "category": "Petit-dejeuners",
+      "tags": ["Jour Bas", "four", "batch cooking", "riche en proteines"],
+      "image": "assets/R005.png",
+      "servings": "environ 27 portions de 30 g",
+      "prep_time": "15 min",
+      "cook_time": "32 min",
+      "difficulty": "Facile",
+      "main_ingredient": "graines et oleagineux",
+      "cooking_mode": "Four",
+      "batch_cooking": true,
+      "ingredients": [
+        "120 g amandes",
+        "80 g noisettes",
+        "40 g cacahuetes grillees non salees",
+        "60 g graines de courge",
+        "40 g graines de tournesol",
+        "30 g graines de lin",
+        "20 g graines de chia",
+        "120 g flocons d'avoine",
+        "60 g proteine vegetale nature",
+        "30 g poudre de cacahuete degraissee",
+        "35 g puree d'amandes ou cacahuete",
+        "170 g compote",
+        "15 g sirop d'agave",
+        "Cannelle, vanille, pincee de sel"
+      ],
+      "preparation": [
+        "Concassez grossierement les amandes, noisettes et cacahuetes.",
+        "Melangez tous les ingredients secs.",
+        "Ajoutez puree d'amandes, compote et sirop d'agave. Melangez pour former des morceaux.",
+        "Etalez sur une plaque en tassant legerement.",
+        "Cuisez 20 min a 160 degres C chaleur tournante.",
+        "Cassez en morceaux, puis remettez 12 min a 150 degres C.",
+        "Laissez refroidir totalement avant de mettre en bocal."
+      ],
+      "cooking_tips": "Pour de gros morceaux, tasse bien le melange avant la premiere cuisson et ne remue qu'au moment de casser.",
+      "storage": "2 a 3 semaines dans un bocal hermetique, une fois completement refroidi.",
+      "macros_total": {
+        "kcal": "3416",
+        "proteins_g": "171",
+        "carbs_g": "206",
+        "fat_g": "233",
+        "fiber_g": "74"
+      },
+      "macros_per_serving": {
+        "kcal": "125",
+        "proteins_g": "6,3",
+        "carbs_g": "7,5",
+        "fat_g": "8,5",
+        "fiber_g": "2,7"
+      },
+      "variants": ["Pour 100 g : 417 kcal, 20,9 g proteines, 25,2 g glucides, 28,4 g lipides, 9,1 g fibres."],
+      "serving_suggestions": ["30 g granola + 1 portion de pudding pistache", "Base acai + 30 g granola"],
+      "compatibility": ["Jour Bas"],
+      "notes": "Recette dense : garder une portion de 30 g, ideale en topping avec une base proteinee."
+    },
+    {
+      "id": "R006",
+      "name": "Pudding Chia Pistache",
+      "category": "Petit-dejeuners",
+      "tags": ["Jour Bas", "sans cuisson", "meal prep", "riche en proteines"],
+      "image": "assets/R006.png",
+      "servings": "4 grosses portions",
+      "prep_time": "10 min",
+      "cook_time": "0 min",
+      "difficulty": "Facile",
+      "main_ingredient": "chia",
+      "cooking_mode": "Sans cuisson",
+      "batch_cooking": true,
+      "ingredients": [
+        "90 g de graines de chia",
+        "30 g de puree de pistache",
+        "360 g de lait de pistache maison",
+        "20 g de sirop d'agave",
+        "60 g de whey isolate vanille legere",
+        "450 g de skyr"
+      ],
+      "preparation": [
+        "Melangez le lait de pistache, la puree de pistache, le sirop d'agave et la whey jusqu'a obtenir une base lisse.",
+        "Ajoutez les graines de chia et melangez longuement pour bien les repartir.",
+        "Incorporez le skyr, puis melangez de nouveau.",
+        "Laissez reposer 10 minutes, remuez, puis placez au frais au moins 2 heures.",
+        "Servez bien frais, nature ou avec quelques pistaches concassees."
+      ],
+      "cooking_tips": "Pour une texture plus dessert, mixez une petite partie du pudding avant de remettre avec le reste. Ajoutez les toppings juste avant de servir.",
+      "storage": "2 a 3 jours au refrigerateur, bien couvert.",
+      "macros_total": {
+        "kcal": "1280",
+        "proteins_g": "106",
+        "carbs_g": "66",
+        "fat_g": "48",
+        "fiber_g": "a completer"
+      },
+      "macros_per_serving": {
+        "kcal": "320",
+        "proteins_g": "26,5",
+        "carbs_g": "16,5",
+        "fat_g": "12",
+        "fiber_g": "a completer"
+      },
+      "variants": ["Pour 100 g : 126 kcal, 10,4 g proteines, 6,5 g glucides, 4,7 g lipides.", "Ajouter 40 g de skyr 0 % pour atteindre environ 30 g de proteines."],
+      "serving_suggestions": ["Quelques pistaches concassees", "Framboises ou myrtilles fraiches", "Cafe ou the non sucre", "Option + proteines : 40 g skyr 0 %"],
+      "compatibility": ["Jour Bas"],
+      "notes": "Compatible en portion d'1/4. Pour un jour plus haut, ajouter fruits rouges, granola ou quelques flocons d'avoine."
+    },
+    {
+      "id": "R007",
+      "name": "Bowlcake Nuage",
+      "category": "Petit-dejeuners",
+      "tags": ["Jour Bas", "Jour Modere", "micro-ondes", "riche en proteines", "sans whey"],
+      "image": "assets/R007.png",
+      "servings": "1 portion",
+      "prep_time": "5 min",
+      "cook_time": "2:30",
+      "difficulty": "Tres facile",
+      "main_ingredient": "yaourt grec",
+      "cooking_mode": "Micro-ondes",
+      "batch_cooking": false,
+      "ingredients": [
+        "200 g yaourt grec 0 %",
+        "1 oeuf",
+        "15 g farine de grand epeautre T110",
+        "15 g farine d'amande degraissee KoRo",
+        "1/2 c. a cafe bicarbonate alimentaire"
+      ],
+      "preparation": [
+        "Melangez le yaourt grec et l'oeuf.",
+        "Ajoutez les deux farines et le bicarbonate.",
+        "Melangez jusqu'a obtenir une pate lisse.",
+        "Ajoutez la variante choisie : fruits, puree de cacahuete ou chocolat.",
+        "Cuisez 2 min 30 a 3 min au micro-ondes.",
+        "Laissez reposer 1 minute avant de demouler."
+      ],
+      "cooking_tips": "Pour un coeur fondant, mets le chocolat au centre et ne depasse pas 2 min 30.",
+      "storage": "A deguster chaud. Possible 24 h au frais puis rechauffer.",
+      "macros_total": {
+        "kcal": "288",
+        "proteins_g": "30,3",
+        "carbs_g": "18,5",
+        "fat_g": "7,1",
+        "fiber_g": "a completer"
+      },
+      "macros_per_serving": {
+        "kcal": "288",
+        "proteins_g": "30,3",
+        "carbs_g": "18,5",
+        "fat_g": "7,1",
+        "fiber_g": "a completer"
+      },
+      "variants": [
+        "Nature : 288 kcal, 30,3 g proteines, 18,5 g glucides, 7,1 g lipides.",
+        "+ 50 g abricots : 312 kcal, jour bas.",
+        "+ 80 g framboises : 329 kcal, jour bas.",
+        "+ 40 g myrtilles : 311 kcal, jour bas.",
+        "+ 5 g puree de cacahuete : 342 kcal, jour bas gourmand.",
+        "+ 20 g chocolat : 406 kcal, jour modere."
+      ],
+      "serving_suggestions": ["Fruits ok jour bas : abricots, framboises ou myrtilles", "Chocolat 20 g a garder pour jour modere"],
+      "compatibility": ["Jour Bas", "Jour Modere"],
+      "notes": "Plus de 30 g de proteines sans whey. Texture legere facon souffle."
+    },
+    {
+      "id": "R008",
+      "name": "Bowlcake au son d'avoine",
+      "category": "Petit-dejeuners",
+      "tags": ["Jour Bas", "Jour Modere", "micro-ondes", "meal prep", "riche en proteines"],
+      "image": "assets/R008.png",
+      "servings": "4 portions",
+      "prep_time": "8 min",
+      "cook_time": "3 min",
+      "difficulty": "Facile",
+      "main_ingredient": "son d'avoine",
+      "cooking_mode": "Micro-ondes",
+      "batch_cooking": true,
+      "ingredients": [
+        "3 oeufs",
+        "55 g son d'avoine",
+        "55 g proteine vegetale KoRo vanille",
+        "215 g compote pomme sans sucre",
+        "80 ml boisson d'avoine sans sucre",
+        "160 g yaourt grec BD",
+        "3/4 sachet de levure chimique"
+      ],
+      "preparation": [
+        "Melange les oeufs, la compote, le yaourt grec BD et la boisson d'avoine.",
+        "Ajoute le son d'avoine, la proteine vanille et la levure.",
+        "Repartis la pate dans 4 bols ou moules adaptes au micro-ondes.",
+        "Ajoute fruits ou chocolat selon la version choisie.",
+        "Cuis 2 min 30 a 3 min au micro-ondes, puis laisse tiedir 2 minutes."
+      ],
+      "cooking_tips": "Pour garder une texture nuageuse, laisse reposer la pate 2 minutes avant cuisson. Le centre doit rester moelleux.",
+      "storage": "2 jours au refrigerateur. Rechauffer quelques secondes.",
+      "macros_total": {
+        "kcal": "845",
+        "proteins_g": "83",
+        "carbs_g": "70",
+        "fat_g": "24",
+        "fiber_g": "a completer"
+      },
+      "macros_per_serving": {
+        "kcal": "211",
+        "proteins_g": "20,7",
+        "carbs_g": "17,5",
+        "fat_g": "5,9",
+        "fiber_g": "a completer"
+      },
+      "macros_with_serving_suggestion": {
+        "label": "Option 30 g",
+        "kcal": "270",
+        "proteins_g": "30",
+        "carbs_g": "22",
+        "fat_g": "6",
+        "fiber_g": "a completer"
+      },
+      "variants": [
+        "Nature : 211 kcal, 20,7 g proteines, 17,5 g glucides, 5,9 g lipides.",
+        "+ 50 g abricots : 235 kcal, 21,2 g proteines.",
+        "+ 80 g framboises : 252 kcal, 21,7 g proteines.",
+        "+ 40 g myrtilles : 234 kcal, 21 g proteines.",
+        "Abricots + puree : 265 kcal, 22,5 g proteines.",
+        "+ 20 g chocolat : 329 kcal, 22,5 g proteines."
+      ],
+      "serving_suggestions": ["1 bowlcake nature + 110 g yaourt grec BD", "1 bowlcake nature + 100 g skyr"],
+      "compatibility": ["Jour Bas", "Jour Modere"],
+      "notes": "Base nature jour bas possible. Chocolat pour jour modere."
+    },
+    {
+      "id": "R009",
+      "name": "Ricotta de tofu au basilic",
+      "category": "Sauces, tartinades et condiments",
+      "tags": ["Jour Bas", "sans cuisson", "riche en proteines", "vegetal", "tartinade"],
+      "image": "assets/R009.png",
+      "servings": "8 portions",
+      "prep_time": "10 min",
+      "cook_time": "0 min",
+      "difficulty": "Facile",
+      "main_ingredient": "tofu",
+      "cooking_mode": "Sans cuisson",
+      "batch_cooking": true,
+      "ingredients": [
+        "400 g tofu ferme nature",
+        "50 g basilic frais",
+        "1 c. a soupe d'huile d'olive",
+        "2 c. a soupe levure maltee (environ 16 g)",
+        "1 c. a soupe miso blanc (environ 18 g)",
+        "1 gousse d'ail",
+        "75 ml jus de citron",
+        "3/4 c. a cafe de sel, poivre"
+      ],
+      "preparation": [
+        "Egoutte le tofu et coupe-le en morceaux.",
+        "Mets tous les ingredients dans un mixeur.",
+        "Mixe jusqu'a obtenir une texture lisse et cremeuse.",
+        "Ajuste avec un peu d'eau si besoin.",
+        "Reserve au frais au moins 30 minutes avant de servir."
+      ],
+      "cooking_tips": "Pour une texture plus souple, ajoute l'eau petit a petit apres mixage. Le repos au frais epaissit legerement la preparation.",
+      "storage": "3 a 4 jours au refrigerateur dans une boite hermetique. Melanger avant de servir si la texture se raffermit.",
+      "macros_total": {
+        "kcal": "800",
+        "proteins_g": "68",
+        "carbs_g": "21",
+        "fat_g": "50",
+        "fiber_g": "a completer"
+      },
+      "macros_per_serving": {
+        "kcal": "100",
+        "proteins_g": "8,5",
+        "carbs_g": "2,6",
+        "fat_g": "6,3",
+        "fiber_g": "a completer"
+      },
+      "variants": ["2 portions : environ 17 g proteines.", "3 portions : environ 25,5 g proteines."],
+      "serving_suggestions": ["Sur une piadina ou un pain proteine", "Dans des lasagnes a la place de la ricotta", "Avec tomates, concombre et basilic", "En dip avec des legumes croquants", "Dans une salade de pates proteinees"],
+      "compatibility": ["Jour Bas"],
+      "notes": "Tartinade vegetale, proteinee et tres basse en glucides."
+    },
+    {
+      "id": "R010",
+      "name": "Tartare thon rouge avocat",
+      "category": "Dejeuners / Diners",
+      "tags": ["Jour Bas", "sans cuisson", "riche en proteines", "poisson", "frais"],
+      "image": "assets/R010.png",
+      "servings": "2 portions",
+      "prep_time": "15 min",
+      "cook_time": "0 min",
+      "difficulty": "Facile",
+      "main_ingredient": "thon rouge",
+      "cooking_mode": "Sans cuisson",
+      "batch_cooking": false,
+      "ingredients": [
+        "300 g thon rouge frais",
+        "150 g avocat",
+        "50 g tomate",
+        "35 g pomme Granny Smith",
+        "8 g huile d'olive",
+        "Piment, coriandre",
+        "Sel, poivre",
+        "Salade verte en accompagnement"
+      ],
+      "preparation": [
+        "Coupe le thon rouge frais en petits des reguliers.",
+        "Coupe l'avocat, la tomate et la pomme Granny en petits cubes.",
+        "Melange delicatement le thon, l'avocat, la tomate et la pomme.",
+        "Ajoute l'huile d'olive, le piment, la coriandre, le sel et le poivre.",
+        "Reserve 10 minutes au frais pour que les saveurs se melangent.",
+        "Sers bien frais avec une belle salade verte."
+      ],
+      "cooking_tips": "Coupe la pomme juste avant de melanger pour garder le croquant et eviter qu'elle brunisse.",
+      "storage": "A deguster le jour meme. Garder au frais jusqu'au service.",
+      "macros_total": {
+        "kcal": "770",
+        "proteins_g": "74",
+        "carbs_g": "20",
+        "fat_g": "45",
+        "fiber_g": "11"
+      },
+      "macros_per_serving": {
+        "kcal": "385",
+        "proteins_g": "37",
+        "carbs_g": "10",
+        "fat_g": "22,5",
+        "fiber_g": "5,5"
+      },
+      "variants": ["Utiliser un thon tres frais, qualite tartare/sashimi, et servir bien froid."],
+      "serving_suggestions": ["Salade verte pour un repas leger, rassasiant et tres bas en glucides"],
+      "compatibility": ["Jour Bas"],
+      "notes": "Tres compatible jour bas : beaucoup de proteines, peu de glucides. Les lipides viennent surtout de l'avocat et de l'huile d'olive."
+    }
+  ]
+}

@@ -683,6 +683,30 @@
         "Jour Bas"
       ],
       "notes": "Tres compatible jour bas : beaucoup de proteines, peu de glucides. Les lipides viennent surtout de l'avocat et de l'huile d'olive."
+    },
+    {
+      "id": "BOWLCAKE-EXPRESS",
+      "name": "Bowlcake Express — chocolat, skyr & avoine",
+      "category": "Petit-dejeuners",
+      "tags": [
+        "Jour Modere",
+        "micro-ondes",
+        "petit-dejeuner",
+        "enfants",
+        "riche en proteines"
+      ],
+      "webImage": "assets/photos-recettes/bowlcake-express-chocolat-skyr-avoine.png",
+      "recipePdf": "assets/fiches-pdf/bowlcake-express-chocolat-skyr-avoine.pdf",
+      "servings": "1 bowlcake",
+      "prep_time": "3 min",
+      "cook_time": "2 min 30 a 3 min",
+      "difficulty": "Tres facile",
+      "main_ingredient": "avoine",
+      "cooking_mode": "Micro-ondes",
+      "compatibility": [
+        "Jour Modere"
+      ],
+      "notes": "Page web test : photo originale et fiche PDF separees de la fiche A4."
     }
   ]
 }
