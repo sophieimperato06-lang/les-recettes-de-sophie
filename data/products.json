@@ -3,13 +3,13 @@
     {
       "name": "Bacon maigre 3 % MG",
       "brand": "Herta",
-      "store": "Supermarch\u00e9",
-      "category": "Frais sal\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "store": "Supermarché",
+      "category": "Frais salé",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "bacon",
-        "sal\u00e9",
-        "prot\u00e9ines"
+        "salé",
+        "protéines"
       ]
     },
     {
@@ -17,7 +17,7 @@
       "brand": "Bonjour",
       "store": "Site Bonjour",
       "category": "Pain et tartines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Site Bonjour.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Site Bonjour.",
       "tags": [
         "bonjour",
         "tartine"
@@ -28,7 +28,7 @@
       "brand": "Bonjour",
       "store": "Site Bonjour",
       "category": "Enfant",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Site Bonjour.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Site Bonjour.",
       "tags": [
         "bonjour",
         "enfants",
@@ -36,11 +36,11 @@
       ]
     },
     {
-      "name": "Cacao maigre alcalinis\u00e9",
+      "name": "Cacao maigre alcalinisé",
       "brand": "KoRo",
       "store": "KoRo",
       "category": "Cacao et chocolat",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "cacao",
         "koro"
@@ -48,10 +48,10 @@
     },
     {
       "name": "Cancoillotte ail",
-      "brand": "selon disponibilit\u00e9",
-      "store": "Supermarch\u00e9",
-      "category": "Frais sal\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "brand": "selon disponibilité",
+      "store": "Supermarché",
+      "category": "Frais salé",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "fromage",
         "ail"
@@ -59,78 +59,78 @@
     },
     {
       "name": "Chocolat noir Dessert 70 %",
-      "brand": "Nestl\u00e9 Dessert",
-      "store": "Supermarch\u00e9",
+      "brand": "Nestlé Dessert",
+      "store": "Supermarché",
       "category": "Cacao et chocolat",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "chocolat",
         "dessert"
       ]
     },
     {
-      "name": "Collag\u00e8ne marin sauvage Naticol\u00ae neutre",
+      "name": "Collagène marin sauvage Naticol® neutre",
       "brand": "Nutripure",
       "store": "Nutripure",
-      "category": "Compl\u00e9ment",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Nutripure.",
+      "category": "Complément",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Nutripure.",
       "tags": [
-        "collag\u00e8ne",
+        "collagène",
         "nutripure"
       ]
     },
     {
       "name": "Compote de pommes SSA",
       "brand": "marque U",
-      "store": "Supermarch\u00e9",
+      "store": "Supermarché",
       "category": "Base moelleuse",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "compote",
-        "sans sucres ajout\u00e9s"
+        "sans sucres ajoutés"
       ]
     },
     {
       "name": "La myrtille SSA",
       "brand": "marque U",
-      "store": "Supermarch\u00e9",
+      "store": "Supermarché",
       "category": "Fruit",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "myrtille",
-        "sans sucres ajout\u00e9s"
+        "sans sucres ajoutés"
       ]
     },
     {
-      "name": "Farine de cacahu\u00e8te",
+      "name": "Farine de cacahuète",
       "brand": "KoRo",
       "store": "KoRo",
       "category": "Farines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
-        "cacahu\u00e8te",
+        "cacahuète",
         "koro"
       ]
     },
     {
-      "name": "Farine de grand \u00e9peautre T110",
+      "name": "Farine de grand épeautre T110",
       "brand": "Du Grain au Pain",
       "store": "Du Grain au Pain",
       "category": "Farines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Du Grain au Pain.",
       "tags": [
-        "\u00e9peautre",
+        "épeautre",
         "farine"
       ]
     },
     {
-      "name": "Farine de petit \u00e9peautre T130",
+      "name": "Farine de petit épeautre T130",
       "brand": "Du Grain au Pain",
       "store": "Du Grain au Pain",
       "category": "Farines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Du Grain au Pain.",
       "tags": [
-        "\u00e9peautre",
+        "épeautre",
         "farine"
       ]
     },
@@ -139,7 +139,7 @@
       "brand": "Du Grain au Pain",
       "store": "Du Grain au Pain",
       "category": "Farines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Du Grain au Pain.",
       "tags": [
         "seigle",
         "farine"
@@ -150,29 +150,29 @@
       "brand": "Du Grain au Pain",
       "store": "Du Grain au Pain",
       "category": "Farines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Du Grain au Pain.",
       "tags": [
         "sarrasin",
         "farine"
       ]
     },
     {
-      "name": "Filets de maquereaux grill\u00e9s au naturel",
+      "name": "Filets de maquereaux grillés au naturel",
       "brand": "Saupiquet",
-      "store": "Supermarch\u00e9",
+      "store": "Supermarché",
       "category": "Poisson",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "maquereaux",
-        "sal\u00e9"
+        "salé"
       ]
     },
     {
       "name": "Flocons d'avoine bio",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "Base petit-d\u00e9jeuner",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Base petit-déjeuner",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "avoine",
         "koro",
@@ -180,11 +180,11 @@
       ]
     },
     {
-      "name": "Fraises lyophilis\u00e9es",
+      "name": "Fraises lyophilisées",
       "brand": "KoRo",
       "store": "KoRo",
       "category": "Fruit",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "fraises",
         "koro"
@@ -194,121 +194,121 @@
       "name": "Fusilli de pois chiches bio",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "P\u00e2tes et f\u00e9culents",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Pâtes et féculents",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "pois chiches",
-        "p\u00e2tes"
+        "pâtes"
       ]
     },
     {
       "name": "Lait d'avoine Barista",
       "brand": "Oatly",
-      "store": "Amazon en abonnement ou Supermarch\u00e9",
-      "category": "Boisson v\u00e9g\u00e9tale",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Amazon en abonnement ou Supermarch\u00e9.",
+      "store": "Amazon en abonnement ou Supermarché",
+      "category": "Boisson végétale",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Amazon en abonnement ou Supermarché.",
       "tags": [
         "avoine",
         "boisson"
       ]
     },
     {
-      "name": "P\u00e2tes Protein+",
+      "name": "Pâtes Protein+",
       "brand": "Barilla",
-      "store": "Supermarch\u00e9",
-      "category": "P\u00e2tes et f\u00e9culents",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "store": "Supermarché",
+      "category": "Pâtes et féculents",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
-        "p\u00e2tes",
-        "prot\u00e9ines"
+        "pâtes",
+        "protéines"
       ]
     },
     {
-      "name": "Poudre d'amande compl\u00e8te",
+      "name": "Poudre d'amande complète",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "Amandes et ol\u00e9agineux",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Amandes et oléagineux",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "amande",
         "koro"
       ]
     },
     {
-      "name": "Prot\u00e9ine v\u00e9g\u00e9tale go\u00fbt chocolat",
+      "name": "Protéine végétale goût chocolat",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "Compl\u00e9ment prot\u00e9in\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Complément protéiné",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
-        "prot\u00e9ines",
+        "protéines",
         "chocolat"
       ]
     },
     {
-      "name": "Prot\u00e9ine v\u00e9g\u00e9tale nature",
+      "name": "Protéine végétale nature",
       "brand": "Nutripure",
       "store": "Nutripure",
-      "category": "Compl\u00e9ment prot\u00e9in\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Nutripure.",
+      "category": "Complément protéiné",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Nutripure.",
       "tags": [
-        "prot\u00e9ines",
+        "protéines",
         "nutripure"
       ]
     },
     {
-      "name": "Pur\u00e9e de cacahu\u00e8te",
+      "name": "Purée de cacahuète",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "Pur\u00e9es d'ol\u00e9agineux",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Purées d'oléagineux",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
-        "cacahu\u00e8te",
+        "cacahuète",
         "topping"
       ]
     },
     {
-      "name": "Pur\u00e9e de noisettes",
+      "name": "Purée de noisettes",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "Pur\u00e9es d'ol\u00e9agineux",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Purées d'oléagineux",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "noisette",
         "koro"
       ]
     },
     {
-      "name": "Pur\u00e9e de pistaches",
+      "name": "Purée de pistaches",
       "brand": "KoRo",
       "store": "KoRo",
-      "category": "Pur\u00e9es d'ol\u00e9agineux",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "category": "Purées d'oléagineux",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "pistache",
         "koro"
       ]
     },
     {
-      "name": "Sirop d'\u00e9rable bio",
+      "name": "Sirop d'érable bio",
       "brand": "KoRo",
       "store": "KoRo",
       "category": "Sucrants",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
-        "\u00e9rable",
+        "érable",
         "koro"
       ]
     },
     {
       "name": "Skyr nature",
       "brand": "Yoplait",
-      "store": "Supermarch\u00e9",
-      "category": "Frais prot\u00e9in\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "store": "Supermarché",
+      "category": "Frais protéiné",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "skyr",
-        "prot\u00e9ines"
+        "protéines"
       ]
     },
     {
@@ -316,19 +316,19 @@
       "brand": "KoRo",
       "store": "KoRo",
       "category": "Topping",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "soja",
         "cacao",
-        "prot\u00e9ines"
+        "protéines"
       ]
     },
     {
       "name": "Sucre de fleur de coco bio",
-      "brand": "selon disponibilit\u00e9",
+      "brand": "selon disponibilité",
       "store": "Greenweez",
       "category": "Sucrants",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Greenweez.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Greenweez.",
       "tags": [
         "sucre coco",
         "greenweez"
@@ -338,19 +338,19 @@
       "name": "Tofu mexicain",
       "brand": "Tossolia",
       "store": "Naturalia / magasin bio",
-      "category": "V\u00e9g\u00e9tal sal\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Naturalia / magasin bio.",
+      "category": "Végétal salé",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Naturalia / magasin bio.",
       "tags": [
         "tofu",
-        "sal\u00e9"
+        "salé"
       ]
     },
     {
       "name": "Wasa Fibres",
       "brand": "Wasa",
-      "store": "Supermarch\u00e9",
+      "store": "Supermarché",
       "category": "Pain et tartines",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Supermarch\u00e9.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
       "tags": [
         "wasa",
         "fibres"
@@ -360,11 +360,11 @@
       "name": "Whey Isolate Native",
       "brand": "Nutripure",
       "store": "Nutripure",
-      "category": "Compl\u00e9ment prot\u00e9in\u00e9",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : Nutripure.",
+      "category": "Complément protéiné",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Nutripure.",
       "tags": [
         "whey",
-        "prot\u00e9ines"
+        "protéines"
       ]
     },
     {
@@ -372,9 +372,35 @@
       "brand": "KoRo",
       "store": "KoRo",
       "category": "Sucrants",
-      "notes": "Produit de r\u00e9f\u00e9rence utilis\u00e9 dans les recettes de Sophie. Achat : KoRo.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
         "xylitol",
+        "koro"
+      ]
+    },
+    {
+      "name": "Yaourt grec nature 0 %",
+      "brand": "Delta",
+      "store": "Intermarché",
+      "category": "Frais protéiné",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Intermarché.",
+      "tags": [
+        "yaourt grec",
+        "0 %",
+        "delta",
+        "protéines"
+      ]
+    },
+    {
+      "name": "Farine d’amande partiellement déshuilée",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Farines",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
+      "tags": [
+        "farine",
+        "amande",
+        "déshuilée",
         "koro"
       ]
     }

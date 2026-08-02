@@ -2,7 +2,8 @@
   "siteTitle": "Les Recettes de Sophie",
   "version": "web-recipes-v2",
   "categories": [
-    "Petit-d\u00e9jeuner"
+    "Petit-déjeuner",
+    "Topping"
   ],
   "recipes": [
     {
@@ -10,12 +11,12 @@
       "slug": "bowlcake-express-chocolat-skyr-avoine",
       "title": "Bowlcake Express",
       "subtitle": "chocolat, skyr & avoine",
-      "description": "Petit-d\u00e9jeuner express, gourmand et rassasiant.",
-      "category": "Petit-d\u00e9jeuner",
+      "description": "Petit-déjeuner express, gourmand et rassasiant.",
+      "category": "Petit-déjeuner",
       "tags": [
-        "Petit-d\u00e9jeuner",
+        "Petit-déjeuner",
         "Enfants",
-        "Jour Mod\u00e9r\u00e9",
+        "Jour Modéré",
         "Facile & rapide",
         "Micro-ondes"
       ],
@@ -35,7 +36,7 @@
           "icon": "assets/pictos/web/picto_portions_officiel.png"
         },
         {
-          "label": "Pr\u00e9paration",
+          "label": "Préparation",
           "value": "3 min",
           "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
         },
@@ -45,7 +46,7 @@
           "icon": "assets/pictos/web/picto_micro_ondes_officiel.png"
         },
         {
-          "label": "Difficult\u00e9",
+          "label": "Difficulté",
           "value": "Facile",
           "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
         }
@@ -60,8 +61,8 @@
         {
           "quantity": 1,
           "unit": "",
-          "labelSingular": "\u0153uf",
-          "labelPlural": "\u0153ufs"
+          "labelSingular": "œuf",
+          "labelPlural": "œufs"
         },
         {
           "quantity": 80,
@@ -72,8 +73,8 @@
         {
           "quantity": 30,
           "unit": "g",
-          "labelSingular": "de compote de pommes sans sucres ajout\u00e9s",
-          "labelPlural": "de compote de pommes sans sucres ajout\u00e9s"
+          "labelSingular": "de compote de pommes sans sucres ajoutés",
+          "labelPlural": "de compote de pommes sans sucres ajoutés"
         },
         {
           "quantity": 3,
@@ -93,45 +94,45 @@
         },
         {
           "quantity": null,
-          "text": "\u00c9dulcorant selon le go\u00fbt, facultatif"
+          "text": "Édulcorant selon le goût, facultatif"
         }
       ],
       "preparation": [
-        "M\u00e9langer l'\u0153uf, le skyr et la compote dans un bol.",
+        "Mélanger l'œuf, le skyr et la compote dans un bol.",
         "Ajouter les flocons d'avoine, la levure et la vanille ou la cannelle.",
-        "M\u00e9langer jusqu'\u00e0 obtenir une p\u00e2te homog\u00e8ne.",
-        "Incorporer le chocolat noir coup\u00e9 en petits morceaux.",
-        "Faire cuire 2 min 30 \u00e0 3 min au micro-ondes \u00e0 800 W.",
-        "Arr\u00eater la cuisson lorsque le centre est encore l\u00e9g\u00e8rement moelleux.",
-        "Laisser reposer 1 minute avant de d\u00e9mouler ou de d\u00e9guster directement dans le bol."
+        "Mélanger jusqu'à obtenir une pâte homogène.",
+        "Incorporer le chocolat noir coupé en petits morceaux.",
+        "Faire cuire 2 min 30 à 3 min au micro-ondes à 800 W.",
+        "Arrêter la cuisson lorsque le centre est encore légèrement moelleux.",
+        "Laisser reposer 1 minute avant de démouler ou de déguster directement dans le bol."
       ],
       "sections": {
         "goal": {
-          "title": "Objectif 30 g de prot\u00e9ines",
-          "body": "Ajouter le topping skyr-cacahu\u00e8te ou choisir la variante prot\u00e9in\u00e9e. Le petit-d\u00e9jeuner atteint alors environ 31,7 g de prot\u00e9ines.",
+          "title": "Objectif 30 g de protéines",
+          "body": "Ajouter le topping skyr-cacahuète ou choisir la variante protéinée. Le petit-déjeuner atteint alors environ 31,7 g de protéines.",
           "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
         },
         "tip": {
           "title": "Astuce",
-          "body": "Ne prolonge pas trop la cuisson : le centre doit rester l\u00e9g\u00e8rement humide. La minute de repos termine la cuisson et garde le bowlcake moelleux.",
+          "body": "Ne prolonge pas trop la cuisson : le centre doit rester légèrement humide. La minute de repos termine la cuisson et garde le bowlcake moelleux.",
           "icon": "assets/pictos/web/picto_astuce_officiel.png"
         },
         "serving": {
-          "title": "Accompagnement conseill\u00e9",
-          "body": "Pour le topping, m\u00e9langer 120 g de skyr nature avec 5 g de pur\u00e9e de cacahu\u00e8te KoRo, puis r\u00e9partir sur le bowlcake.\nOption : ajouter 1 abricot frais ou environ 50 g de fruit frais (hors banane) + 4,5 g de glucides."
+          "title": "Accompagnement conseillé",
+          "body": "Pour le topping, mélanger 120 g de skyr nature avec 5 g de purée de cacahuète KoRo, puis répartir sur le bowlcake.\nOption : ajouter 1 abricot frais ou environ 50 g de fruit frais (hors banane) + 4,5 g de glucides."
         },
         "variant": {
-          "title": "Variante prot\u00e9in\u00e9e",
-          "body": "Sans accompagnement : incorporer 14 g de prot\u00e9ine v\u00e9g\u00e9tale Nutripure Nature et 20 \u00e0 25 ml d'eau dans la p\u00e2te. Environ 30,2 g de prot\u00e9ines."
+          "title": "Variante protéinée",
+          "body": "Sans accompagnement : incorporer 14 g de protéine végétale Nutripure Nature et 20 à 25 ml d'eau dans la pâte. Environ 30,2 g de protéines."
         },
         "storage": {
           "title": "Conservation",
-          "body": "\u00c0 d\u00e9guster imm\u00e9diatement. Possible 24 h au frais, puis r\u00e9chauffer 20 \u00e0 30 s.",
+          "body": "À déguster immédiatement. Possible 24 h au frais, puis réchauffer 20 à 30 s.",
           "icon": "assets/pictos/web/picto_conservation_officiel.png"
         },
         "day": {
-          "title": "Jour Mod\u00e9r\u00e9",
-          "body": "Adapt\u00e9 \u00e0 une journ\u00e9e mod\u00e9r\u00e9e en glucides. Choisir une option prot\u00e9in\u00e9e.",
+          "title": "Jour Modéré",
+          "body": "Adapté à une journée modérée en glucides. Choisir une option protéinée.",
           "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
         }
       },
@@ -140,38 +141,38 @@
         "columns": [
           "1 portion",
           "+ topping",
-          "variante prot\u00e9in\u00e9e"
+          "variante protéinée"
         ],
         "rows": [
           [
             "Calories",
-            "\u2248 307 kcal",
-            "\u2248 404 kcal",
-            "\u2248 362 kcal"
+            "≈ 307 kcal",
+            "≈ 404 kcal",
+            "≈ 362 kcal"
           ],
           [
-            "Prot\u00e9ines",
-            "\u2248 19 g",
-            "\u2248 31,7 g",
-            "\u2248 30,2 g"
+            "Protéines",
+            "≈ 19 g",
+            "≈ 31,7 g",
+            "≈ 30,2 g"
           ],
           [
             "Glucides",
-            "\u2248 28,6 g",
-            "\u2248 33,4 g",
-            "\u2248 28,8 g"
+            "≈ 28,6 g",
+            "≈ 33,4 g",
+            "≈ 28,8 g"
           ],
           [
             "Lipides",
-            "\u2248 11,9 g",
-            "\u2248 15 g",
-            "\u2248 13 g"
+            "≈ 11,9 g",
+            "≈ 15 g",
+            "≈ 13 g"
           ]
         ]
       },
       "tagsDetailed": [
         {
-          "label": "Petit-d\u00e9jeuner",
+          "label": "Petit-déjeuner",
           "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
         },
         {
@@ -179,7 +180,7 @@
           "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
         },
         {
-          "label": "Jour Mod\u00e9r\u00e9",
+          "label": "Jour Modéré",
           "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
         },
         {
@@ -187,6 +188,736 @@
           "icon": "assets/pictos/web/picto_facile_rapide.png"
         }
       ]
+    },
+    {
+      "id": "PUDDING-CHIA-PISTACHE-FRAMBOISE",
+      "slug": "pudding-chia-pistache-framboise",
+      "title": "Pudding de chia",
+      "subtitle": "pistache & framboises",
+      "description": "Crémeux, fruité et idéal pour préparer plusieurs petits-déjeuners à l’avance.",
+      "category": "Petit-déjeuner",
+      "tags": [
+        "Petit-déjeuner",
+        "Jour Bas",
+        "Meal prep",
+        "Sans cuisson",
+        "Micro-ondes",
+        "Rapide",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/pudding-chia-pistache-framboise.jfif",
+      "imageAlt": "Pudding de chia à la pistache avec framboises",
+      "recipePdf": "assets/fiches-pdf/pudding-chia-pistache-framboise.pdf",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "prepTime": "10 min",
+      "cookTime": "2 h repos",
+      "cookingMode": "Sans cuisson + micro-ondes",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4 portions",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Repos",
+          "value": "2 h min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de purée de pistache KoRo",
+          "labelPlural": "de purée de pistache KoRo"
+        },
+        {
+          "quantity": 360,
+          "unit": "ml",
+          "labelSingular": "de boisson à l’avoine bio U sans sucre ajouté",
+          "labelPlural": "de boisson à l’avoine bio U sans sucre ajouté"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave",
+          "labelPlural": "de sirop d’agave"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de whey isolate nature",
+          "labelPlural": "de whey isolate nature"
+        },
+        {
+          "quantity": 450,
+          "unit": "g",
+          "labelSingular": "de skyr nature 0 %",
+          "labelPlural": "de skyr nature 0 %"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de framboises surgelées",
+          "labelPlural": "de framboises surgelées"
+        },
+        {
+          "quantity": 12,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave pour les framboises",
+          "labelPlural": "de sirop d’agave pour les framboises"
+        },
+        {
+          "quantity": null,
+          "text": "Poudre de vanille KoRo"
+        },
+        {
+          "quantity": null,
+          "text": "Option : 20 g ou 40 g de granola protéiné au moment de servir"
+        }
+      ],
+      "preparation": [
+        "Verser la boisson à l’avoine dans un grand saladier.",
+        "Ajouter la purée de pistache, le sirop d’agave, la whey isolate nature et la poudre de vanille KoRo.",
+        "Fouetter soigneusement jusqu’à obtenir une préparation homogène.",
+        "Ajouter progressivement les graines de chia en mélangeant pour éviter les amas.",
+        "Incorporer le skyr et mélanger jusqu’à obtenir une texture crémeuse.",
+        "Laisser reposer 10 minutes, puis mélanger une nouvelle fois pour répartir les graines de chia.",
+        "Répartir la préparation dans des pots hermétiques.",
+        "Placer au réfrigérateur au moins 2 heures, idéalement toute une nuit.",
+        "Le matin, faire décongeler les framboises avec un petit filet de sirop d’agave pendant 30 secondes à 1 minute au micro-ondes.",
+        "Écraser grossièrement les framboises à la fourchette, puis les verser sur le pudding.",
+        "Ajouter éventuellement le granola au dernier moment pour préserver le croquant."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Objectif atteint dès la version sans granola avec environ 32,1 g de protéines. La version principale avec 20 g de granola apporte environ 36,3 g de protéines.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Le second mélange après 10 minutes est indispensable pour éviter que les graines de chia s’agglutinent. Ajouter le granola seulement au moment de servir.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement conseillé",
+          "body": "Version principale recommandée : 1 portion de pudding, framboises et 20 g de [[granola protéiné|GRANOLA-PROTEINE-FRUITS-COQUE]]. Compatible Jour Bas, croquant et rassasiant."
+        },
+        "variant": {
+          "title": "Variantes Carb Cycling",
+          "body": "Sans granola : version Jour Bas légère. Avec 40 g de granola : Jour Bas conditionnel ou Jour Modéré, plutôt pour une matinée active ou après musculation."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 4 jours au réfrigérateur dans des pots hermétiques. Conserver les framboises surgelées jusqu’au matin et ne pas congeler le pudding.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas recommandé",
+          "body": "Avec 20 g de granola, la recette reste à environ 27,8 g de glucides. Il reste environ 42 g disponibles sur la journée pour respecter le plafond de 70 g.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles",
+        "columns": [
+          "sans granola",
+          "+ 20 g granola",
+          "+ 40 g granola"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 358 kcal",
+            "≈ 441 kcal",
+            "≈ 525 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 32,1 g",
+            "≈ 36,3 g",
+            "≈ 40,5 g"
+          ],
+          [
+            "Glucides",
+            "≈ 22,8 g",
+            "≈ 27,8 g",
+            "≈ 32,9 g"
+          ],
+          [
+            "Lipides",
+            "≈ 12,7 g",
+            "≈ 18,4 g",
+            "≈ 24,1 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "reference": "R006",
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere"
+        ],
+        "versionJourBasRecommandee": "framboises_et_20g_granola_proteine",
+        "versionJourBasLegere": "framboises_sans_granola",
+        "versionJourBasConditionnelle": "framboises_et_40g_granola",
+        "versionJourModere": "framboises_et_40g_granola",
+        "objectifProteines30g": "atteint_sans_granola"
+      }
+    },
+    {
+      "id": "GRANOLA-PROTEINE-FRUITS-COQUE",
+      "slug": "granola-proteine-fruits-coque",
+      "title": "Granola protéiné",
+      "subtitle": "fruits à coque & érable",
+      "description": "Croquant, rassasiant et naturellement riche en protéines.",
+      "category": "Petit-déjeuner • Topping",
+      "tags": [
+        "Petit-déjeuner",
+        "Topping",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Four",
+        "Meal prep",
+        "Batch cooking",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Végétarien",
+        "Très facile",
+        "Sans sucre raffiné"
+      ],
+      "webImage": "assets/photos-recettes/granola-proteine-fruits-coque.jfif",
+      "imageAlt": "Granola protéiné aux fruits à coque",
+      "recipePdf": "assets/fiches-pdf/granola-proteine-fruits-coque.pdf",
+      "servingsLabel": "1 batch",
+      "baseServings": 1,
+      "prepTime": "15 min",
+      "cookTime": "32 min",
+      "cookingMode": "Four",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "810 à 820 g",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "32 min",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "d’amandes entières",
+          "labelPlural": "d’amandes entières"
+        },
+        {
+          "quantity": 80,
+          "unit": "g",
+          "labelSingular": "de noisettes",
+          "labelPlural": "de noisettes"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de cacahuètes non salées",
+          "labelPlural": "de cacahuètes non salées"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de graines de courge",
+          "labelPlural": "de graines de courge"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de graines de tournesol",
+          "labelPlural": "de graines de tournesol"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de graines de lin",
+          "labelPlural": "de graines de lin"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale nature Nutripure|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale nature Nutripure|product:Protéine végétale nature]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]",
+          "labelPlural": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]"
+        },
+        {
+          "quantity": 190,
+          "unit": "g",
+          "labelSingular": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]",
+          "labelPlural": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[purée de cacahuète KoRo|product:Purée de cacahuète]]",
+          "labelPlural": "de [[purée de cacahuète KoRo|product:Purée de cacahuète]]"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de [[sirop d’érable|product:Sirop d'érable bio]]",
+          "labelPlural": "de [[sirop d’érable|product:Sirop d'érable bio]]"
+        },
+        {
+          "quantity": null,
+          "text": "Cannelle selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        }
+      ],
+      "preparation": [
+        "Préchauffer le four à 160 °C en chaleur tournante.",
+        "Concasser grossièrement les amandes, les noisettes et les cacahuètes en conservant des morceaux pour obtenir un granola bien croquant.",
+        "Dans un grand saladier, mélanger les flocons d’avoine, les fruits à coque, les graines, la protéine végétale, la farine de cacahuète, la cannelle, la vanille et le sel.",
+        "Dans un autre récipient, mélanger la compote, la purée de cacahuète et le sirop d’érable.",
+        "Verser les ingrédients humides sur le mélange sec.",
+        "Mélanger soigneusement jusqu’à ce que tous les ingrédients soient uniformément enrobés.",
+        "Étaler le granola sur une grande plaque recouverte de papier cuisson.",
+        "Tasser le mélange avec le plat de la main afin de favoriser la formation de grosses pépites.",
+        "Enfourner pendant 15 minutes à 160 °C sans remuer.",
+        "Sortir la plaque et casser délicatement le granola en morceaux.",
+        "Baisser la température à 150 °C, puis poursuivre la cuisson pendant environ 12 minutes.",
+        "Éteindre le four et laisser le granola sécher dans le four entrouvert.",
+        "Laisser refroidir complètement sur la plaque sans le manipuler : il devient croquant en refroidissant.",
+        "Transférer ensuite dans un bocal parfaitement hermétique."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Riche en protéines",
+          "body": "Une portion de 20 g apporte environ 4,2 g de protéines. En topping, il complète très bien un pudding, du skyr ou un yaourt grec 0 %.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Ne remue pas le granola pendant la première partie de cuisson : cela aide à former de grosses pépites. Il durcit surtout en refroidissant.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Portion recommandée",
+          "body": "Avec le pudding chia pistache-framboise, la portion de référence est de 20 g. Elle apporte du croquant sans trop augmenter les calories et les lipides."
+        },
+        "variant": {
+          "title": "Portion plus généreuse",
+          "body": "Une portion de 50 g convient mieux lors d’un Jour Modéré, après une séance de musculation, avec du skyr ou lorsque le granola constitue une part importante du petit-déjeuner."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Environ 3 semaines dans un bocal parfaitement hermétique, à température ambiante, à l’abri de la chaleur et de l’humidité.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas recommandé",
+          "body": "Avec seulement environ 5 g de glucides pour 20 g, ce granola est compatible Jour Bas en topping mesuré. De 20 à 50 g, il convient aussi en Jour Modéré.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles",
+        "columns": [
+          "20 g",
+          "50 g",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 83 kcal",
+            "≈ 208 kcal",
+            "≈ 416 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 4,2 g",
+            "≈ 10,5 g",
+            "≈ 20,9 g"
+          ],
+          [
+            "Glucides",
+            "≈ 5 g",
+            "≈ 12,5 g",
+            "≈ 25 g"
+          ],
+          [
+            "Lipides",
+            "≈ 5,7 g",
+            "≈ 14,2 g",
+            "≈ 28,4 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Topping",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "reference": "R005",
+        "nom": "Granola protéiné aux fruits à coque",
+        "categories": [
+          "petit_dejeuner",
+          "topping",
+          "granola"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "four",
+        "caracteristiques": [
+          "proteine",
+          "riche_en_fibres",
+          "peu_sucre",
+          "sans_sucre_raffine",
+          "meal_prep",
+          "batch_cooking",
+          "vegetarien"
+        ],
+        "portionRecommandee": "20g",
+        "conservation": "3_semaines"
+      }
+    },
+    {
+      "id": "PANCAKES-NUAGE-PROTEINES",
+      "slug": "pancakes-nuage-proteines",
+      "title": "Pancakes nuage protéinés",
+      "subtitle": "légers & moelleux",
+      "description": "Des pancakes très moelleux, légers et riches en protéines.",
+      "category": "Petit-déjeuner",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Poêle",
+        "Rapide",
+        "Riche en protéines",
+        "Végétarien",
+        "Facile",
+        "Objectif 30 g"
+      ],
+      "webImage": "assets/photos-recettes/pancakes-nuage-proteines.jfif",
+      "imageAlt": "Pancakes protéinés moelleux servis avec une garniture gourmande",
+      "recipePdf": "assets/fiches-pdf/pancakes-nuage-proteines.pdf",
+      "servingsLabel": "5 petits pancakes",
+      "baseServings": 1,
+      "prepTime": "10 min",
+      "cookTime": "8 à 10 min",
+      "cookingMode": "Poêle",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "5 pancakes",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "8 à 10 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 180,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "œuf entier",
+          "labelPlural": "œufs entiers"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "blanc d’œuf monté en neige",
+          "labelPlural": "blancs d’œufs montés en neige"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale nature Nutripure|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale nature Nutripure|product:Protéine végétale nature]]"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]",
+          "labelPlural": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de [[farine d’amande partiellement déshuilée KoRo|product:Farine d’amande partiellement déshuilée]]",
+          "labelPlural": "de [[farine d’amande partiellement déshuilée KoRo|product:Farine d’amande partiellement déshuilée]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]",
+          "labelPlural": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": 4,
+          "unit": "g",
+          "labelSingular": "de levure chimique",
+          "labelPlural": "de levure chimique"
+        },
+        {
+          "quantity": 1,
+          "unit": "g",
+          "labelSingular": "de bicarbonate alimentaire",
+          "labelPlural": "de bicarbonate alimentaire"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "cuillère à café de jus de citron",
+          "labelPlural": "cuillères à café de jus de citron"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille selon le goût, facultative"
+        },
+        {
+          "quantity": null,
+          "text": "Topping chocolat-cacahuète : [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]] et [[purée de cacahuète KoRo|product:Purée de cacahuète]]"
+        },
+        {
+          "quantity": null,
+          "text": "Topping fruité : [[compote de myrtilles sans sucres ajoutés|product:La myrtille SSA]]"
+        }
+      ],
+      "preparation": [
+        "Séparer le blanc d’œuf de son jaune.",
+        "Dans un saladier, mélanger le yaourt grec, l’œuf entier, le jaune, la compote, le jus de citron et la vanille.",
+        "Ajouter la protéine végétale, les farines, la levure, le bicarbonate et le sel.",
+        "Mélanger jusqu’à obtenir une pâte homogène, sans trop la travailler.",
+        "Monter le blanc d’œuf en neige ferme.",
+        "L’incorporer délicatement à la pâte, en plusieurs fois, avec une spatule.",
+        "Faire chauffer une poêle antiadhésive à feu doux ou moyen-doux.",
+        "Déposer cinq petits tas de pâte dans la poêle.",
+        "Cuire environ 2 à 3 minutes sur la première face.",
+        "Retourner délicatement lorsque les bords commencent à prendre et que de petites bulles apparaissent.",
+        "Poursuivre la cuisson pendant 1 à 2 minutes.",
+        "Servir immédiatement avec le topping choisi."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Choisir 3 pancakes nature ou servir 2 pancakes avec du skyr nature. L’objectif de 30 g de protéines est atteint sans alourdir le petit-déjeuner.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Cuire à feu doux pour garder un centre moelleux. Incorpore le blanc en neige délicatement et ne tasse pas les pancakes pendant la cuisson.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Portion conseillée",
+          "body": "Portion légère : 2 pancakes avec le topping choisi. Portion complète : 3 pancakes, ou 2 pancakes avec du skyr pour dépasser légèrement les 30 g de protéines."
+        },
+        "variant": {
+          "title": "Variantes",
+          "body": "Chocolat-cacahuète : [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]] et [[purée de cacahuète|product:Purée de cacahuète]].\nCompote de myrtilles : déposer simplement la [[compote de myrtilles|product:La myrtille SSA]] sur les pancakes au moment de servir.\nOption express : remplacer le blanc monté en neige par un œuf entier supplémentaire."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 2 jours au réfrigérateur dans une boîte hermétique. Réchauffer quelques secondes au micro-ondes ou doucement à la poêle. Congélation possible jusqu’à 1 mois.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Les versions pour 2 pancakes restent compatibles avec un Jour Bas. La version nature avec skyr est idéale pour atteindre l’objectif protéique en limitant les glucides.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles pour 2 pancakes",
+        "columns": [
+          "Nature",
+          "Chocolat-cacahuète",
+          "Myrtille"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 150 kcal",
+            "≈ 245 kcal",
+            "≈ 184 kcal"
+          ],
+          [
+            "Protéines",
+            "18,1 g",
+            "20,8 g",
+            "≈ 18,2 g"
+          ],
+          [
+            "Glucides",
+            "10,4 g",
+            "14,1 g",
+            "15,9 g"
+          ],
+          [
+            "Lipides",
+            "3,2 g",
+            "10,6 g",
+            "≈ 3,2 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner"
+        },
+        {
+          "label": "Collation"
+        },
+        {
+          "label": "Jour Bas"
+        },
+        {
+          "label": "Rapide"
+        }
+      ],
+      "codex": {
+        "identifiant": "pancakes_nuage_proteines",
+        "nom": "Pancakes nuage protéinés",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "pancakes"
+        ],
+        "jour_principal": "jour_bas",
+        "jours_compatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "poele",
+        "caracteristiques": [
+          "riche_en_proteines",
+          "rapide",
+          "vegetarien",
+          "objectif_30g"
+        ],
+        "difficulte": "facile",
+        "rendement": "5_pancakes",
+        "portion_conseillee": "2_ou_3_pancakes"
+      }
     }
   ]
 }

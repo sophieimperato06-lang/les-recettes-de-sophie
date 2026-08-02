@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: "Allura Sophie";
   src: url("assets/fonts/Allura/Allura-Regular.ttf") format("truetype");
   font-weight: 400;
@@ -877,7 +877,8 @@ summary {
   background: rgba(196, 217, 200, .22);
 }
 .web-recipe-meta img[src*="micro"],
-.web-recipe-meta img[src*="difficulte"] {
+.web-recipe-meta img[src*="difficulte"],
+.web-recipe-meta img[src*="four"] {
   width: 76px;
   height: 76px;
   margin-top: -8px;
@@ -902,7 +903,8 @@ summary {
 }
 @media (max-width: 520px) {
   .web-recipe-meta img[src*="micro"],
-  .web-recipe-meta img[src*="difficulte"] { width: 64px; height: 64px; }
+  .web-recipe-meta img[src*="difficulte"],
+  .web-recipe-meta img[src*="four"] { width: 64px; height: 64px; }
   .web-info-card__icon[src*="conservation"],
   .web-info-card__icon[src*="jour_modere"] { width: 58px; height: 58px; }
   .web-info-card__icon[src*="astuce"],
@@ -932,4 +934,131 @@ summary {
   .web-info-card:has(.web-info-card__icon[src*="astuce"]) {
     grid-template-columns: 58px minmax(0, 1fr);
   }
+}
+
+.download-button--disabled { opacity: .72; cursor: not-allowed; color: #6e7f63; background: #fffaf2; }
+
+.web-recipe-meta img[src*="four"] { width: 76px; height: 76px; margin-top: -8px; margin-bottom: -4px; object-fit: contain; }
+@media (max-width: 520px) { .web-recipe-meta img[src*="four"] { width: 64px; height: 64px; } }
+
+
+
+
+.recipe-inline-link { color: #6e7f63; font-weight: 900; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.recipe-inline-link:hover { color: #e8a17a; }
+
+/* Correction verrouillee pictogramme Four : meme presence que Micro-ondes et Difficulte */
+.web-recipe-meta img[src*="four"] {
+  width: 76px !important;
+  height: 76px !important;
+  margin-top: -8px !important;
+  margin-bottom: -4px !important;
+  object-fit: contain !important;
+}
+@media (max-width: 520px) {
+  .web-recipe-meta img[src*="four"] {
+    width: 64px !important;
+    height: 64px !important;
+  }
+}
+
+
+
+/* Ligne informations recette : pictogrammes harmonises depuis les assets recadres */
+.web-recipe-meta img {
+  width: 76px !important;
+  height: 76px !important;
+  margin: -8px auto -4px !important;
+  object-fit: contain !important;
+}
+@media (max-width: 520px) {
+  .web-recipe-meta img {
+    width: 64px !important;
+    height: 64px !important;
+    margin-top: -6px !important;
+    margin-bottom: -2px !important;
+  }
+}
+
+/* Accueil : logo horizontal officiel */
+.home-brand {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  width: 100%;
+}
+.home-brand__logo {
+  display: block;
+  width: min(100%, 980px);
+  height: auto;
+  margin: 0 auto 22px;
+}
+.home-brand__monogram {
+  position: absolute;
+  top: -22px;
+  right: min(4vw, 58px);
+  width: 92px;
+  height: auto;
+  opacity: .72;
+  pointer-events: none;
+}
+.home-brand p {
+  margin: 0;
+  color: var(--orange);
+  font-size: 1.2rem;
+}
+.hero--web-model {
+  justify-items: center;
+}
+.hero--web-model .quick-actions {
+  justify-content: center;
+}
+@media (max-width: 620px) {
+  .home-brand__logo { width: min(100%, 560px); }
+  .home-brand__monogram {
+    width: 62px;
+    top: -18px;
+    right: 0;
+    opacity: .58;
+  }
+}/* Accueil : signature officielle en bas de page */
+.home-signature {
+  width: min(1180px, calc(100% - 28px));
+  margin: -36px auto 36px;
+  display: flex;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+.home-signature img {
+  width: min(260px, 42vw);
+  height: auto;
+  opacity: .82;
+}
+@media (max-width: 620px) {
+  .home-signature {
+    margin: -18px auto 28px;
+    justify-content: center;
+  }
+  .home-signature img {
+    width: min(220px, 70vw);
+  }
+}
+
+
+/* Pages de collection : même identité que l'accueil */
+.brand-page-intro {
+  display: grid;
+  justify-items: center;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.brand-page-intro .home-brand__logo {
+  width: min(100%, 820px);
+}
+.brand-page-intro .home-brand__monogram {
+  right: min(5vw, 84px);
+}
+@media (max-width: 620px) {
+  .brand-page-intro .home-brand__logo { width: min(100%, 520px); }
 }
