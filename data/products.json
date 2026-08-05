@@ -91,17 +91,6 @@
       ]
     },
     {
-      "name": "La myrtille SSA",
-      "brand": "marque U",
-      "store": "Supermarché",
-      "category": "Fruit",
-      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
-      "tags": [
-        "myrtille",
-        "sans sucres ajoutés"
-      ]
-    },
-    {
       "name": "Farine de cacahuète",
       "brand": "KoRo",
       "store": "KoRo",
@@ -135,6 +124,17 @@
       ]
     },
     {
+      "name": "Farine de sarrasin T110",
+      "brand": "Du Grain au Pain",
+      "store": "Du Grain au Pain",
+      "category": "Farines",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "tags": [
+        "sarrasin",
+        "farine"
+      ]
+    },
+    {
       "name": "Farine de seigle T130",
       "brand": "Du Grain au Pain",
       "store": "Du Grain au Pain",
@@ -146,14 +146,16 @@
       ]
     },
     {
-      "name": "Farine de sarrasin T110",
-      "brand": "Du Grain au Pain",
-      "store": "Du Grain au Pain",
+      "name": "Farine d’amande partiellement déshuilée",
+      "brand": "KoRo",
+      "store": "KoRo",
       "category": "Farines",
-      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Du Grain au Pain.",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
       "tags": [
-        "sarrasin",
-        "farine"
+        "farine",
+        "amande",
+        "déshuilée",
+        "koro"
       ]
     },
     {
@@ -202,6 +204,30 @@
       ]
     },
     {
+      "name": "La Conquête des Saveurs Mélange Poulet 75 g",
+      "brand": "La Conquête des Saveurs",
+      "store": "Amazon",
+      "category": "Épices et assaisonnements",
+      "notes": "Mélange d’épices pour poulet utilisé dans les recettes de Sophie. Achat : Amazon.",
+      "tags": [
+        "épices",
+        "assaisonnement",
+        "poulet",
+        "amazon"
+      ]
+    },
+    {
+      "name": "La myrtille SSA",
+      "brand": "marque U",
+      "store": "Supermarché",
+      "category": "Fruit",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
+      "tags": [
+        "myrtille",
+        "sans sucres ajoutés"
+      ]
+    },
+    {
       "name": "Lait d'avoine Barista",
       "brand": "Oatly",
       "store": "Amazon en abonnement ou Supermarché",
@@ -210,17 +236,6 @@
       "tags": [
         "avoine",
         "boisson"
-      ]
-    },
-    {
-      "name": "Pâtes Protein+",
-      "brand": "Barilla",
-      "store": "Supermarché",
-      "category": "Pâtes et féculents",
-      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
-      "tags": [
-        "pâtes",
-        "protéines"
       ]
     },
     {
@@ -287,6 +302,17 @@
       "tags": [
         "pistache",
         "koro"
+      ]
+    },
+    {
+      "name": "Pâtes Protein+",
+      "brand": "Barilla",
+      "store": "Supermarché",
+      "category": "Pâtes et féculents",
+      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : Supermarché.",
+      "tags": [
+        "pâtes",
+        "protéines"
       ]
     },
     {
@@ -389,19 +415,6 @@
         "0 %",
         "delta",
         "protéines"
-      ]
-    },
-    {
-      "name": "Farine d’amande partiellement déshuilée",
-      "brand": "KoRo",
-      "store": "KoRo",
-      "category": "Farines",
-      "notes": "Produit de référence utilisé dans les recettes de Sophie. Achat : KoRo.",
-      "tags": [
-        "farine",
-        "amande",
-        "déshuilée",
-        "koro"
       ]
     }
   ]
