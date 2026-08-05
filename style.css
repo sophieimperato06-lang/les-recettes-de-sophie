@@ -139,7 +139,9 @@ main {
 }
 .recipe-tile {
   display: grid;
+  grid-template-rows: 1fr auto;
   gap: 8px;
+  height: 100%;
 }
 .recipe-tile img {
   width: 100%;
@@ -155,6 +157,20 @@ main {
 }
 .recipe-tile small {
   color: #7a675a;
+}
+.recipe-tile .favorite-button {
+  align-self: end;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: .92rem;
+  font-weight: 800;
+  line-height: 1.1;
+  text-align: center;
 }
 .week-grid {
   display: grid;
@@ -551,7 +567,7 @@ summary {
 /* Web recipe model v2 */
 .site-nav a:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid rgba(216, 120, 34, .45); outline-offset: 3px; }
 .hero--web-model .quick-actions a { display: inline-flex; align-items: center; border: 1px solid var(--line); background: #fffaf2; color: var(--brown); border-radius: 8px; padding: 10px 14px; text-decoration: none; font-weight: 800; }
-.recipe-tile > a { display: grid; gap: 8px; color: inherit; text-decoration: none; }
+.recipe-tile > a { display: grid; align-content: start; gap: 8px; color: inherit; text-decoration: none; }
 .page-intro h1 { margin-top: 0; color: var(--brown); font-size: clamp(2rem, 5vw, 3.8rem); }
 .recipe-detail-shell { width: min(1220px, calc(100% - 28px)); }
 .web-recipe-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(330px, 520px); gap: clamp(22px, 4vw, 48px); align-items: center; margin: 12px 0 28px; }
@@ -1093,3 +1109,5 @@ summary {
     opacity: .68;
   }
 }
+
+
