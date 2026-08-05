@@ -9,7 +9,8 @@
     "Salades & accompagnements",
     "Sauce froide",
     "Salades repas",
-    "Entrée / soupe froide"
+    "Entrée / soupe froide",
+    "Sandwichs & Wraps"
   ],
   "recipes": [
     {
@@ -2092,6 +2093,254 @@
         }
       ],
       "recipePdf": "assets/fiches-pdf/gaspacho-maison-signature-sophie.pdf"
+    },
+    {
+      "id": "PITA-GRECQUE-MAISON-SIGNATURE-SOPHIE",
+      "slug": "pita-grecque-maison-signature-sophie",
+      "title": "Pita Grecque Maison",
+      "subtitle": "Signature Sophie",
+      "description": "Pain pita à l’épeautre T110, poulet citron-origan et tzatziki maison.",
+      "category": "Sandwichs & Wraps",
+      "tags": [
+        "Méditerranéen",
+        "Protéiné",
+        "Meal prep",
+        "Familial",
+        "Jour Modéré",
+        "Jour Haut",
+        "Poulet",
+        "Air Fryer"
+      ],
+      "webImage": "assets/photos-recettes/pita-grecque-maison-signature-sophie.jfif",
+      "imageAlt": "Pita grecque maison garnie de poulet citron-origan et tzatziki",
+      "servingsLabel": "4 pitas",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "30 min + pousse",
+      "cookTime": "20 min",
+      "cookingMode": "Poêle ou Air Fryer",
+      "difficulty": "Moyenne",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "30 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "20 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Moyenne",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "Pain pita",
+          "heading": true
+        },
+        {
+          "quantity": 350,
+          "unit": "g",
+          "labelSingular": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]",
+          "labelPlural": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "d’eau tiède",
+          "labelPlural": "d’eau tiède"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de sel",
+          "labelPlural": "de sel"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de levure boulangère sèche",
+          "labelPlural": "de levure boulangère sèche"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de miel",
+          "labelPlural": "de miel"
+        },
+        {
+          "quantity": null,
+          "text": "Tzatziki",
+          "heading": true
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "concombre",
+          "labelPlural": "concombres"
+        },
+        {
+          "quantity": null,
+          "text": "Jus d’un citron"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "gousse d’ail",
+          "labelPlural": "gousses d’ail"
+        },
+        {
+          "quantity": null,
+          "text": "Aneth fraîche, sel et poivre"
+        },
+        {
+          "quantity": null,
+          "text": "Poulet citron-origan",
+          "heading": true
+        },
+        {
+          "quantity": 640,
+          "unit": "g",
+          "labelSingular": "de blanc de poulet",
+          "labelPlural": "de blanc de poulet"
+        },
+        {
+          "quantity": null,
+          "text": "Jus et zeste d’un citron"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à soupe d’origan"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "gousse d’ail râpée",
+          "labelPlural": "gousses d’ail râpées"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
+        },
+        {
+          "quantity": null,
+          "text": "Sel, poivre et piment d’Espelette"
+        }
+      ],
+      "preparation": [
+        "Mélanger l’eau, la levure et le miel.",
+        "Ajouter la farine, le sel et l’huile, puis pétrir environ 10 minutes.",
+        "Couvrir et laisser lever 1 h 30.",
+        "Diviser en 4 pâtons, puis étaler en disques de 18 à 20 cm.",
+        "Cuire les pitas dans une poêle très chaude ou au four jusqu’à ce qu’elles gonflent.",
+        "Râper le concombre, le saler, le laisser dégorger 15 minutes, puis bien l’essorer.",
+        "Mélanger le concombre avec le yaourt grec, l’ail, le jus de citron, l’aneth, le sel et le poivre. Réserver au frais.",
+        "Mélanger tous les ingrédients de la marinade, ajouter les cubes de poulet et laisser mariner au minimum 4 heures, idéalement une nuit.",
+        "Cuire le poulet à la poêle ou à l’Air Fryer jusqu’à obtenir une belle coloration.",
+        "Garnir chaque pita avec le poulet citron-origan et le tzatziki maison."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Repas protéiné",
+          "body": "Une pita apporte environ 44 g de protéines. Avec une salade, elle forme un repas complet et rassasiant.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Pour un poulet encore plus juteux, ajoute 2 à 3 cuillères à soupe de yaourt grec 0 % dans la marinade citron-origan.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement conseillé",
+          "body": "Jour Modéré : salade grecque, concombre ou tomates.\nJour Haut : 150 g de frites de patate douce Air Fryer, soit un repas complet autour de 715 kcal."
+        },
+        "variant": {
+          "title": "Frites de patate douce",
+          "body": "Prévoir 180 à 190 g de patate douce crue pour obtenir environ 150 g cuits. Assaisonner avec paprika fumé, ail semoule, origan, sel, poivre et piment d’Espelette. Cuire 18 à 22 minutes à 190 °C en Air Fryer."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Pain pita : 2 jours ou 3 mois au congélateur. Poulet : 3 jours au frais. Tzatziki : 2 jours au frais.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré",
+          "body": "Jour Modéré avec salade. Jour Haut avec patate douce ou pommes de terre rôties.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 pita",
+          "+ patate douce"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 560 kcal",
+            "≈ 715 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 44 g",
+            "≈ 47 g"
+          ],
+          [
+            "Glucides",
+            "≈ 50 g",
+            "≈ 86 g"
+          ],
+          [
+            "Lipides",
+            "≈ 13 g",
+            "≈ 13 à 18 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Jour Haut",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Air Fryer",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        }
+      ],
+      "recipePdf": "assets/fiches-pdf/pita-grecque-maison-signature-sophie.pdf"
     }
   ]
 }
