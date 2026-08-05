@@ -6,7 +6,8 @@
     "Topping",
     "Collation",
     "Dessert",
-    "Salades & accompagnements"
+    "Salades & accompagnements",
+    "Sauce froide"
   ],
   "recipes": [
     {
@@ -1344,6 +1345,191 @@
         "portions": 6,
         "conservation": "24_heures"
       }
+    },
+    {
+      "id": "SAUCE-BASILIC-CAJOU-PISTACHES",
+      "slug": "sauce-legere-basilic-cajou-pistaches",
+      "title": "Sauce légère au basilic",
+      "subtitle": "cajou & pistaches",
+      "description": "Fraîche, crémeuse et prête en quelques minutes.",
+      "category": "Sauce froide",
+      "tags": [
+        "Sauce froide",
+        "Jour Bas",
+        "Rapide",
+        "Sans cuisson",
+        "Facile",
+        "Végétarien",
+        "Accompagnement"
+      ],
+      "webImage": "assets/photos-recettes/sauce-legere-basilic-cajou-pistaches.jpg",
+      "imageAlt": "Sauce légère au basilic, noix de cajou et pistaches dans un bol",
+      "servingsLabel": "2 portions",
+      "baseServings": 2,
+      "prepTime": "5 min",
+      "cookTime": "Aucune",
+      "cookingMode": "Blender, sans cuisson",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "2",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "5 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Mixage",
+          "value": "Blender",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 70,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]] ou de [[skyr|product:Skyr nature]]",
+          "labelPlural": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]] ou de [[skyr|product:Skyr nature]]"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de noix de cajou",
+          "labelPlural": "de noix de cajou"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de pistaches décortiquées",
+          "labelPlural": "de pistaches décortiquées"
+        },
+        {
+          "quantity": null,
+          "text": "Quelques feuilles de basilic frais"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "petite gousse d’ail",
+          "labelPlural": "petites gousses d’ail"
+        },
+        {
+          "quantity": null,
+          "text": "Sel et poivre"
+        },
+        {
+          "quantity": null,
+          "text": "Un peu d’eau pour ajuster la texture"
+        }
+      ],
+      "preparation": [
+        "Déposer le yaourt grec, les noix de cajou, les pistaches, le basilic et l’ail dans un petit mixeur.",
+        "Saler, poivrer, puis mixer jusqu’à obtenir une préparation homogène.",
+        "Ajouter progressivement un peu d’eau et mixer de nouveau, jusqu’à obtenir une sauce crémeuse et suffisamment fluide."
+      ],
+      "sections": {
+        "tip": {
+          "title": "Astuce",
+          "body": "Pour une sauce parfaitement lisse, faire tremper les noix de cajou dans de l’eau chaude pendant 15 à 20 minutes, puis les égoutter avant de les mixer.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements",
+          "body": "Cette sauce accompagne très bien les crudités, les salades, une salade de pâtes protéinée, un poisson froid ou grillé, des crevettes, du poulet ou des légumes rôtis."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "À conserver au réfrigérateur dans un récipient hermétique et à consommer dans les 48 heures. Mélanger avant de servir et ajouter quelques gouttes d’eau si elle a épaissi.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Sauce légère et compatible Jour Bas, idéale pour apporter du crémeux et du parfum sans alourdir l’assiette.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estim?es",
+        "columns": [
+          "1 portion",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "? 79 kcal",
+            "? 158 kcal"
+          ],
+          [
+            "Prot?ines",
+            "? 5,6 g",
+            "? 11,2 g"
+          ],
+          [
+            "Glucides",
+            "? 4,8 g",
+            "? 9,6 g"
+          ],
+          [
+            "Lipides",
+            "? 4,6 g",
+            "? 9,1 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Sauce froide"
+        },
+        {
+          "label": "Jour Bas",
+          "showIcon": true,
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Rapide"
+        },
+        {
+          "label": "Sans cuisson"
+        },
+        {
+          "label": "Facile"
+        }
+      ],
+      "codex": {
+        "identifiant": "sauce_legere_basilic_cajou_pistaches",
+        "categorie": [
+          "sauce_froide",
+          "accompagnement"
+        ],
+        "jourPrincipal": "jour_bas",
+        "cuisson": "sans_cuisson",
+        "caracteristiques": [
+          "rapide",
+          "facile",
+          "vegetarien",
+          "accompagnement"
+        ],
+        "ingredientsPrincipaux": [
+          "yaourt_grec_0",
+          "skyr",
+          "noix_cajou",
+          "pistaches",
+          "basilic"
+        ],
+        "difficulte": "facile",
+        "portions": 2,
+        "conservation": "48_heures"
+      },
+      "recipePdf": "assets/fiches-pdf/sauce-legere-basilic-cajou-pistaches.pdf"
     }
   ]
 }
