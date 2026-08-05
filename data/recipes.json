@@ -1728,6 +1728,176 @@
         "portions": 4,
         "conservation": "2_a_3_jours"
       }
+    },
+    {
+      "id": "BOWLCAKE-NUAGE-PROTEINE",
+      "slug": "bowlcake-nuage-proteine",
+      "title": "Bowlcake Nuage Protéiné",
+      "subtitle": "Texture moelleuse et fondante, aux éclats de chocolat",
+      "description": "Bowlcake protéiné moelleux et fondant, prêt en quelques minutes.",
+      "category": "Petit-déjeuner",
+      "tags": [
+        "Petit-déjeuner",
+        "Rapide",
+        "Micro-ondes",
+        "Très facile",
+        "Jour Bas",
+        "Objectif 30 g",
+        "Riche en protéines",
+        "Végétarien"
+      ],
+      "webImage": "assets/photos-recettes/bowlcake-nuage-proteine.jfif",
+      "imageAlt": "Bowlcake protéiné moelleux aux éclats de chocolat",
+      "servingsLabel": "1 portion",
+      "baseServings": 1,
+      "prepTime": "5 min",
+      "cookTime": "3 à 4 min",
+      "cookingMode": "Micro-ondes",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portion",
+          "value": "1",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "5 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "3 à 4 min",
+          "icon": "assets/pictos/web/picto_micro_ondes_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "œuf",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature|product:Skyr nature]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]",
+          "labelPlural": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"
+        },
+        {
+          "quantity": null,
+          "text": "ou 30 g de farine d’avoine"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]]",
+          "labelPlural": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]]"
+        }
+      ],
+      "preparation": [
+        "Fouetter l’œuf avec le skyr jusqu’à obtenir une préparation homogène.",
+        "Ajouter la farine et mélanger soigneusement.",
+        "Couper le chocolat noir en petits morceaux, puis les incorporer à la pâte.",
+        "Verser la préparation dans un bol suffisamment haut, adapté au micro-ondes.",
+        "Faire cuire entre 3 et 4 minutes à 800 W. Commencer par 3 minutes, puis prolonger par tranches de 15 à 20 secondes si nécessaire.",
+        "Laisser tiédir 1 à 2 minutes avant de déguster.",
+        "Le centre doit être cuit mais encore légèrement fondant : une cuisson excessive rendrait le bowlcake plus sec."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Aucun complément n’est nécessaire : la recette apporte déjà environ 31 g de protéines.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce texture nuage",
+          "body": "Pour une texture plus aérienne, séparer le blanc du jaune d’œuf. Mélanger le jaune avec le skyr et la farine, monter le blanc en neige, puis l’incorporer délicatement avant d’ajouter le chocolat. Utiliser un bol assez haut : le bowlcake gonfle davantage pendant la cuisson.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements selon la journée",
+          "body": "Jour Bas : déguster le bowlcake seul.\nJour Modéré : ajouter 50 g de framboises ou de myrtilles.\nJour Haut : ajouter une banane ou une portion plus généreuse de fruits frais."
+        },
+        "variant": {
+          "title": "Variante fruitée",
+          "body": "Remplacer les 15 g de chocolat noir par 50 g de fruits frais : abricot, framboises ou myrtilles. Selon le fruit choisi, compter environ +1 à +3 g de glucides par rapport à la version chocolatée."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "À déguster de préférence immédiatement. Si besoin, conserver 24 h au réfrigérateur puis réchauffer quelques secondes au micro-ondes.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Compatible Jour Bas nature. Adaptable en Jour Modéré avec quelques fruits rouges, ou en Jour Haut avec une portion plus généreuse de fruits.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "chocolat",
+          "+ fruits",
+          "fruitée"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 370 kcal",
+            "≈ 394 kcal",
+            "≈ 306 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 28,3 g",
+            "≈ 28,7 g",
+            "≈ 27,4 g"
+          ],
+          [
+            "Glucides",
+            "≈ 33,2 g",
+            "≈ 38,7 g",
+            "≈ 33,7 g"
+          ],
+          [
+            "Lipides",
+            "≈ 12,1 g",
+            "≈ 12,2 g",
+            "≈ 5,5 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Objectif 30 g",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Facile & rapide",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "recipePdf": "assets/fiches-pdf/bowlcake-nuage-proteine.pdf"
     }
   ]
 }
