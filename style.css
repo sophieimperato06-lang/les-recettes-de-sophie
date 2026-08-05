@@ -876,6 +876,10 @@ summary {
   border-color: rgba(110, 127, 99, .55);
   background: rgba(196, 217, 200, .22);
 }
+.web-recipe-category-line {
+  margin: 10px 0 0;
+  text-align: left;
+}
 .web-recipe-meta img[src*="micro"],
 .web-recipe-meta img[src*="difficulte"],
 .web-recipe-meta img[src*="four"] {
@@ -1061,4 +1065,31 @@ summary {
 }
 @media (max-width: 620px) {
   .brand-page-intro .home-brand__logo { width: min(100%, 520px); }
+}
+
+/* Pages recette : rappel de marque sans modifier la structure recette */
+.recipe-brand {
+  position: relative;
+  width: min(1220px, calc(100% - 28px));
+  margin: 18px auto 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 132px;
+}
+.recipe-brand__monogram {
+  display: block;
+  width: 132px;
+  height: auto;
+  opacity: .74;
+}
+@media (max-width: 620px) {
+  .recipe-brand {
+    margin-top: 12px;
+    min-height: 92px;
+  }
+  .recipe-brand__monogram {
+    width: 88px;
+    opacity: .68;
+  }
 }

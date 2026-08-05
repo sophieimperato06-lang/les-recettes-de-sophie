@@ -3,7 +3,10 @@
   "version": "web-recipes-v2",
   "categories": [
     "Petit-déjeuner",
-    "Topping"
+    "Topping",
+    "Collation",
+    "Dessert",
+    "Salades & accompagnements"
   ],
   "recipes": [
     {
@@ -18,7 +21,8 @@
         "Enfants",
         "Jour Modéré",
         "Facile & rapide",
-        "Micro-ondes"
+        "Micro-ondes",
+        "Végétarien"
       ],
       "webImage": "assets/photos-recettes/bowlcake-express-chocolat-skyr-avoine.png",
       "imageAlt": "Bowlcake avoine chocolat avec fruits frais sur une assiette blanche",
@@ -205,7 +209,8 @@
         "Rapide",
         "Riche en protéines",
         "Riche en fibres",
-        "Très facile"
+        "Très facile",
+        "Végétarien"
       ],
       "webImage": "assets/photos-recettes/pudding-chia-pistache-framboise.jfif",
       "imageAlt": "Pudding de chia à la pistache avec framboises",
@@ -917,6 +922,427 @@
         "difficulte": "facile",
         "rendement": "5_pancakes",
         "portion_conseillee": "2_ou_3_pancakes"
+      }
+    },
+    {
+      "id": "CLAFOUFLAN-ABRICOTS",
+      "slug": "clafouflan-abricots-signature-sophie",
+      "title": "Clafouflan aux abricots",
+      "subtitle": "Signature Sophie",
+      "description": "Fondant, fruité et naturellement riche en protéines.",
+      "category": "Petit-déjeuner • Collation",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Jour Bas",
+        "Air Fryer",
+        "Four",
+        "Meal prep",
+        "Batch cooking",
+        "Riche en protéines",
+        "Végétarien",
+        "Facile",
+        "Favori",
+        "Coup de cœur",
+        "Objectif 30 g"
+      ],
+      "webImage": "assets/photos-recettes/clafouflan-abricots.jpeg",
+      "imageAlt": "Clafouflan fondant aux abricots avec amandes effilées",
+      "recipePdf": "assets/fiches-pdf/clafouflan-abricots.pdf",
+      "servingsLabel": "6 portions",
+      "baseServings": 6,
+      "prepTime": "10 min",
+      "cookTime": "27 min",
+      "cookingMode": "Air Fryer",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "6 portions",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "27 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Difficulté",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 280,
+          "unit": "g",
+          "labelSingular": "d’abricots bien mûrs",
+          "labelPlural": "d’abricots bien mûrs"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 6,
+          "unit": "",
+          "labelSingular": "œufs",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de Maïzena",
+          "labelPlural": "de Maïzena"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de [[xylitol|product:Xylitol]]",
+          "labelPlural": "de [[xylitol|product:Xylitol]]"
+        },
+        {
+          "quantity": null,
+          "text": "ou 18 g de sirop d’agave"
+        },
+        {
+          "quantity": null,
+          "text": "½ cuillère à café rase de [[poudre de vanille Bourbon KoRo|product:Vanille en poudre]]"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "cuillère à café de [[levure chimique|product:Levure chimique]]",
+          "labelPlural": "cuillères à café de [[levure chimique|product:Levure chimique]]"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "d’amandes effilées",
+          "labelPlural": "d’amandes effilées"
+        }
+      ],
+      "preparation": [
+        "Laver les abricots, les dénoyauter et les couper en quartiers.",
+        "Dans un saladier, fouetter les œufs avec le yaourt grec.",
+        "Ajouter le xylitol et la poudre de vanille Bourbon.",
+        "Incorporer la Maïzena et la levure chimique.",
+        "Mélanger jusqu’à obtenir une préparation parfaitement homogène.",
+        "Répartir les quartiers d’abricots dans un moule compatible avec l’Air Fryer.",
+        "Verser délicatement l’appareil sur les fruits.",
+        "Parsemer la surface d’amandes effilées.",
+        "Cuire en Air Fryer, mode BAKE, à 160 °C pendant 27 minutes.",
+        "Vérifier la cuisson avec la pointe d’un couteau : le centre doit être pris, tout en restant légèrement fondant.",
+        "Laisser tiédir avant de démouler. Le clafouflan se raffermit en refroidissant.",
+        "Équivalence au four : cuire à 180 °C pendant 35 à 40 minutes."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Servir 1 portion de clafouflan avec 195 g de skyr nature et 7 g de purée de cacahuète KoRo. Le petit-déjeuner atteint environ 30 g de protéines.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Choisir des abricots bien mûrs pour un résultat naturellement sucré et fondant. Laisser refroidir avant de découper pour obtenir des portions nettes.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement conseillé",
+          "body": "Mélanger le [[skyr nature|product:Skyr nature]] avec la [[purée de cacahuète KoRo|product:Purée de cacahuète]] pour former une crème d’accompagnement douce et rassasiante."
+        },
+        "variant": {
+          "title": "Cuisson alternative",
+          "body": "Au four traditionnel : préchauffer à 180 °C et cuire 35 à 40 minutes. Le centre doit rester fondant, sans être liquide."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 3 jours au réfrigérateur, dans une boîte hermétique ou couvert au contact. Servir froid ou réchauffer quelques secondes au micro-ondes.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Compatible avec un Jour Bas, notamment avec l’accompagnement skyr-cacahuète pour atteindre l’objectif protéique tout en gardant un repas rassasiant.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles",
+        "columns": [
+          "1 portion",
+          "objectif 30 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 158 kcal",
+            "≈ 312 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 10 g",
+            "≈ 30 g"
+          ],
+          [
+            "Glucides",
+            "≈ 12,5 g",
+            "≈ 20,4 g"
+          ],
+          [
+            "Lipides",
+            "≈ 7,9 g",
+            "≈ 12,4 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Collation",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Coup de cœur",
+          "icon": "assets/pictos/web/picto_coup_de_coeur_officiel.png",
+          "showIcon": true
+        }
+      ],
+      "fixedQuantities": true
+    },
+    {
+      "id": "SALADE-PASTEQUE-FETA-AMANDES",
+      "slug": "salade-pasteque-feta-amandes-grillees",
+      "title": "Salade de pastèque, feta & amandes grillées",
+      "subtitle": "basilic frais & croquant",
+      "description": "Fraîche, croquante et parfumée au basilic.",
+      "category": "Salades & accompagnements",
+      "tags": [
+        "Salade",
+        "Accompagnement",
+        "Jour Bas",
+        "Jour Modéré",
+        "Été",
+        "Rapide",
+        "Sans cuisson principale",
+        "Végétarien",
+        "Méditerranéen",
+        "Très facile",
+        "Favori",
+        "Conservation courte"
+      ],
+      "tagsDetailed": [
+        {
+          "label": "Salade"
+        },
+        {
+          "label": "Accompagnement"
+        },
+        {
+          "label": "Jour Bas",
+          "showIcon": true,
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Rapide"
+        },
+        {
+          "label": "Favori",
+          "showIcon": true,
+          "icon": "assets/pictos/web/picto_coup_de_coeur_officiel.png"
+        }
+      ],
+      "webImage": "assets/photos-recettes/salade-pasteque-feta-amandes-grillees.jfif",
+      "imageAlt": "Salade fraîche de pastèque, feta, basilic et amandes grillées",
+      "recipePdf": "assets/fiches-pdf/salade-pasteque-feta-amandes-grillees.pdf",
+      "servingsLabel": "6 portions",
+      "baseServings": 6,
+      "prepTime": "10 min",
+      "cookTime": "3 à 5 min",
+      "cookingMode": "Torréfaction à la poêle",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "6",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Torréfaction",
+          "value": "3 à 5 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 1300,
+          "unit": "g",
+          "labelSingular": "de pastèque",
+          "labelPlural": "de pastèque"
+        },
+        {
+          "quantity": 130,
+          "unit": "g",
+          "labelSingular": "de feta",
+          "labelPlural": "de feta"
+        },
+        {
+          "quantity": 70,
+          "unit": "g",
+          "labelSingular": "d’amandes entières",
+          "labelPlural": "d’amandes entières"
+        },
+        {
+          "quantity": 1,
+          "unit": "bouquet",
+          "labelSingular": "de basilic frais",
+          "labelPlural": "de basilic frais"
+        },
+        {
+          "quantity": null,
+          "text": "Poivre noir, facultatif"
+        }
+      ],
+      "preparation": [
+        "Faire chauffer une poêle à sec, sans ajouter de matière grasse.",
+        "Faire griller les amandes pendant 3 à 5 minutes à feu moyen, en remuant régulièrement, jusqu’à ce qu’elles soient légèrement dorées et parfumées.",
+        "Déposer les amandes dans une assiette et les laisser complètement refroidir.",
+        "Couper la pastèque en cubes et retirer les pépins si nécessaire.",
+        "Émietter grossièrement la feta.",
+        "Ciseler le basilic frais.",
+        "Concasser grossièrement les amandes grillées refroidies.",
+        "Mélanger délicatement la pastèque, la feta et le basilic.",
+        "Réserver la salade au réfrigérateur pendant environ 30 minutes si possible.",
+        "Ajouter les amandes grillées juste avant de servir afin qu’elles conservent tout leur croquant.",
+        "Terminer éventuellement par quelques tours de moulin à poivre."
+      ],
+      "sections": {
+        "tip": {
+          "title": "Astuce",
+          "body": "Choisis une pastèque bien mûre, sucrée et très froide. Ajoute les amandes au dernier moment pour garder un vrai contraste croquant.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements conseillés",
+          "body": "En Jour Modéré, servir avec du blanc de poulet grillé, des crevettes, un pavé de saumon ou des brochettes de poulet. Du pain au levain peut être ajouté si le reste de la journée le permet."
+        },
+        "variant": {
+          "title": "Variante Signature Sophie",
+          "body": "Remplacer 30 g des amandes par 30 g de pistaches, ajouter le zeste d’un citron vert et quelques tours de moulin à poivre noir. Griller les fruits à coque séparément à sec."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "À consommer de préférence le jour même. Conservation maximale 24 heures au réfrigérateur. Garder les amandes séparées et les ajouter au moment de servir.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Avec 6 portions, une portion apporte environ 18 à 19 g de glucides. Elle devient compatible Jour Bas avec une protéine maigre, sans pain ni féculent ajouté.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette entière",
+          "1 portion",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 1 320 à 1 350 kcal",
+            "≈ 220 à 225 kcal",
+            "≈ 89 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 38 à 40 g",
+            "≈ 6,3 à 6,7 g",
+            "≈ 3,1 g"
+          ],
+          [
+            "Glucides",
+            "≈ 110 à 115 g",
+            "≈ 18,3 à 19,2 g",
+            "≈ 7,4 g"
+          ],
+          [
+            "Lipides",
+            "≈ 80 à 83 g",
+            "≈ 13,3 à 13,8 g",
+            "≈ 5,5 g"
+          ],
+          [
+            "Fibres",
+            "≈ 20 à 22 g",
+            "≈ 3,3 à 3,7 g",
+            ""
+          ]
+        ]
+      },
+      "codex": {
+        "identifiant": "salade_pasteque_feta_amandes_grillees",
+        "categorie": [
+          "salade",
+          "accompagnement"
+        ],
+        "jourPrincipal": "jour_bas",
+        "compatibiliteConditionnelle": "",
+        "cuisson": "torrefaction_poele",
+        "caracteristiques": [
+          "rapide",
+          "vegetarien",
+          "estival",
+          "barbecue",
+          "sans_cuisson_principale",
+          "favori"
+        ],
+        "ingredientsPrincipaux": [
+          "pasteque",
+          "feta",
+          "amandes",
+          "basilic"
+        ],
+        "saveurs": [
+          "sucre_sale",
+          "basilic",
+          "amande_grillee"
+        ],
+        "texture": [
+          "fraiche",
+          "fondante",
+          "croquante"
+        ],
+        "saison": "ete",
+        "service": "froid",
+        "difficulte": "tres_facile",
+        "portions": 6,
+        "conservation": "24_heures"
       }
     }
   ]
