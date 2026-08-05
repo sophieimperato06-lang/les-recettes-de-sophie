@@ -7,7 +7,8 @@
     "Collation",
     "Dessert",
     "Salades & accompagnements",
-    "Sauce froide"
+    "Sauce froide",
+    "Salades repas"
   ],
   "recipes": [
     {
@@ -1457,7 +1458,7 @@
         }
       },
       "nutrition": {
-        "title": "Valeurs nutritionnelles estim?es",
+        "title": "Valeurs nutritionnelles estimées",
         "columns": [
           "1 portion",
           "100 g"
@@ -1465,23 +1466,23 @@
         "rows": [
           [
             "Calories",
-            "? 79 kcal",
-            "? 158 kcal"
+            "≈ 79 kcal",
+            "≈ 158 kcal"
           ],
           [
-            "Prot?ines",
-            "? 5,6 g",
-            "? 11,2 g"
+            "Protéines",
+            "≈ 5,6 g",
+            "≈ 11,2 g"
           ],
           [
             "Glucides",
-            "? 4,8 g",
-            "? 9,6 g"
+            "≈ 4,8 g",
+            "≈ 9,6 g"
           ],
           [
             "Lipides",
-            "? 4,6 g",
-            "? 9,1 g"
+            "≈ 4,6 g",
+            "≈ 9,1 g"
           ]
         ]
       },
@@ -1530,6 +1531,203 @@
         "conservation": "48_heures"
       },
       "recipePdf": "assets/fiches-pdf/sauce-legere-basilic-cajou-pistaches.pdf"
+    },
+    {
+      "id": "SALADE-PATES-PROTEINEES-BASILIC",
+      "slug": "salade-pates-proteinees-basilic",
+      "title": "Salade de pâtes protéinées",
+      "subtitle": "au basilic",
+      "description": "Fraîche, gourmande et idéale en meal prep.",
+      "category": "Salades repas",
+      "tags": [
+        "Été",
+        "Meal prep",
+        "Protéiné",
+        "Méditerranéen",
+        "Jour Modéré",
+        "Jour Haut",
+        "Salades repas",
+        "Végétarien",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/salade-pates-proteinees-basilic.jpeg",
+      "imageAlt": "Salade de pâtes protéinées au basilic avec avocat, tomate et maïs",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "prepTime": "15 min",
+      "cookTime": "10 min",
+      "cookingMode": "Cuisson des pâtes",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 300,
+          "unit": "g",
+          "labelSingular": "de fusilli protéinés, poids cru",
+          "labelPlural": "de fusilli protéinés, poids cru"
+        },
+        {
+          "quantity": 3,
+          "unit": "",
+          "labelSingular": "portion de [[sauce basilic légère|SAUCE-BASILIC-CAJOU-PISTACHES]]",
+          "labelPlural": "portions de [[sauce basilic légère|SAUCE-BASILIC-CAJOU-PISTACHES]]"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "tomate, idéalement tomates cerises coupées en deux",
+          "labelPlural": "tomates, idéalement tomates cerises coupées en deux"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "avocat",
+          "labelPlural": "avocats"
+        },
+        {
+          "quantity": 140,
+          "unit": "g",
+          "labelSingular": "de maïs égoutté",
+          "labelPlural": "de maïs égoutté"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "d'huile d'olive",
+          "labelPlural": "d'huile d'olive"
+        }
+      ],
+      "preparation": [
+        "Cuire les fusilli al dente, puis les refroidir sous l’eau froide.",
+        "Couper la tomate et l’avocat en dés.",
+        "Mélanger les pâtes avec la sauce basilic.",
+        "Ajouter le maïs, la tomate et l’avocat.",
+        "Arroser avec l’huile d’olive.",
+        "Mélanger délicatement.",
+        "Réserver au frais 30 minutes avant de servir."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Pourquoi tu vas l’aimer",
+          "body": "Très rassasiante, riche en protéines, délicieuse froide et parfaite pour les repas d’été préparés à l’avance.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Remplacer la tomate classique par des tomates cerises coupées en deux : elles rendent moins d’eau, restent fermes et sont plus jolies en meal prep.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Pour un repas complet",
+          "body": "Pour atteindre 40 à 45 g de protéines, ajouter 120 à 150 g de poulet grillé au thym-citron, 150 g de crevettes ou une boîte de thon au naturel."
+        },
+        "variant": {
+          "title": "Version plus légère",
+          "body": "Remplacer la moitié du maïs par 150 g de concombre pour garder le croquant et la fraîcheur en réduisant les glucides et les calories."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "2 à 3 jours au réfrigérateur. Ajouter l’avocat au dernier moment si la salade est préparée à l’avance.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré ou Haut",
+          "body": "Version idéale en Jour Modéré. Parfaite aussi en Jour Haut ou après une séance, surtout avec la version au maïs complet.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette entière",
+          "1 portion",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 2 060 kcal",
+            "≈ 515 kcal",
+            "≈ 163 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 89 g",
+            "≈ 22 g",
+            "≈ 7,1 g"
+          ],
+          [
+            "Glucides",
+            "≈ 205 g",
+            "≈ 51 g",
+            "≈ 16,3 g"
+          ],
+          [
+            "Lipides",
+            "≈ 101 g",
+            "≈ 25 g",
+            "≈ 8,0 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Été"
+        },
+        {
+          "label": "Meal prep"
+        },
+        {
+          "label": "Jour Modéré"
+        },
+        {
+          "label": "Jour Haut"
+        },
+        {
+          "label": "Très facile"
+        }
+      ],
+      "codex": {
+        "identifiant": "salade_pates_proteinees_basilic",
+        "categorie": [
+          "salades_repas"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_modere",
+          "jour_haut"
+        ],
+        "caracteristiques": [
+          "ete",
+          "meal_prep",
+          "proteine",
+          "mediterraneen",
+          "vegetarien"
+        ],
+        "portions": 4,
+        "conservation": "2_a_3_jours"
+      }
     }
   ]
 }
