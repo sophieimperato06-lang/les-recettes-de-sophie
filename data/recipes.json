@@ -2491,6 +2491,193 @@
         }
       ],
       "recipePdf": "assets/fiches-pdf/brochettes-dinde-ou-poulet-air-fryer.pdf"
+    },
+    {
+      "id": "ACAI-BOWL-PROTEINE",
+      "slug": "acai-bowl-proteine-signature-sophie",
+      "title": "Açaï Bowl Protéiné",
+      "subtitle": "Signature Sophie",
+      "description": "Frais, crémeux et ultra riche en protéines.",
+      "category": "Petit-déjeuner",
+      "tags": [
+        "Petit-déjeuner",
+        "Bowl",
+        "Sans cuisson",
+        "Protéiné",
+        "Healthy",
+        "Été",
+        "Rapide",
+        "Jour Bas",
+        "Végétarien"
+      ],
+      "webImage": "assets/photos-recettes/acai-bowl-proteine.jpeg",
+      "imageAlt": "Açaï bowl protéiné crémeux avec fruits et topping croquant",
+      "servingsLabel": "1 bowl",
+      "baseServings": 1,
+      "defaultServings": 1,
+      "prepTime": "5 min",
+      "cookTime": "Aucune",
+      "cookingMode": "Blender, sans cuisson",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "1 bowl",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "5 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Mixage",
+          "value": "Blender",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de [[Whey Isolate Native Nutripure|product:Whey Isolate Native]]",
+          "labelPlural": "de [[Whey Isolate Native Nutripure|product:Whey Isolate Native]]"
+        },
+        {
+          "quantity": 7.5,
+          "unit": "g",
+          "labelSingular": "de poudre d’açaï bio",
+          "labelPlural": "de poudre d’açaï bio"
+        },
+        {
+          "quantity": 80,
+          "unit": "g",
+          "labelSingular": "de mélange framboises et myrtilles surgelées",
+          "labelPlural": "de mélange framboises et myrtilles surgelées"
+        },
+        {
+          "quantity": 15,
+          "unit": "ml",
+          "labelSingular": "de boisson d’avoine",
+          "labelPlural": "de boisson d’avoine"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave",
+          "labelPlural": "de sirop d’agave"
+        },
+        {
+          "quantity": null,
+          "text": "Version croquante : ajouter 15 g de [[granola protéiné BD|GRANOLA-PROTEINE-FRUITS-COQUE]]"
+        },
+        {
+          "quantity": null,
+          "text": "Version Signature Sophie : ajouter 15 g de granola protéiné BD et 50 g d’abricots frais"
+        }
+      ],
+      "preparation": [
+        "Verser le yaourt grec dans un blender.",
+        "Ajouter la whey, la poudre d’açaï, les fruits surgelés, la boisson d’avoine et le sirop d’agave.",
+        "Mixer jusqu’à obtenir une texture lisse, épaisse et crémeuse.",
+        "Verser dans un bol.",
+        "Ajouter les toppings juste avant de déguster."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Pourquoi tu vas l’aimer",
+          "body": "Plus de 24 g de protéines dès la version nature, une texture ultra crémeuse et une recette prête en moins de 5 minutes.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Conseils de Sophie",
+          "body": "Utiliser les fruits encore surgelés pour obtenir une texture très épaisse. Mixer juste le temps nécessaire et ajouter le granola au dernier moment pour conserver son croquant.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Versions et toppings",
+          "body": "Nature : aucun topping.\nCroquante : 15 g de granola protéiné BD.\nSignature Sophie : 15 g de granola protéiné BD et 50 g d’abricots frais."
+        },
+        "variant": {
+          "title": "Variantes",
+          "body": "Fruits : abricots, pêches, nectarines, framboises fraîches ou myrtilles fraîches. Toppings : pistaches concassées, amandes effilées grillées, coco râpée ou chocolat noir 70 % râpé."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "À consommer immédiatement. Pour le meal prep, préparer à l’avance les sachets contenant la whey et la poudre d’açaï. Le matin, ajouter les ingrédients frais et mixer.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Les trois versions restent compatibles Jour Bas grâce à leur densité protéique et leur apport modéré en glucides. Pour un Jour Modéré ou Haut, ajouter banane, flocons d’avoine ou plus de granola.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "Nature",
+          "+ granola 15 g",
+          "+ fruits jaunes"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "202 kcal",
+            "264 kcal",
+            "288 kcal"
+          ],
+          [
+            "Protéines",
+            "24,3 g",
+            "27,5 g",
+            "28,2 g"
+          ],
+          [
+            "Glucides",
+            "17,7 g",
+            "21,5 g",
+            "27,0 g"
+          ],
+          [
+            "Lipides",
+            "2,1 g",
+            "6,4 g",
+            "6,5 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner"
+        },
+        {
+          "label": "Jour Bas",
+          "showIcon": true,
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Rapide"
+        },
+        {
+          "label": "Été"
+        },
+        {
+          "label": "Végétarien"
+        }
+      ],
+      "recipePdf": "assets/fiches-pdf/acai-bowl-proteine-signature-sophie.pdf"
     }
   ]
 }
