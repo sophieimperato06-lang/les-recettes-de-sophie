@@ -2341,6 +2341,156 @@
         }
       ],
       "recipePdf": "assets/fiches-pdf/pita-grecque-maison-signature-sophie.pdf"
+    },
+    {
+      "id": "BROCHETTES-DINDE-OU-POULET-AIR-FRYER",
+      "slug": "brochettes-dinde-ou-poulet-air-fryer",
+      "title": "Brochettes dinde ou poulet",
+      "subtitle": "thym, épices & Air Fryer",
+      "description": "Des brochettes simples, parfumées et riches en protéines, à préparer avec de la dinde ou du poulet.",
+      "category": "Plat",
+      "tags": [
+        "Plat",
+        "Jour Bas",
+        "Air Fryer",
+        "Protéiné",
+        "Rapide",
+        "Poulet",
+        "Dinde"
+      ],
+      "webImage": "assets/photos-recettes/brochettes-dinde-ou-poulet.jfif",
+      "imageAlt": "Brochettes de dinde ou de poulet assaisonnées au thym et aux épices",
+      "servingsLabel": "1 portion = 2 brochettes",
+      "baseServings": 1,
+      "defaultServings": 1,
+      "prepTime": "5 min + marinade",
+      "cookTime": "18 min",
+      "cookingMode": "Air Fryer Roast",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "1 portion",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "5 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "18 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de dinde ou de poulet, soit 2 brochettes de 100 g",
+          "labelPlural": "de dinde ou de poulet, soit 2 brochettes de 100 g par portion"
+        },
+        {
+          "quantity": null,
+          "text": "[[La Conquête des Saveurs Mélange Poulet 75 g|product:La Conquête des Saveurs Mélange Poulet 75 g]], à saupoudrer sur toutes les faces"
+        },
+        {
+          "quantity": null,
+          "text": "Sel"
+        },
+        {
+          "quantity": null,
+          "text": "Spray d’huile d’olive"
+        },
+        {
+          "quantity": null,
+          "text": "Beaucoup de thym"
+        }
+      ],
+      "preparation": [
+        "Couper la dinde ou le poulet en morceaux réguliers, puis former les brochettes.",
+        "Saupoudrer toutes les faces avec le mélange poulet La Conquête des Saveurs.",
+        "Ajouter le sel, beaucoup de thym et un léger spray d’huile d’olive.",
+        "Laisser mariner au frais afin que la viande s’imprègne bien des parfums.",
+        "Cuire en mode Roast à l’Air Fryer, à 185 °C, pendant 18 minutes.",
+        "Vérifier que la viande est bien cuite à cœur avant de servir."
+      ],
+      "sections": {
+        "tip": {
+          "title": "Astuce",
+          "body": "Pour une viande plus parfumée, prépare les brochettes en avance et laisse-les mariner plusieurs heures au réfrigérateur.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement conseillé",
+          "body": "Jour Bas : servir les 2 brochettes avec une grande salade, des crudités ou des légumes grillés. Jour Modéré : ajouter une portion de féculent selon le reste de la journée."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Conserver jusqu’à 2 jours au réfrigérateur dans une boîte hermétique. Réchauffer doucement à l’Air Fryer ou à la poêle.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Une portion de 2 brochettes apporte environ 46 g de protéines, avec très peu de glucides. Elle s’intègre facilement dans un Jour Bas avec des légumes ou une salade.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 brochette",
+          "1 portion"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 110 kcal",
+            "≈ 220 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 23 g",
+            "≈ 46 g"
+          ],
+          [
+            "Glucides",
+            "≈ 0 g",
+            "≈ 0 g"
+          ],
+          [
+            "Lipides",
+            "≈ 1,5 g",
+            "≈ 3 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "showIcon": true,
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Air Fryer",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Rapide",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "recipePdf": "assets/fiches-pdf/brochettes-dinde-ou-poulet-air-fryer.pdf"
     }
   ]
 }
