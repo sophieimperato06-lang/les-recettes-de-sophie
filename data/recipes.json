@@ -2678,6 +2678,457 @@
         }
       ],
       "recipePdf": "assets/fiches-pdf/acai-bowl-proteine-signature-sophie.pdf"
+    },
+    {
+      "id": "PATES-AU-SAUMON",
+      "slug": "pates-au-saumon",
+      "title": "Pâtes au saumon",
+      "subtitle": "citron, aneth & sauce crémeuse",
+      "description": "Sauce crémeuse au citron et à l’aneth, déclinable avec du saumon fumé ou du saumon frais.",
+      "category": "Plat",
+      "tags": [
+        "Plat",
+        "Jour Modéré",
+        "Jour Haut",
+        "Rapide",
+        "Protéiné",
+        "Familial",
+        "Végétarien"
+      ],
+      "webImage": "assets/photos-recettes/pates-au-saumon.jpg",
+      "imageAlt": "Assiette de pâtes au saumon avec sauce crémeuse au citron et à l’aneth",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "10 min",
+      "cookTime": "12 min",
+      "cookingMode": "Cuisson des pâtes",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "12 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "Ingrédients communs",
+          "heading": true
+        },
+        {
+          "quantity": 400,
+          "unit": "g",
+          "labelSingular": "de [[pâtes Protein+|product:Pâtes Protein+]] crues",
+          "labelPlural": "de [[pâtes Protein+|product:Pâtes Protein+]] crues"
+        },
+        {
+          "quantity": 250,
+          "unit": "ml",
+          "labelSingular": "de crème légère liquide 12 %",
+          "labelPlural": "de crème légère liquide 12 %"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de Maïzena",
+          "labelPlural": "de Maïzena"
+        },
+        {
+          "quantity": null,
+          "text": "Le jus d’un demi-citron"
+        },
+        {
+          "quantity": null,
+          "text": "Zeste de citron, facultatif"
+        },
+        {
+          "quantity": null,
+          "text": "Aneth fraîche ou séchée"
+        },
+        {
+          "quantity": null,
+          "text": "Poivre noir"
+        },
+        {
+          "quantity": null,
+          "text": "Version saumon fumé",
+          "heading": true
+        },
+        {
+          "quantity": 300,
+          "unit": "g",
+          "labelSingular": "de saumon fumé",
+          "labelPlural": "de saumon fumé"
+        },
+        {
+          "quantity": null,
+          "text": "Version saumon frais",
+          "heading": true
+        },
+        {
+          "quantity": 400,
+          "unit": "g",
+          "labelSingular": "de saumon frais sans peau, coupé en cubes",
+          "labelPlural": "de saumon frais sans peau, coupé en cubes"
+        }
+      ],
+      "preparation": [
+        "Faire cuire les pâtes dans un grand volume d’eau en respectant le temps indiqué sur le paquet.",
+        "Prélever une louche d’eau de cuisson avant d’égoutter les pâtes.",
+        "Mélanger la Maïzena avec quelques cuillères de crème froide.",
+        "Faire chauffer doucement le reste de la crème dans une grande poêle.",
+        "Ajouter le mélange crème-Maïzena et remuer jusqu’à ce que la sauce épaississe légèrement.",
+        "Ajouter progressivement un peu d’eau de cuisson pour obtenir une sauce souple et nappante.",
+        "Ajouter les pâtes égouttées et bien les enrober.",
+        "Pour la version saumon fumé : retirer la poêle du feu, incorporer le saumon en morceaux, puis ajouter citron, poivre et aneth.",
+        "Pour la version saumon frais : saisir rapidement les cubes de saumon dans une poêle chaude, les garder légèrement nacrés, puis les remettre délicatement dans la sauce avec le citron, l’aneth et le poivre.",
+        "Servir immédiatement avec beaucoup de légumes si souhaité."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Repas protéiné",
+          "body": "Selon la version choisie, une portion apporte environ 35 à 39 g de protéines. C’est un plat familial rapide, rassasiant et facile à compléter avec des légumes.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Garde toujours un peu d’eau de cuisson des pâtes : elle permet de détendre la sauce et de la rendre plus nappante sans ajouter de crème.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements conseillés",
+          "body": "Courgettes grillées, brocoli vapeur, salade verte, haricots verts ou épinards frais incorporés dans la sauce. Les légumes augmentent le volume du repas sans ajouter beaucoup de glucides."
+        },
+        "variant": {
+          "title": "Deux versions",
+          "body": "Saumon fumé : plus rapide et légèrement moins riche en lipides. Saumon frais : plus fondant, plus généreux et moins salé. Poids approximatif d’une portion complète : environ 350 g avec saumon fumé ou 375 g avec saumon frais."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Conserver jusqu’à 2 jours au réfrigérateur. Réchauffer doucement avec une petite quantité d’eau pour détendre la sauce. Décongélation déconseillée.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré ou Haut",
+          "body": "La portion complète est surtout adaptée aux Jours Modérés ou Hauts. En Jour Bas, préférer une demi-portion avec beaucoup de légumes et une protéine complémentaire.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles par portion",
+        "columns": [
+          "saumon fumé",
+          "saumon frais",
+          "pour 100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 549 kcal",
+            "≈ 590 kcal",
+            "≈ 157 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 35,3 g",
+            "≈ 39 g",
+            "≈ 10,1 à 10,4 g"
+          ],
+          [
+            "Glucides",
+            "≈ 67 g",
+            "≈ 67 g",
+            "≈ 17,9 à 19,1 g"
+          ],
+          [
+            "Lipides",
+            "≈ 12,8 g",
+            "≈ 17,5 g",
+            "≈ 3,6 à 4,7 g"
+          ]
+        ],
+        "note": "Poids approximatif d’une portion complète : environ 350 g avec saumon fumé ou 375 g avec saumon frais."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Jour Haut",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Rapide",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Protéiné",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "pates_au_saumon",
+        "categorie": [
+          "plat",
+          "repas"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_modere",
+          "jour_haut"
+        ],
+        "caracteristiques": [
+          "rapide",
+          "proteine",
+          "familial",
+          "vegetarien"
+        ],
+        "cuisson": "pates_poele",
+        "variantes": [
+          "saumon_fume",
+          "saumon_frais"
+        ],
+        "portions": 4,
+        "conservation": "2_jours"
+      },
+      "fixedQuantities": true,
+      "recipePdf": "assets/fiches-pdf/pates-au-saumon.pdf"
+    },
+    {
+      "id": "AUBERGINES-TERIYAKI-SIGNATURE-SOPHIE",
+      "slug": "aubergines-teriyaki-signature-sophie",
+      "title": "Aubergines Teriyaki",
+      "subtitle": "Signature Sophie",
+      "description": "Fondantes, caramélisées et parfumées au gingembre.",
+      "category": "Accompagnements",
+      "tags": [
+        "Accompagnement",
+        "Plat",
+        "Jour Bas",
+        "Jour Modéré",
+        "Végétarien",
+        "Four",
+        "Rapide",
+        "Healthy"
+      ],
+      "webImage": "assets/photos-recettes/aubergines-teriyaki-signature-sophie.jfif",
+      "imageAlt": "Aubergines teriyaki fondantes et caramélisées au gingembre",
+      "servingsLabel": "2 portions",
+      "baseServings": 2,
+      "defaultServings": 2,
+      "prepTime": "10 min",
+      "cookTime": "40 à 45 min",
+      "cookingMode": "Four + poêle",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "2",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "40-45 min",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "aubergine",
+          "labelPlural": "aubergines"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "gousse d’ail râpée",
+          "labelPlural": "gousses d’ail râpées"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de gingembre frais râpé",
+          "labelPlural": "de gingembre frais râpé"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de miel d’acacia, ou 15 g de sirop de yacon",
+          "labelPlural": "de miel d’acacia, ou 15 g de sirop de yacon"
+        },
+        {
+          "quantity": 4,
+          "unit": "c. à soupe",
+          "labelSingular": "de sauce soja légère",
+          "labelPlural": "de sauce soja légère"
+        },
+        {
+          "quantity": 2,
+          "unit": "g",
+          "labelSingular": "de Maïzena",
+          "labelPlural": "de Maïzena"
+        },
+        {
+          "quantity": 40,
+          "unit": "ml",
+          "labelSingular": "d’eau froide",
+          "labelPlural": "d’eau froide"
+        },
+        {
+          "quantity": null,
+          "text": "Spray d’huile d’olive pour la cuisson"
+        },
+        {
+          "quantity": null,
+          "text": "Facultatif : graines de sésame, ciboule ou coriandre"
+        }
+      ],
+      "preparation": [
+        "Préchauffer le four à 200 °C.",
+        "Déposer les aubergines entières sur une plaque et les cuire 35 à 40 minutes, jusqu’à ce qu’elles soient très tendres.",
+        "Pendant ce temps, mélanger le miel ou le sirop de yacon avec la sauce soja, l’ail râpé et le gingembre râpé. Réserver.",
+        "Mélanger séparément la Maïzena avec l’eau froide. Réserver.",
+        "Ouvrir délicatement les aubergines en deux, puis les aplatir légèrement.",
+        "Vaporiser un peu de spray d’huile d’olive.",
+        "Déposer les aubergines dans une poêle chaude et cuire 4 minutes côté peau, puis 4 minutes côté chair.",
+        "Verser la sauce sur les aubergines et les retourner pour commencer la caramélisation.",
+        "Ajouter le mélange eau + Maïzena, puis mélanger doucement jusqu’à obtenir une sauce brillante et nappante.",
+        "Servir immédiatement, avec les toppings facultatifs au dernier moment."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Pourquoi tu vas l’aimer",
+          "body": "Aubergines ultra fondantes, sauce brillante et caramélisée, peu d’huile et beaucoup de parfum. Délicieux avec du poulet, du poisson ou du tofu.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Plus les aubergines cuisent longtemps au four, plus elles deviennent fondantes. La caramélisation à la poêle est indispensable : c’est elle qui donne toute la saveur.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements",
+          "body": "Jour Bas : blanc de poulet, cabillaud, crevettes ou tofu.\nJour Modéré : riz basmati, quinoa ou nouilles soba.\nJour Haut : riz jasmin, nouilles udon ou saumon grillé."
+        },
+        "variant": {
+          "title": "Version yacon",
+          "body": "La version au sirop de yacon est la plus adaptée au Jour Bas : environ 133 kcal et 19 g de glucides par portion."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "3 jours au réfrigérateur. Réchauffer à la poêle quelques minutes pour retrouver une sauce brillante.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Version yacon recommandée en Jour Bas. Version miel possible avec une protéine maigre. Excellent aussi en Jour Modéré.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "miel",
+          "yacon",
+          "pour 100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 150 kcal",
+            "≈ 133 kcal",
+            "≈ 53 à 60 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 3 g",
+            "≈ 3 g",
+            "≈ 1,2 g"
+          ],
+          [
+            "Glucides",
+            "≈ 25 g",
+            "≈ 19 g",
+            "≈ 7,6 à 10 g"
+          ],
+          [
+            "Lipides",
+            "≈ 3,5 g",
+            "≈ 3,5 g",
+            "≈ 1,4 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Four",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "aubergines_teriyaki_signature_sophie",
+        "categorie": [
+          "accompagnement"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "caracteristiques": [
+          "aubergine",
+          "teriyaki",
+          "asiatique",
+          "healthy",
+          "vegetarien"
+        ],
+        "cuisson": "four_poele",
+        "portions": 2,
+        "conservation": "3_jours"
+      },
+      "recipePdf": "assets/fiches-pdf/aubergines-teriyaki-signature-sophie.pdf"
     }
   ]
 }
