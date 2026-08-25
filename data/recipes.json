@@ -11,7 +11,8 @@
     "Salades repas",
     "Entrée / soupe froide",
     "Sandwichs & Wraps",
-    "Plat"
+    "Plat",
+    "Déjeuner • Dîner • Base salée"
   ],
   "recipes": [
     {
@@ -3579,6 +3580,226 @@
         "poidsTotalTheorique": "1157_g",
         "poidsPaton": "285_a_290_g"
       }
+    },
+    {
+      "id": "WRAPS-HEALTHY-AVOINE-COURGETTE",
+      "slug": "wraps-healthy-avoine-courgette",
+      "title": "Wraps healthy",
+      "subtitle": "avoine–courgette",
+      "description": "Des wraps souples, faciles et naturellement protéinés.",
+      "category": "Déjeuner • Dîner • Base salée",
+      "tags": [
+        "Déjeuner",
+        "Dîner",
+        "Base salée",
+        "Plat",
+        "Jour Bas",
+        "Jour Modéré",
+        "Riche en protéines",
+        "Rapide",
+        "Très facile",
+        "Poêle",
+        "Végétarien",
+        "Sans farine"
+      ],
+      "webImage": "assets/photos-recettes/wraps-healthy-avoine-courgette.jpeg",
+      "imageAlt": "Wraps healthy à l'avoine et à la courgette dans une assiette",
+      "servingsLabel": "2 wraps",
+      "baseServings": 1,
+      "defaultServings": 1,
+      "prepTime": "5 min",
+      "cookTime": "6 min",
+      "cookingMode": "Poêle",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portion",
+          "value": "2 wraps",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "5 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "6 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[flocons d'avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d'avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de courgette crue",
+          "labelPlural": "de courgette crue"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "œufs",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "d'eau, à ajuster entre 20 et 40 g",
+          "labelPlural": "d'eau, à ajuster entre 20 et 40 g"
+        },
+        {
+          "quantity": null,
+          "text": "Sel"
+        },
+        {
+          "quantity": null,
+          "text": "Poivre"
+        },
+        {
+          "quantity": null,
+          "text": "Origan"
+        }
+      ],
+      "preparation": [
+        "Déposer dans un blender les flocons d'avoine, la courgette coupée en morceaux, les œufs, le sel, le poivre et l'origan.",
+        "Mixer jusqu'à obtenir une préparation parfaitement lisse.",
+        "Ajouter progressivement un peu d'eau, en commençant par 20 g, puis mixer à nouveau.",
+        "La pâte doit être assez fluide, comme une pâte à crêpes, afin de s'étaler facilement dans la poêle.",
+        "Ajouter encore un peu d'eau si nécessaire, sans dépasser environ 40 g.",
+        "Faire chauffer une poêle antiadhésive à feu moyen.",
+        "Verser la moitié de la pâte et incliner immédiatement la poêle pour former un wrap fin et régulier.",
+        "Faire cuire environ 2 minutes, jusqu'à ce que la surface soit prise et que les bords se décollent.",
+        "Retourner délicatement, puis poursuivre la cuisson pendant environ 1 minute.",
+        "Répéter avec le reste de la pâte.",
+        "Garnir les wraps lorsqu'ils sont encore tièdes afin de pouvoir les plier facilement."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Base protéinée",
+          "body": "Une portion de 2 wraps apporte environ 18,2 g de protéines, sans farine et sans matière grasse de cuisson comptée.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Utilise une poêle bien antiadhésive et ne fais pas les wraps trop épais : ils resteront plus souples et plus faciles à rouler.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Garnitures conseillées",
+          "body": "Jour Bas : poulet, thon, cottage cheese, crudités ou saumon fumé. Jour Modéré : ajouter houmous, avocat, fromage frais ou une garniture plus complète."
+        },
+        "variant": {
+          "title": "Texture souple",
+          "body": "Empiler les deux wraps et les couvrir quelques minutes après cuisson : la vapeur les aide à rester souples."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu'à 2 jours au réfrigérateur, bien emballés. Réchauffer quelques secondes à la poêle ou au micro-ondes. Congélation possible avec papier cuisson.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Compatible Jour Bas et Jour Modéré. Si une matière grasse est utilisée pour la cuisson, l'ajouter séparément aux macros.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées - sans matière grasse",
+        "columns": [
+          "1 wrap",
+          "2 wraps"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 145 kcal",
+            "≈ 290 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 9,1 g",
+            "≈ 18,2 g"
+          ],
+          [
+            "Glucides",
+            "≈ 13 g",
+            "≈ 26 g"
+          ],
+          [
+            "Lipides",
+            "≈ 6,3 g",
+            "≈ 12,5 g"
+          ]
+        ],
+        "note": "Calcul sans matière grasse de cuisson. Si de l'huile est utilisée, l'ajouter séparément aux macros."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Poêle",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "wraps_healthy_avoine_courgette",
+        "nom": "Wraps healthy avoine-courgette",
+        "statut": "recette_officielle",
+        "categories": [
+          "dejeuner",
+          "diner",
+          "base_salee",
+          "wraps"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere"
+        ],
+        "cuisson": "poele",
+        "caracteristiques": [
+          "rapide",
+          "tres_facile",
+          "vegetarien",
+          "sans_farine",
+          "riche_en_proteines"
+        ],
+        "texture": [
+          "souple",
+          "moelleuse",
+          "fine"
+        ],
+        "saveurs": [
+          "origan",
+          "courgette"
+        ],
+        "rendement": "2_wraps",
+        "portion": "2_wraps",
+        "preparation": "5_minutes",
+        "cuissonTotale": "environ_6_minutes"
+      },
+      "recipePdf": "assets/fiches-pdf/wraps-healthy-avoine-courgette.pdf"
     }
   ]
 }
