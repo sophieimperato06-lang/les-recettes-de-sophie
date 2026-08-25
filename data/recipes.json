@@ -10,7 +10,8 @@
     "Sauce froide",
     "Salades repas",
     "Entrée / soupe froide",
-    "Sandwichs & Wraps"
+    "Sandwichs & Wraps",
+    "Plat"
   ],
   "recipes": [
     {
@@ -3129,6 +3130,455 @@
         "conservation": "3_jours"
       },
       "recipePdf": "assets/fiches-pdf/aubergines-teriyaki-signature-sophie.pdf"
+    },
+    {
+      "id": "BOULETTES-VIANDE-KEFTA-RICOTTA",
+      "slug": "boulettes-viande-kefta-ricotta",
+      "title": "Boulettes de viande",
+      "subtitle": "kefta légères à la ricotta",
+      "description": "Des boulettes de bœuf parfumées aux épices orientales, tendres et moelleuses grâce à la ricotta.",
+      "category": "Plat",
+      "tags": [
+        "Plat",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Protéiné",
+        "Air Fryer",
+        "Meal prep",
+        "Facile"
+      ],
+      "webImage": "assets/photos-recettes/boulettes-viande-kefta-ricotta.jfif",
+      "imageAlt": "Boulettes de viande kefta à la ricotta cuites à l’Air Fryer",
+      "servingsLabel": "5 portions",
+      "baseServings": 5,
+      "defaultServings": 5,
+      "prepTime": "15 min",
+      "cookTime": "8-10 min",
+      "cookingMode": "Air Fryer",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "5",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "8-10 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 1000,
+          "unit": "g",
+          "labelSingular": "de bœuf haché à 5 % MG",
+          "labelPlural": "de bœuf haché à 5 % MG"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "labelSingular": "de ricotta",
+          "labelPlural": "de ricotta"
+        },
+        {
+          "quantity": 3,
+          "unit": "",
+          "labelSingular": "échalote",
+          "labelPlural": "échalotes"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "gousse d’ail",
+          "labelPlural": "gousses d’ail"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "œuf",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": null,
+          "text": "Persil frais"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de cumin"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de paprika"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 c. à café de cannelle"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de sel"
+        },
+        {
+          "quantity": null,
+          "text": "Poivre et piment d’Espelette selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "Quelques pulvérisations d’huile d’olive si nécessaire"
+        }
+      ],
+      "preparation": [
+        "Éplucher les échalotes et la gousse d’ail.",
+        "Placer les échalotes, l’ail et le persil dans un mixeur, puis mixer finement.",
+        "Ajouter la ricotta et mixer brièvement pour obtenir une préparation homogène.",
+        "Déposer le bœuf haché dans un grand saladier.",
+        "Ajouter la préparation à la ricotta, l’œuf, le cumin, le paprika, la cannelle, le sel, le poivre et le piment d’Espelette.",
+        "Mélanger juste assez pour répartir les ingrédients sans trop travailler la viande.",
+        "Former environ 10 grosses boulettes d’environ 120 g crues.",
+        "Déposer les boulettes dans le panier de l’Air Fryer sans les serrer.",
+        "Vaporiser éventuellement un très léger voile d’huile d’olive.",
+        "Cuire à 190 °C pendant environ 8 à 10 minutes, en retournant à mi-cuisson si nécessaire.",
+        "Vérifier la cuisson à cœur avant de servir."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Repas protéiné",
+          "body": "Une portion de 2 boulettes apporte environ 46 g de protéines pour seulement 3 g de glucides. Parfait comme base de repas Jour Bas.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Ne travaille pas trop la viande : un mélange rapide suffit et permet de garder des boulettes tendres et moelleuses.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements",
+          "body": "Jour Bas : courgettes grillées, aubergines rôties, haricots verts ou sauce yaourt citron.\nJour Modéré : quinoa, boulgour, pois chiches ou petite portion de pommes de terre.\nJour Haut : pita maison, semoule, riz ou patate douce."
+        },
+        "variant": {
+          "title": "Variante cottage cheese",
+          "body": "Remplacer les 100 g de ricotta par 100 g de cottage cheese pour une version encore plus protéinée et légère. Égoutte-le si besoin, puis mixe-le avec les échalotes, l’ail et le persil pour garder une texture homogène."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "3 jours au réfrigérateur dans une boîte hermétique. Réchauffer quelques minutes à l’Air Fryer. Congélation possible par portions de deux.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Excellente compatibilité : beaucoup de protéines et très peu de glucides. Adapter surtout l’accompagnement selon la journée.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette entière",
+          "1 portion",
+          "1 boulette"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 1600 kcal",
+            "≈ 320 kcal",
+            "≈ 160 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 230 g",
+            "≈ 46 g",
+            "≈ 23 g"
+          ],
+          [
+            "Glucides",
+            "≈ 15 g",
+            "≈ 3 g",
+            "≈ 1,5 g"
+          ],
+          [
+            "Lipides",
+            "≈ 65 g",
+            "≈ 13 g",
+            "≈ 6,5 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Air Fryer",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "boulettes_viande_kefta_ricotta",
+        "categorie": [
+          "plat",
+          "repas"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "caracteristiques": [
+          "kefta",
+          "boeuf",
+          "proteine",
+          "air_fryer",
+          "meal_prep",
+          "ricotta"
+        ],
+        "variante": "remplacer_ricotta_par_cottage_cheese",
+        "cuisson": "air_fryer",
+        "portions": 5,
+        "conservation": "3_jours"
+      },
+      "recipePdf": "assets/fiches-pdf/boulettes-viande-kefta-ricotta.pdf"
+    },
+    {
+      "id": "PATE-PIZZA-GRAND-EPEAUTRE-T110",
+      "slug": "pate-pizza-grand-epeautre-t110",
+      "title": "Pâte à pizza",
+      "subtitle": "grand épeautre T110",
+      "description": "Version familiale pour 4 pizzas individuelles au four à bois.",
+      "category": "Plat",
+      "tags": [
+        "Plat",
+        "Jour Modéré",
+        "Jour Haut",
+        "Végétarien",
+        "Four",
+        "Familial",
+        "Pizza"
+      ],
+      "webImage": "assets/photos-recettes/pate-pizza-grand-epeautre-t110.jfif",
+      "imageAlt": "Pizza maison à la pâte de grand épeautre T110",
+      "servingsLabel": "4 pâtons",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "30 min + pousse",
+      "cookTime": "four à bois",
+      "cookingMode": "Four à bois",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4 pizzas",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "30 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Pousse",
+          "value": "3 h env.",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 600,
+          "unit": "g",
+          "labelSingular": "de [[farine de grand épeautre T110 Du Grain au Pain|product:Farine de grand épeautre T110]]",
+          "labelPlural": "de [[farine de grand épeautre T110 Du Grain au Pain|product:Farine de grand épeautre T110]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[poudre d'amande complète KoRo|product:Poudre d'amande complète]]",
+          "labelPlural": "de [[poudre d'amande complète KoRo|product:Poudre d'amande complète]]"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de psyllium",
+          "labelPlural": "de psyllium"
+        },
+        {
+          "quantity": 455,
+          "unit": "g",
+          "labelSingular": "d'eau tiède, à ajuster entre 450 et 460 g",
+          "labelPlural": "d'eau tiède, à ajuster entre 450 et 460 g"
+        },
+        {
+          "quantity": 12,
+          "unit": "g",
+          "labelSingular": "de levure boulangère sèche",
+          "labelPlural": "de levure boulangère sèche"
+        },
+        {
+          "quantity": 14,
+          "unit": "g",
+          "labelSingular": "de sel",
+          "labelPlural": "de sel"
+        },
+        {
+          "quantity": 16,
+          "unit": "g",
+          "labelSingular": "d'huile d'olive",
+          "labelPlural": "d'huile d'olive"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de miel d'acacia",
+          "labelPlural": "de miel d'acacia"
+        },
+        {
+          "quantity": null,
+          "text": "Poids total théorique : environ 1 157 g de pâte"
+        },
+        {
+          "quantity": null,
+          "text": "Former 4 pâtons d'environ 285 à 290 g"
+        }
+      ],
+      "preparation": [
+        "Autolyse : mélanger la farine T110 avec environ 420 g d'eau. Toute la farine doit être hydratée. Couvrir et laisser reposer 20 minutes.",
+        "Diluer la levure et le miel dans environ 30 g d'eau restante.",
+        "Ajouter ce mélange à la pâte, puis incorporer la poudre d'amande et le psyllium.",
+        "Commencer à pétrir, puis ajouter progressivement le reste de l'eau. La pâte doit devenir souple et légèrement collante.",
+        "Ajouter le sel et l'huile d'olive, puis pétrir encore 7 à 8 minutes. Avec l'épeautre, éviter un pétrissage trop long et agressif.",
+        "Former une boule, couvrir et laisser pousser environ 1 h 30 à température ambiante, jusqu'à ce que la pâte prenne nettement du volume.",
+        "Peser la pâte, la diviser en 4 parts identiques d'environ 285 à 290 g, puis former délicatement quatre boules.",
+        "Couvrir les pâtons pour éviter qu'ils sèchent et laisser pousser encore 1 h 30 à 2 h.",
+        "Fariner légèrement le plan de travail, poser un pâton et appuyer avec les doigts du centre vers l'extérieur, en gardant environ 2 cm de bord intact pour la corniche.",
+        "Ne pas utiliser de rouleau afin de conserver le gaz dans la pâte.",
+        "Cuire au four à bois avec une sole autour de 350 à 400 °C. Garnir sans trop charger, enfourner et tourner régulièrement la pizza.",
+        "Rechercher un dessous croustillant, un centre souple et une corniche gonflée."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Version familiale",
+          "body": "La recette donne 4 pâtons d'environ 285 à 290 g, une taille confortable pour de belles pizzas individuelles au four à bois.",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "La farine de grand épeautre T110 colore rapidement et son gluten est plus fragile : pétris suffisamment, mais sans excès.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Garniture conseillée",
+          "body": "Pour un Jour Modéré : 1/2 à 2/3 de pâton avec tomate, poulet ou jambon, mozzarella maîtrisée et légumes. Pour les enfants, garder la recette simple pour le premier test."
+        },
+        "variant": {
+          "title": "Fermentation longue",
+          "body": "Si cette première version est validée au goût, une version à fermentation longue pourra être créée ensuite pour améliorer encore la digestibilité et les arômes."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Les pâtons peuvent être gardés au frais si besoin, bien couverts pour éviter qu'ils sèchent. La congélation est possible après boulage.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré",
+          "body": "Un pâton entier apporte environ 100 à 105 g de glucides. Adapter la portion selon la journée et les garnitures choisies.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées - pâte seule",
+        "columns": [
+          "1 pâton (env. 285 g)",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 600-625 kcal",
+            "≈ 210-219 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 21-23 g",
+            "≈ 7,4-8,1 g"
+          ],
+          [
+            "Glucides",
+            "≈ 100-105 g",
+            "≈ 35-36,8 g"
+          ],
+          [
+            "Lipides",
+            "≈ 11-13 g",
+            "≈ 3,9-4,6 g"
+          ]
+        ],
+        "note": "Estimations pour la pâte seule, sans sauce ni garniture. Les valeurs pour 100 g sont calculées à partir d’un pâton d’environ 285 g."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Jour Haut",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Four",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "pate_pizza_grand_epeautre_t110",
+        "categorie": [
+          "plat",
+          "pizza"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_modere",
+          "jour_haut"
+        ],
+        "caracteristiques": [
+          "familial",
+          "vegetarien",
+          "four_a_bois",
+          "pate_maison"
+        ],
+        "portions": 4,
+        "poidsTotalTheorique": "1157_g",
+        "poidsPaton": "285_a_290_g"
+      }
     }
   ]
 }
