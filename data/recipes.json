@@ -3800,6 +3800,254 @@
         "cuissonTotale": "environ_6_minutes"
       },
       "recipePdf": "assets/fiches-pdf/wraps-healthy-avoine-courgette.pdf"
+    },
+    {
+      "id": "GAUFRES-PROTEINEES-BANANE-CACAHUETE",
+      "slug": "gaufres-proteinees-banane-cacahuete",
+      "title": "Gaufres protéinées",
+      "subtitle": "banane–cacahuète",
+      "description": "Des gaufres gourmandes, protéinées et croustillantes à l’extérieur.",
+      "category": "Petit-déjeuner • Collation",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Jour Modéré",
+        "Jour Haut",
+        "Riche en protéines",
+        "Végétarien",
+        "Très facile",
+        "Gaufrier",
+        "Sans sucre ajouté"
+      ],
+      "webImage": "assets/photos-recettes/gaufres-proteinees-banane-cacahuete.jfif",
+      "imageAlt": "Gaufres protéinées banane cacahuète dorées et croustillantes",
+      "servingsLabel": "5 gaufres",
+      "baseServings": 5,
+      "defaultServings": 5,
+      "prepTime": "10 min",
+      "cookTime": "5-7 min",
+      "cookingMode": "Gaufrier",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "5 gaufres",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "5-7 min",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "bananes mûres, environ 240 g épluchées",
+          "labelPlural": "bananes mûres, environ 240 g épluchées"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[poudre d’amande complète KoRo|product:Poudre d'amande complète]]",
+          "labelPlural": "de [[poudre d’amande complète KoRo|product:Poudre d'amande complète]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale nature Nutripure|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale nature Nutripure|product:Protéine végétale nature]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]",
+          "labelPlural": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]"
+        },
+        {
+          "quantity": 3,
+          "unit": "",
+          "labelSingular": "œufs",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de Maïzena",
+          "labelPlural": "de Maïzena"
+        },
+        {
+          "quantity": null,
+          "text": "1 cuillère à café de levure chimique"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "Cannelle selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincee de sel"
+        },
+        {
+          "quantity": null,
+          "text": "Pas d’eau, sauf nécessité exceptionnelle"
+        }
+      ],
+      "preparation": [
+        "Éplucher les bananes et les couper en morceaux.",
+        "Placer dans le blender les bananes, les œufs, les flocons d’avoine, la poudre d’amande, la protéine végétale, la farine de cacahuète, la Maïzena, la levure, la vanille, la cannelle et le sel.",
+        "Mixer jusqu’à obtenir une pâte parfaitement homogène.",
+        "Laisser reposer la pâte pendant 5 minutes afin que les flocons et les farines absorbent une partie de l’humidité.",
+        "Vérifier la consistance : la pâte doit être épaisse, mais pouvoir être versée dans le gaufrier.",
+        "Ne pas ajouter d’eau, sauf si la pâte est réellement trop compacte. Ajouter alors 1 cuillère à café à la fois.",
+        "Faire chauffer complètement le gaufrier avant d’y verser la pâte.",
+        "Graisser très légèrement les plaques si nécessaire.",
+        "Répartir la pâte pour réaliser 5 gaufres sans remplir excessivement les empreintes.",
+        "Faire cuire jusqu’à ce que les gaufres soient dorées et que presque aucune vapeur ne sorte du gaufrier, environ 5 à 7 minutes.",
+        "Déposer immédiatement les gaufres sur une grille, sans les empiler.",
+        "Laisser reposer quelques minutes : l’extérieur devient plus croustillant en refroidissant légèrement."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "La portion de 2 gaufres atteint presque l’objectif avec environ 29,1 g de protéines, sans accompagnement.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Le gaufrier doit être parfaitement chaud. Ne l’ouvre pas trop tôt et attends que la vapeur ait presque disparu.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Portion conseillée",
+          "body": "1 gaufre peut convenir en collation. 1 à 2 gaufres conviennent en Jour Modéré selon le reste de la journée. 2 gaufres sont particulièrement adaptées en Jour Haut."
+        },
+        "variant": {
+          "title": "Croustillant",
+          "body": "Pour renforcer le croustillant, passer les gaufres cuites 3 à 5 minutes au four à 180 °C. Pour les réchauffer, préférer grille-pain, four ou Air Fryer."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "3 jours au réfrigérateur ou 1 mois au congélateur. Séparer les gaufres avec du papier cuisson avant congélation.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré",
+          "body": "Compatible Jour Modéré et Jour Haut. En Jour Bas, préférer 1 gaufre avec du skyr en tenant compte des glucides de la banane.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette complète",
+          "1 gaufre",
+          "2 gaufres"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 1087 kcal",
+            "≈ 217 kcal",
+            "≈ 435 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 72,8 g",
+            "≈ 14,6 g",
+            "≈ 29,1 g"
+          ],
+          [
+            "Glucides",
+            "≈ 102,8 g",
+            "≈ 20,6 g",
+            "≈ 41,1 g"
+          ],
+          [
+            "Lipides",
+            "≈ 39,9 g",
+            "≈ 8 g",
+            "≈ 16 g"
+          ]
+        ],
+        "note": "Calcul sans matière grasse de cuisson. La portion de 2 gaufres atteint presque 30 g de protéines."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Collation",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Jour Haut",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "gaufres_proteinees_banane_cacahuete",
+        "nom": "Gaufres protéinées banane-cacahuète",
+        "statut": "recette_officielle",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "gaufres"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "gaufrier",
+        "caracteristiques": [
+          "riche_en_proteines",
+          "sans_sucre_ajoute",
+          "vegetarien",
+          "tres_facile"
+        ],
+        "textures": [
+          "croustillant_exterieur",
+          "moelleux_interieur"
+        ],
+        "saveurs": [
+          "banane",
+          "cacahuete",
+          "amande",
+          "vanille",
+          "cannelle"
+        ],
+        "rendement": "5_gaufres",
+        "portionConseillee": "1_a_2_gaufres"
+      },
+      "recipePdf": "assets/fiches-pdf/gaufres-proteinees-banane-cacahuete.pdf"
     }
   ]
 }
