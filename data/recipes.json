@@ -4048,6 +4048,207 @@
         "portionConseillee": "1_a_2_gaufres"
       },
       "recipePdf": "assets/fiches-pdf/gaufres-proteinees-banane-cacahuete.pdf"
+    },
+    {
+      "id": "GAUFRES-CLASSIQUES-SPECIAL-ENFANTS",
+      "slug": "gaufres-classiques-special-enfants",
+      "title": "Gaufres classiques",
+      "subtitle": "spécial enfants",
+      "description": "Une grande recette familiale, simple et moelleuse, pour environ 12 gaufres.",
+      "category": "Petit-déjeuner • Collation",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Enfants",
+        "Jour Modéré",
+        "Jour Haut",
+        "Végétarien",
+        "Très facile",
+        "Gaufrier",
+        "Familial"
+      ],
+      "webImage": "assets/photos-recettes/gaufres-classiques-special-enfants.jfif",
+      "imageAlt": "Gaufres classiques dorées pour enfants",
+      "servingsLabel": "environ 12 gaufres",
+      "baseServings": 12,
+      "defaultServings": 12,
+      "fixedQuantities": true,
+      "prepTime": "10 min",
+      "cookTime": "5-7 min",
+      "cookingMode": "Gaufrier",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "12 gaufres",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "5-7 min",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "500 g de farine de blé"
+        },
+        {
+          "quantity": null,
+          "text": "4 œufs"
+        },
+        {
+          "quantity": null,
+          "text": "80 g de xylitol"
+        },
+        {
+          "quantity": null,
+          "text": "Poudre de vanille KoRo selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "1 sachet de levure chimique"
+        },
+        {
+          "quantity": null,
+          "text": "500 ml de lait ou de lait végétal"
+        },
+        {
+          "quantity": null,
+          "text": "200 g de compote de pommes sans sucres ajoutés"
+        },
+        {
+          "quantity": null,
+          "text": "80 g de beurre fondu"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        }
+      ],
+      "preparation": [
+        "Verser la farine, la levure, le xylitol, la poudre de vanille et le sel dans un grand saladier.",
+        "Ajouter les œufs, la compote de pommes et une partie du lait.",
+        "Mélanger progressivement pour obtenir une pâte homogène, sans grumeaux.",
+        "Incorporer le beurre fondu, puis ajouter le reste du lait petit à petit.",
+        "La pâte doit être souple, fluide et légèrement épaisse.",
+        "Faire chauffer le gaufrier et graisser légèrement les plaques si nécessaire.",
+        "Verser une portion de pâte dans chaque empreinte, sans trop remplir.",
+        "Cuire environ 5 à 7 minutes, jusqu’à ce que les gaufres soient bien dorées.",
+        "Déposer les gaufres sur une grille pour conserver leur texture."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Version familiale",
+          "body": "Cette recette donne environ 12 gaufres moelleuses, pratiques pour un goûter ou un petit-déjeuner d’enfants.",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Pour des gaufres plus croustillantes, laisse-les reposer sur une grille et évite de les empiler quand elles sont chaudes.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements",
+          "body": "Servir nature, avec des fruits frais, un peu de compote ou une petite touche de chocolat noir fondu selon l’occasion."
+        },
+        "variant": {
+          "title": "Lait au choix",
+          "body": "La recette fonctionne avec du lait classique ou un lait végétal. Ajuster seulement la texture si la pâte paraît trop épaisse."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "2 à 3 jours au réfrigérateur. Réchauffer au grille-pain, au four ou au gaufrier pour retrouver du croustillant.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré",
+          "body": "Recette familiale plutôt adaptée aux Jours Modérés ou Hauts. Adapter la garniture selon le reste de la journée.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette complète",
+          "1 gaufre",
+          "2 gaufres"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 3180 kcal",
+            "≈ 265 kcal",
+            "≈ 530 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 93,6 g",
+            "≈ 7,8 g",
+            "≈ 15,6 g"
+          ],
+          [
+            "Glucides",
+            "≈ 504 g",
+            "≈ 42 g",
+            "≈ 84 g"
+          ],
+          [
+            "Lipides",
+            "≈ 97,2 g",
+            "≈ 8,1 g",
+            "≈ 16,2 g"
+          ]
+        ],
+        "note": "Calcul estimé sur une base de 12 gaufres."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Enfants",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "gaufres_classiques_special_enfants",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "enfants",
+          "gaufres"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "gaufrier",
+        "rendement": "12_gaufres",
+        "statut": "recette_a_calculer"
+      },
+      "recipePdf": "assets/fiches-pdf/gaufres-classiques-special-enfants.pdf"
     }
   ]
 }
