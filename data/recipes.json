@@ -4249,6 +4249,240 @@
         "statut": "recette_a_calculer"
       },
       "recipePdf": "assets/fiches-pdf/gaufres-classiques-special-enfants.pdf"
+    },
+    {
+      "id": "CHILI-PROTEINE-SOPHIE",
+      "slug": "chili-proteine-sophie",
+      "title": "Chili con carne",
+      "subtitle": "protéiné Sophie",
+      "description": "Un chili familial généreux, rassasiant et riche en protéines.",
+      "category": "Déjeuner • Dîner • Plat complet",
+      "tags": [
+        "Plat",
+        "Déjeuner",
+        "Dîner",
+        "Jour Modéré",
+        "Jour Bas",
+        "Jour Haut",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Meal prep",
+        "Batch cooking",
+        "Familial",
+        "Facile"
+      ],
+      "webImage": "assets/photos-recettes/chili-proteine-sophie.jfif",
+      "imageAlt": "Chili con carne protéiné servi dans un bol",
+      "servingsLabel": "6 portions",
+      "baseServings": 6,
+      "defaultServings": 6,
+      "fixedQuantities": true,
+      "prepTime": "15 min",
+      "cookTime": "30-40 min",
+      "cookingMode": "Cocotte",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "6",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "30-40 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "700 g de viande de bœuf hachée à 5 % de matières grasses"
+        },
+        {
+          "quantity": null,
+          "text": "1 kg de haricots rouges égouttés, rincés"
+        },
+        {
+          "quantity": null,
+          "text": "700 g de purée de tomate"
+        },
+        {
+          "quantity": null,
+          "text": "2 poivrons, environ 300 g"
+        },
+        {
+          "quantity": null,
+          "text": "1 oignon rouge, environ 150 g"
+        },
+        {
+          "quantity": null,
+          "text": "Assaisonnement",
+          "heading": true
+        },
+        {
+          "quantity": null,
+          "text": "2 cuillères à café de paprika"
+        },
+        {
+          "quantity": null,
+          "text": "2 cuillères à café de cumin"
+        },
+        {
+          "quantity": null,
+          "text": "1 cuillère à café d’ail semoule ou 2 gousses d’ail"
+        },
+        {
+          "quantity": null,
+          "text": "Piment selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "Sel et poivre"
+        }
+      ],
+      "preparation": [
+        "Égoutter et rincer soigneusement les haricots rouges.",
+        "Éplucher et émincer l’oignon rouge.",
+        "Épépiner les poivrons et les couper en petits dés.",
+        "Faire chauffer une grande cocotte ou une grande sauteuse.",
+        "Faire revenir l’oignon et les poivrons pendant 5 à 7 minutes, jusqu’à ce qu’ils commencent à s’attendrir.",
+        "Pour une cuisson sans huile, ajouter une ou deux cuillères à soupe d’eau si les légumes commencent à accrocher.",
+        "Ajouter la viande hachée et la faire cuire en la séparant avec une spatule, jusqu’à ce qu’elle soit entièrement colorée.",
+        "Ajouter le paprika, le cumin, l’ail et le piment.",
+        "Mélanger et laisser chauffer les épices environ 1 minute pour développer leurs arômes.",
+        "Ajouter la purée de tomate, puis incorporer les haricots rouges.",
+        "Saler modérément, poivrer, mélanger et couvrir partiellement.",
+        "Laisser mijoter à feu doux pendant 20 à 30 minutes en remuant régulièrement.",
+        "Si le chili devient trop épais, ajouter un peu d’eau.",
+        "Rectifier l’assaisonnement avant de servir."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif protéines",
+          "body": "La portion conseillée avec 300 g de chili et 100 g de riz basmati cuit apporte environ 30 g de protéines.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Faire chauffer les épices une minute avec la viande renforce leur parfum. Le chili est souvent encore meilleur le lendemain.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Portion recommandée",
+          "body": "Servir 300 g de chili avec 100 g de riz basmati cuit pour un repas complet de Jour Modéré."
+        },
+        "variant": {
+          "title": "Jour Bas ou Haut",
+          "body": "Jour Bas possible sans riz : servir le chili seul avec une grande salade ou des légumes. En Jour Haut, compléter avec davantage de riz, du quinoa, une tortilla ou du pain complet."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "3 à 4 jours au réfrigérateur dans une boîte hermétique. Congélation possible jusqu’à 3 mois, idéalement en portions individuelles.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré",
+          "body": "C’est la compatibilité principale de cette recette, surtout avec la portion recommandée chili + riz.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "100 g de chili",
+          "300 g de chili",
+          "300 g chili + 100 g riz"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 91 kcal",
+            "≈ 273 kcal",
+            "≈ 403 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 9,1 g",
+            "≈ 27,3 g",
+            "≈ 30 g"
+          ],
+          [
+            "Glucides",
+            "≈ 7,6 g",
+            "≈ 22,8 g",
+            "≈ 51 g"
+          ],
+          [
+            "Lipides",
+            "≈ 1,7 g",
+            "≈ 5,1 g",
+            "≈ 5,4 g"
+          ]
+        ],
+        "note": "Macros calculées sans huile ajoutée. Portion recommandée : 300 g de chili + 100 g de riz basmati cuit."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Déjeuner",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Dîner",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_meal_prep.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "chili_proteine_sophie",
+        "categories": [
+          "dejeuner",
+          "diner",
+          "plat_complet",
+          "chili"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_bas_adapte",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": [
+          "cocotte",
+          "sauteuse"
+        ],
+        "caracteristiques": [
+          "riche_en_proteines",
+          "riche_en_fibres",
+          "meal_prep",
+          "batch_cooking",
+          "familial",
+          "congelable"
+        ],
+        "rendement": "6_portions",
+        "portionRecommandee": "300g_chili_100g_riz_basmati_cuit"
+      },
+      "recipePdf": "assets/fiches-pdf/chili-proteine-sophie.pdf"
     }
   ]
 }
