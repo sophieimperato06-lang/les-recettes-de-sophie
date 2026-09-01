@@ -4639,6 +4639,210 @@
         "cuissonJauneMoinsCuit": "12_min_130_degres"
       },
       "recipePdf": ""
+    },
+    {
+      "id": "EMULSION-MANGUE-CITRON-VERT-GINGEMBRE",
+      "slug": "emulsion-mangue-citron-vert-gingembre",
+      "title": "Émulsion mangue",
+      "subtitle": "citron vert & gingembre",
+      "description": "Une sauce fraîche, onctueuse et légèrement relevée, idéale avec poisson, crevettes ou ceviche.",
+      "category": "Sauce froide",
+      "tags": [
+        "Sauce froide",
+        "Accompagnement",
+        "Jour Bas",
+        "Jour Modéré",
+        "Été",
+        "Rapide",
+        "Sans cuisson",
+        "Végétarien",
+        "Blender"
+      ],
+      "webImage": "assets/photos-recettes/emulsion-mangue-citron-vert-gingembre.jfif",
+      "imageAlt": "Émulsion mangue citron vert et gingembre servie avec des crevettes",
+      "servingsLabel": "2 personnes",
+      "baseServings": 2,
+      "defaultServings": 2,
+      "fixedQuantities": true,
+      "prepTime": "5 min",
+      "cookTime": "Aucune",
+      "cookingMode": "Blender",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "2",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "5 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "Aucune",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "40 g de lait de coco"
+        },
+        {
+          "quantity": null,
+          "text": "20 g de jus de citron vert frais"
+        },
+        {
+          "quantity": null,
+          "text": "20 g de mangue bien mûre"
+        },
+        {
+          "quantity": null,
+          "text": "6 g d’huile d’olive"
+        },
+        {
+          "quantity": null,
+          "text": "6 g de sauce soja light"
+        },
+        {
+          "quantity": null,
+          "text": "16 g d’eau froide"
+        },
+        {
+          "quantity": null,
+          "text": "5 g de gingembre frais"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 petite gousse d’ail"
+        },
+        {
+          "quantity": null,
+          "text": "Zeste de 1/2 citron vert"
+        },
+        {
+          "quantity": null,
+          "text": "Piment frais ou quelques gouttes de sriracha, selon le goût"
+        }
+      ],
+      "preparation": [
+        "Déposer tous les ingrédients dans un blender.",
+        "Mixer 30 à 60 secondes, jusqu’à obtenir une sauce parfaitement lisse.",
+        "Ajuster le citron vert ou le piment selon les goûts.",
+        "Pour une texture très soyeuse, passer la sauce au tamis avant de servir, si souhaité."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Sauce signature",
+          "body": "Une sauce légère, fraîche et polyvalente, parfaite pour relever un tartare, un ceviche ou des crevettes.",
+          "icon": "assets/pictos/web/picto_sauce_officiel.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Parsemer le plat de grains de grenade : leur fraîcheur, leur croquant et leur acidité se marient très bien avec cette émulsion.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "À déguster avec",
+          "body": "Tartare de thon, saumon ou daurade. Crevettes ou gambas. Carpaccio de Saint-Jacques. Ceviche de poisson. Crudités d’été."
+        },
+        "variant": {
+          "title": "Texture soyeuse",
+          "body": "Pour une finition très lisse, mixer longuement puis passer au tamis juste avant de servir."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "À préparer idéalement au dernier moment. Conserver au réfrigérateur dans un récipient hermétique et mélanger avant de servir.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Sauce légère et compatible Jour Bas en quantité mesurée, surtout avec poisson, crevettes, Saint-Jacques ou crudités.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette entière",
+          "par personne"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 106 kcal",
+            "≈ 53 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 1 g",
+            "≈ 0,5 g"
+          ],
+          [
+            "Glucides",
+            "≈ 8 g",
+            "≈ 4 g"
+          ],
+          [
+            "Lipides",
+            "≈ 8 g",
+            "≈ 4 g"
+          ]
+        ],
+        "note": "Valeurs estimées pour 2 personnes."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Sauce froide",
+          "icon": "assets/pictos/web/picto_sauce_officiel.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Rapide",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Blender",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "emulsion_mangue_citron_vert_gingembre",
+        "categories": [
+          "sauce_froide",
+          "accompagnement"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere"
+        ],
+        "cuisson": "sans_cuisson",
+        "caracteristiques": [
+          "rapide",
+          "sauce_signature",
+          "ete",
+          "blender"
+        ],
+        "saveurs": [
+          "mangue",
+          "citron_vert",
+          "gingembre",
+          "piment"
+        ],
+        "portions": 2
+      },
+      "recipePdf": "assets/fiches-pdf/emulsion-mangue-citron-vert-gingembre.pdf"
     }
   ]
 }
