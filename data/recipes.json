@@ -4483,6 +4483,162 @@
         "portionRecommandee": "300g_chili_100g_riz_basmati_cuit"
       },
       "recipePdf": "assets/fiches-pdf/chili-proteine-sophie.pdf"
+    },
+    {
+      "id": "OEUFS-DURS-AIR-FRYER",
+      "slug": "oeufs-durs-air-fryer",
+      "title": "Œufs durs Air Fryer",
+      "subtitle": "cuisson simple et régulière",
+      "description": "Une méthode pratique pour cuire les œufs à l’Air Fryer, avec deux textures de jaune possibles.",
+      "category": "Base salée",
+      "tags": [
+        "Base salée",
+        "Jour Bas",
+        "Végétarien",
+        "Air Fryer",
+        "Rapide",
+        "Très facile",
+        "Protéiné"
+      ],
+      "webImage": "assets/photos-recettes/oeufs-durs-air-fryer.jpg",
+      "imageAlt": "Œufs durs cuits à l’Air Fryer",
+      "servingsLabel": "à ajuster",
+      "baseServings": 1,
+      "defaultServings": 1,
+      "fixedQuantities": true,
+      "prepTime": "1 min",
+      "cookTime": "12-14 min",
+      "cookingMode": "Air Fryer",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portion",
+          "value": "au choix",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "1 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "12-14 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "Œufs, quantité au choix"
+        }
+      ],
+      "preparation": [
+        "Déposer les œufs directement dans le panier de l’Air Fryer.",
+        "Cuire à 130 °C pendant 14 minutes pour obtenir des œufs durs.",
+        "Pour un jaune un peu moins cuit, cuire à 130 °C pendant 12 minutes.",
+        "Plonger les œufs dans un bol d’eau froide après cuisson pour stopper la cuisson et faciliter l’écalage.",
+        "Écaler une fois les œufs tiédis."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Base protéinée",
+          "body": "Les œufs durs sont pratiques pour compléter un repas, une salade ou une collation riche en protéines.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Le temps peut varier légèrement selon la taille des œufs et le modèle d’Air Fryer. Tester une première cuisson avec 1 ou 2 œufs.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Utilisation",
+          "body": "À ajouter dans une salade, un bowl, une assiette froide, un wrap ou à servir simplement avec des crudités."
+        },
+        "variant": {
+          "title": "Deux cuissons",
+          "body": "14 minutes à 130 °C : œuf dur. 12 minutes à 130 °C : jaune un peu moins cuit."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Conserver les œufs durs au réfrigérateur jusqu’à 7 jours, avec ou sans coquille, dans une boîte hermétique.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Compatible Jour Bas : très peu de glucides et une bonne base protéinée.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles indicatives",
+        "columns": [
+          "1 œuf moyen"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 70 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 6 g"
+          ],
+          [
+            "Glucides",
+            "≈ 0,5 g"
+          ],
+          [
+            "Lipides",
+            "≈ 5 g"
+          ]
+        ],
+        "note": "Valeurs indicatives selon la taille de l’œuf."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Air Fryer",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Rapide",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "oeufs_durs_air_fryer",
+        "categories": [
+          "base_salee"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere"
+        ],
+        "cuisson": "air_fryer",
+        "caracteristiques": [
+          "rapide",
+          "tres_facile",
+          "vegetarien",
+          "proteine"
+        ],
+        "cuissonOeufDur": "14_min_130_degres",
+        "cuissonJauneMoinsCuit": "12_min_130_degres"
+      },
+      "recipePdf": ""
     }
   ]
 }
