@@ -4843,6 +4843,254 @@
         "portions": 2
       },
       "recipePdf": "assets/fiches-pdf/emulsion-mangue-citron-vert-gingembre.pdf"
+    },
+    {
+      "id": "RATATOUILLE-FONDANTE-AU-FOUR",
+      "slug": "ratatouille-fondante-au-four",
+      "title": "Ratatouille fondante",
+      "subtitle": "au four HydraCook",
+      "description": "Des légumes fondants et parfumés, cuits doucement à la vapeur et à la chaleur tournante.",
+      "category": "Accompagnement • Légumes",
+      "tags": [
+        "Accompagnement",
+        "Entrée / salade",
+        "Plat",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Four",
+        "Été",
+        "Meal prep",
+        "Batch cooking",
+        "Végétarien",
+        "Végan",
+        "Sans gluten",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/ratatouille-fondante-au-four.jfif",
+      "imageAlt": "Ratatouille fondante au four avec courgettes, aubergines et poivrons",
+      "servingsLabel": "environ 6 portions",
+      "baseServings": 6,
+      "defaultServings": 6,
+      "fixedQuantities": true,
+      "prepTime": "15 min",
+      "cookTime": "35 min",
+      "cookingMode": "Four HydraCook",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "6",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "35 min",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "3 poivrons, environ 450 g"
+        },
+        {
+          "quantity": null,
+          "text": "3 courgettes, environ 600 g"
+        },
+        {
+          "quantity": null,
+          "text": "2 aubergines, environ 600 g"
+        },
+        {
+          "quantity": null,
+          "text": "2 oignons, environ 300 g"
+        },
+        {
+          "quantity": null,
+          "text": "3 cuillères à soupe d’huile d’olive, environ 40 g"
+        },
+        {
+          "quantity": null,
+          "text": "Paprika"
+        },
+        {
+          "quantity": null,
+          "text": "Origan"
+        },
+        {
+          "quantity": null,
+          "text": "Cumin"
+        },
+        {
+          "quantity": null,
+          "text": "Piment d’Espelette"
+        },
+        {
+          "quantity": null,
+          "text": "Sel et poivre"
+        }
+      ],
+      "preparation": [
+        "Laver les poivrons, les courgettes et les aubergines.",
+        "Épépiner les poivrons.",
+        "Couper tous les légumes en morceaux réguliers, suffisamment gros pour rester fondants sans se transformer en purée.",
+        "Éplucher les oignons et les couper en quartiers ou en grosses lamelles.",
+        "Déposer tous les légumes dans un grand plat allant au four.",
+        "Ajouter l’huile d’olive, le paprika, l’origan, le cumin, le piment d’Espelette, le sel et le poivre.",
+        "Bien mélanger afin d’enrober uniformément les légumes et de répartir les épices.",
+        "Placer le plat dans le four froid et programmer HydraCook + chaleur tournante à 170 °C pendant 35 minutes.",
+        "Prévoir 3 diffusions de vapeur : au démarrage, après 12 minutes, puis après 24 minutes.",
+        "Mélanger les légumes une à deux fois pendant la cuisson, en évitant d’ouvrir au moment des diffusions de vapeur.",
+        "Les légumes doivent être bien tendres et fondants, avec quelques bords légèrement colorés.",
+        "Si nécessaire, prolonger la cuisson de 5 minutes pour des morceaux particulièrement gros."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Légumes fondants",
+          "body": "Une grande base de légumes parfumés, idéale pour accompagner une protéine maigre ou compléter une assiette de Jour Bas.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Pour une ratatouille plus colorée, terminer par 3 à 5 minutes à 190 °C, sans vapeur.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Portions conseillées",
+          "body": "150 à 200 g en accompagnement léger. 250 à 300 g pour une portion généreuse de légumes."
+        },
+        "variant": {
+          "title": "Four classique",
+          "body": "Sans vapeur : 180 °C chaleur tournante, 2 à 3 c. à soupe d’eau au fond du plat, couvrir 20 minutes puis poursuivre 20 à 25 minutes."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 4 jours au réfrigérateur. Jusqu’à 3 mois au congélateur. Se déguste chaude, tiède ou froide.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Servir 200 à 250 g avec poulet, poisson blanc, crevettes ou tofu. Compatible aussi Jour Modéré et Jour Haut.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "recette complète",
+          "1 portion / 6",
+          "100 g cuits",
+          "portion 250 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 820 kcal",
+            "≈ 137 kcal",
+            "≈ 48 kcal",
+            "≈ 120 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 21 g",
+            "≈ 3,5 g",
+            "≈ 1,2 g",
+            "≈ 3,1 g"
+          ],
+          [
+            "Glucides",
+            "≈ 71 g",
+            "≈ 11,8 g",
+            "≈ 4,2 g",
+            "≈ 10,5 g"
+          ],
+          [
+            "Lipides",
+            "≈ 44 g",
+            "≈ 7,3 g",
+            "≈ 2,6 g",
+            "≈ 6,5 g"
+          ],
+          [
+            "Fibres",
+            "≈ 36 g",
+            "≈ 6 g",
+            "≈ 2,1 g",
+            "≈ 5,3 g"
+          ]
+        ],
+        "note": "Macros à vérifier selon le poids final après cuisson. Estimation basée sur environ 1,7 kg de ratatouille cuite."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Four",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "ratatouille_fondante_four_hydracook",
+        "nom": "Ratatouille fondante au four",
+        "statut": "recette_officielle",
+        "statutMacros100g": "a_verifier_selon_poids_final",
+        "categories": [
+          "accompagnement",
+          "legumes",
+          "dejeuner",
+          "diner"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "four_hydracook",
+        "caracteristiques": [
+          "riche_en_legumes",
+          "meal_prep",
+          "batch_cooking",
+          "vegetarien",
+          "vegan",
+          "sans_gluten"
+        ],
+        "texture": "fondante",
+        "saveurs": [
+          "paprika",
+          "origan",
+          "cumin",
+          "piment_espelette"
+        ],
+        "rendement": "environ_6_portions",
+        "poidsFinalEstime": "1700g",
+        "fibresRecetteComplete": "36g",
+        "fibres1PortionSur6": "6g",
+        "fibres100gCuitsEstimees": "2.1g",
+        "fibres250gEstimees": "5.3g"
+      },
+      "recipePdf": "assets/fiches-pdf/ratatouille-fondante-au-four.pdf"
     }
   ]
 }
