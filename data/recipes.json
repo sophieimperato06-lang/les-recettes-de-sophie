@@ -706,7 +706,7 @@
       "webImage": "assets/photos-recettes/pancakes-nuage-proteines.jfif",
       "imageAlt": "Pancakes protéinés moelleux servis avec une garniture gourmande",
       "recipePdf": "assets/fiches-pdf/pancakes-nuage-proteines.pdf",
-      "servingsLabel": "5 petits pancakes",
+      "servingsLabel": "9 petits pancakes - 2 personnes",
       "baseServings": 1,
       "prepTime": "10 min",
       "cookTime": "8 à 10 min",
@@ -715,7 +715,7 @@
       "heroMeta": [
         {
           "label": "Rendement",
-          "value": "5 pancakes",
+          "value": "9 pancakes",
           "icon": "assets/pictos/web/picto_portions_officiel.png"
         },
         {
@@ -820,7 +820,7 @@
         "Monter le blanc d’œuf en neige ferme.",
         "L’incorporer délicatement à la pâte, en plusieurs fois, avec une spatule.",
         "Faire chauffer une poêle antiadhésive à feu doux ou moyen-doux.",
-        "Déposer cinq petits tas de pâte dans la poêle.",
+        "Déposer de petits tas de pâte dans la poêle, en plusieurs fournées, pour obtenir environ 9 pancakes.",
         "Cuire environ 2 à 3 minutes sur la première face.",
         "Retourner délicatement lorsque les bords commencent à prendre et que de petites bulles apparaissent.",
         "Poursuivre la cuisson pendant 1 à 2 minutes.",
@@ -829,7 +829,7 @@
       "sections": {
         "goal": {
           "title": "Objectif 30 g de protéines",
-          "body": "Choisir 3 pancakes nature ou servir 2 pancakes avec du skyr nature. L’objectif de 30 g de protéines est atteint sans alourdir le petit-déjeuner.",
+          "body": "La moitié de la recette apporte environ 22,6 g de protéines. Pour atteindre 30 g, ajouter environ 80 g de skyr nature 0 % en accompagnement.",
           "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
         },
         "tip": {
@@ -839,7 +839,7 @@
         },
         "serving": {
           "title": "Portion conseillée",
-          "body": "Portion légère : 2 pancakes avec le topping choisi. Portion complète : 3 pancakes, ou 2 pancakes avec du skyr pour dépasser légèrement les 30 g de protéines."
+          "body": "La recette complète donne environ 9 petits pancakes, soit 2 personnes. Une personne correspond à la moitié de la recette, environ 4 à 5 pancakes."
         },
         "variant": {
           "title": "Variantes",
@@ -852,43 +852,44 @@
         },
         "day": {
           "title": "Jour Bas",
-          "body": "Les versions pour 2 pancakes restent compatibles avec un Jour Bas. La version nature avec skyr est idéale pour atteindre l’objectif protéique en limitant les glucides.",
+          "body": "Une portion d’une personne, soit environ 4 à 5 petits pancakes nature, reste compatible avec un Jour Bas grâce à un apport glucidique modéré.",
           "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
         }
       },
       "nutrition": {
-        "title": "Valeurs nutritionnelles pour 2 pancakes",
+        "title": "Valeurs nutritionnelles estimées",
         "columns": [
-          "Nature",
-          "Chocolat-cacahuète",
-          "Myrtille"
+          "Recette entière",
+          "1 pancake",
+          "1 personne"
         ],
         "rows": [
           [
             "Calories",
-            "≈ 150 kcal",
-            "≈ 245 kcal",
-            "≈ 184 kcal"
+            "≈ 375 kcal",
+            "≈ 42 kcal",
+            "≈ 188 kcal"
           ],
           [
             "Protéines",
-            "18,1 g",
-            "20,8 g",
-            "≈ 18,2 g"
+            "≈ 45,3 g",
+            "≈ 5,0 g",
+            "≈ 22,6 g"
           ],
           [
             "Glucides",
-            "10,4 g",
-            "14,1 g",
-            "15,9 g"
+            "≈ 26,0 g",
+            "≈ 2,9 g",
+            "≈ 13,0 g"
           ],
           [
             "Lipides",
-            "3,2 g",
-            "10,6 g",
-            "≈ 3,2 g"
+            "≈ 8,0 g",
+            "≈ 0,9 g",
+            "≈ 4,0 g"
           ]
-        ]
+        ],
+        "note": "Calcul estimé pour la version nature, sans topping. 1 personne correspond à la moitié de la recette, soit environ 4 à 5 pancakes."
       },
       "tagsDetailed": [
         {
@@ -926,9 +927,13 @@
           "objectif_30g"
         ],
         "difficulte": "facile",
-        "rendement": "5_pancakes",
-        "portion_conseillee": "2_ou_3_pancakes"
-      }
+        "rendement": "9_pancakes",
+        "portion_conseillee": "1_personne_4_a_5_pancakes",
+        "macros_recette_entiere": "375_kcal,45.3g_proteines,26g_glucides,8g_lipides",
+        "macros_1_pancake": "42_kcal,5g_proteines,2.9g_glucides,0.9g_lipides",
+        "macros_1_personne": "188_kcal,22.6g_proteines,13g_glucides,4g_lipides"
+      },
+      "defaultServings": 1
     },
     {
       "id": "CLAFOUFLAN-ABRICOTS",
