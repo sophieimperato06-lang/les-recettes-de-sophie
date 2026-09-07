@@ -3809,8 +3809,8 @@
     {
       "id": "GAUFRES-PROTEINEES-BANANE-CACAHUETE",
       "slug": "gaufres-proteinees-banane-cacahuete",
-      "title": "Gaufres protéinées",
-      "subtitle": "banane–cacahuète",
+      "title": "Gaufres à la banane protéinées",
+      "subtitle": "cacahuète",
       "description": "Des gaufres gourmandes, protéinées et croustillantes à l’extérieur.",
       "category": "Petit-déjeuner • Collation",
       "tags": [
@@ -3826,9 +3826,9 @@
       ],
       "webImage": "assets/photos-recettes/gaufres-proteinees-banane-cacahuete.jfif",
       "imageAlt": "Gaufres protéinées banane cacahuète dorées et croustillantes",
-      "servingsLabel": "5 gaufres",
-      "baseServings": 5,
-      "defaultServings": 5,
+      "servingsLabel": "4 gaufres - 2 personnes",
+      "baseServings": 4,
+      "defaultServings": 4,
       "prepTime": "10 min",
       "cookTime": "5-7 min",
       "cookingMode": "Gaufrier",
@@ -3836,7 +3836,7 @@
       "heroMeta": [
         {
           "label": "Rendement",
-          "value": "5 gaufres",
+          "value": "4 gaufres",
           "icon": "assets/pictos/web/picto_portions_officiel.png"
         },
         {
@@ -3923,12 +3923,12 @@
         "Éplucher les bananes et les couper en morceaux.",
         "Placer dans le blender les bananes, les œufs, les flocons d’avoine, la poudre d’amande, la protéine végétale, la farine de cacahuète, la Maïzena, la levure, la vanille, la cannelle et le sel.",
         "Mixer jusqu’à obtenir une pâte parfaitement homogène.",
-        "Laisser reposer la pâte pendant 5 minutes afin que les flocons et les farines absorbent une partie de l’humidité.",
+        "Si possible, placer la pâte au réfrigérateur la veille. Sinon, laisser reposer au moins 30 minutes au frais afin que les flocons et les farines absorbent l’humidité.",
         "Vérifier la consistance : la pâte doit être épaisse, mais pouvoir être versée dans le gaufrier.",
         "Ne pas ajouter d’eau, sauf si la pâte est réellement trop compacte. Ajouter alors 1 cuillère à café à la fois.",
         "Faire chauffer complètement le gaufrier avant d’y verser la pâte.",
         "Graisser très légèrement les plaques si nécessaire.",
-        "Répartir la pâte pour réaliser 5 gaufres sans remplir excessivement les empreintes.",
+        "Répartir la pâte pour réaliser 4 gaufres sans remplir excessivement les empreintes.",
         "Faire cuire jusqu’à ce que les gaufres soient dorées et que presque aucune vapeur ne sorte du gaufrier, environ 5 à 7 minutes.",
         "Déposer immédiatement les gaufres sur une grille, sans les empiler.",
         "Laisser reposer quelques minutes : l’extérieur devient plus croustillant en refroidissant légèrement."
@@ -3946,7 +3946,7 @@
         },
         "serving": {
           "title": "Portion conseillée",
-          "body": "1 gaufre peut convenir en collation. 1 à 2 gaufres conviennent en Jour Modéré selon le reste de la journée. 2 gaufres sont particulièrement adaptées en Jour Haut."
+          "body": "La recette complète donne 4 gaufres, soit 2 personnes. Une personne correspond à 2 gaufres."
         },
         "variant": {
           "title": "Croustillant",
@@ -4049,8 +4049,8 @@
           "vanille",
           "cannelle"
         ],
-        "rendement": "5_gaufres",
-        "portionConseillee": "1_a_2_gaufres"
+        "rendement": "4_gaufres",
+        "portionConseillee": "2_gaufres_1_personne"
       },
       "recipePdf": "assets/fiches-pdf/gaufres-proteinees-banane-cacahuete.pdf"
     },
