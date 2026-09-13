@@ -5096,6 +5096,265 @@
         "fibres250gEstimees": "5.3g"
       },
       "recipePdf": "assets/fiches-pdf/ratatouille-fondante-au-four.pdf"
+    },
+    {
+      "id": "GAUFRES-SALEES-LENTILLES-CORAIL",
+      "slug": "gaufres-salees-lentilles-corail",
+      "title": "Gaufres salées aux lentilles corail",
+      "subtitle": "croustillantes & riches en fibres",
+      "description": "Des gaufres nourrissantes, croustillantes à l’extérieur et naturellement riches en protéines et en fibres.",
+      "category": "Petit-déjeuner salé • Brunch • Base salée",
+      "tags": [
+        "Petit-déjeuner",
+        "Petit-déjeuner salé",
+        "Brunch",
+        "Base salée",
+        "Jour Modéré",
+        "Jour Haut",
+        "Jour Bas",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Meal prep",
+        "Congélation",
+        "Sans farine de céréales",
+        "Sans gluten",
+        "Très facile",
+        "Gaufrier"
+      ],
+      "webImage": "assets/photos-recettes/gaufres-salees-lentilles-corail.png",
+      "imageAlt": "Gaufres salées aux lentilles corail dorées et croustillantes",
+      "servingsLabel": "4 grandes gaufres",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "10 min",
+      "cookTime": "5 à 7 min par gaufre",
+      "cookingMode": "Gaufrier",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "4 gaufres",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Trempage",
+          "value": "3 h min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "Gaufrier",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de lentilles corail sèches",
+          "labelPlural": "de lentilles corail sèches"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "œuf",
+          "labelPlural": "œuf"
+        },
+        {
+          "quantity": 80,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de Maïzena",
+          "labelPlural": "de Maïzena"
+        },
+        {
+          "quantity": 7,
+          "unit": "g",
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de levure chimique",
+          "labelPlural": "de levure chimique"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 cuillère à café de paprika fumé"
+        },
+        {
+          "quantity": null,
+          "text": "Sel"
+        },
+        {
+          "quantity": null,
+          "text": "Poivre"
+        },
+        {
+          "quantity": null,
+          "text": "Ciboulette, facultative"
+        },
+        {
+          "quantity": null,
+          "text": "Un peu d’eau, uniquement si nécessaire"
+        }
+      ],
+      "preparation": [
+        "Déposer les lentilles corail sèches dans un grand récipient et les recouvrir largement d’eau froide.",
+        "Laisser tremper au moins 3 heures. Il est aussi possible de les laisser tremper toute une nuit au réfrigérateur.",
+        "Égoutter soigneusement les lentilles, puis les rincer à l’eau claire.",
+        "Déposer dans le blender les lentilles égouttées, l’œuf, le skyr, la Maïzena, l’huile d’olive, la levure, le paprika fumé, le sel et le poivre.",
+        "Mixer longuement jusqu’à obtenir une pâte parfaitement lisse et homogène.",
+        "Ajouter éventuellement la ciboulette ciselée, puis mélanger brièvement.",
+        "Vérifier la consistance : la pâte doit être épaisse, mais suffisamment souple pour s’étaler dans le gaufrier.",
+        "Si elle est trop compacte, ajouter seulement 1 cuillère à soupe d’eau à la fois.",
+        "Faire chauffer complètement le gaufrier et graisser très légèrement les plaques si nécessaire.",
+        "Répartir la pâte pour réaliser 4 grandes gaufres.",
+        "Faire cuire chaque gaufre environ 5 à 7 minutes, sans ouvrir l’appareil trop rapidement.",
+        "Retirer la gaufre lorsqu’elle est bien dorée et que presque aucune vapeur ne s’échappe du gaufrier.",
+        "Déposer immédiatement les gaufres sur une grille, sans les empiler."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Petit-déjeuner complet",
+          "body": "Servir 1 gaufre avec 2 œufs, 20 g de bacon maigre et 1/2 avocat pour atteindre environ 34,6 g de protéines et plus de 10 g de fibres.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce croustillant",
+          "body": "Bien égoutter les lentilles, ajouter le moins d’eau possible et attendre que la vapeur diminue nettement avant d’ouvrir le gaufrier.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement conseillé",
+          "body": "1 gaufre avec œufs, bacon maigre et avocat pour un petit-déjeuner complet. Le Café Bonjour n’est pas inclus dans les macros."
+        },
+        "variant": {
+          "title": "Réchauffage",
+          "body": "Pour renforcer le croustillant, passer les gaufres 3 à 5 minutes au four ou à l’Air Fryer à 180 °C. Éviter le micro-ondes."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 3 jours au réfrigérateur ou 2 mois au congélateur. Séparer les gaufres avec du papier cuisson.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Modéré",
+          "body": "Classification principale Jour Modéré. Jour Bas possible sous conditions, car le petit-déjeuner complet apporte environ 30,9 g de glucides.",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 gaufre",
+          "Petit-déjeuner complet"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 227 kcal",
+            "≈ 496 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 16,2 g",
+            "≈ 34,6 g"
+          ],
+          [
+            "Glucides",
+            "≈ 29,7 g",
+            "≈ 30,9 g"
+          ],
+          [
+            "Lipides",
+            "≈ 3,8 g",
+            "≈ 24,3 g"
+          ],
+          [
+            "Fibres",
+            "≈ 5,5 g",
+            "≈ 10,2 g"
+          ]
+        ],
+        "note": "Calcul sans matière grasse supplémentaire sur les plaques. Valeurs approximatives tant que la référence exacte des lentilles corail n’est pas enregistrée dans la BD Produits."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Riche en protéines",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "gaufres_salees_lentilles_corail",
+        "nom": "Gaufres salées aux lentilles corail",
+        "statut": "recette_officielle",
+        "statutMacros": "estimation_a_verifier_selon_lentilles",
+        "categories": [
+          "petit_dejeuner_sale",
+          "brunch",
+          "base_salee",
+          "gaufres"
+        ],
+        "jourPrincipal": "jour_modere",
+        "joursCompatibles": [
+          "jour_bas_sous_conditions",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "gaufrier",
+        "caracteristiques": [
+          "riche_en_proteines",
+          "riche_en_fibres",
+          "sans_farine_cereales",
+          "meal_prep",
+          "congelable"
+        ],
+        "texture": [
+          "croustillante_exterieur",
+          "moelleuse_interieur"
+        ],
+        "saveurs": [
+          "lentille_corail",
+          "paprika_fume",
+          "ciboulette"
+        ],
+        "difficulte": "tres_facile",
+        "rendement": "4_grandes_gaufres",
+        "portionConseillee": "1_gaufre",
+        "trempage": "3_heures_minimum",
+        "cuissonTemps": "5_a_7_minutes",
+        "macros1Gaufre": "227_kcal,16.2g_proteines,29.7g_glucides,3.8g_lipides,5.5g_fibres",
+        "petitDejeunerComplet": "1_gaufre + 2_oeufs + 20g_bacon_maigre_BD + 70g_avocat",
+        "macrosPetitDejeunerComplet": "496_kcal,34.6g_proteines,30.9g_glucides,24.3g_lipides,10.2g_fibres",
+        "cafeBonjourInclus": "non",
+        "objectif30gProteines": "atteint",
+        "conservationRefrigerateur": "3_jours",
+        "conservationCongelateur": "2_mois"
+      },
+      "recipePdf": "assets/fiches-pdf/gaufres-salees-lentilles-corail.pdf"
     }
   ]
 }
