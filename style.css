@@ -1143,3 +1143,55 @@ summary {
 .ingredient-list > li.ingredient-heading::before {
   content: none;
 }
+
+/* Guides pratiques */
+.guide-tile-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 210px));
+  justify-content: start;
+}
+.guide-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+  scroll-margin-top: 86px;
+}
+.guide-card__photo {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  width: min(100%, 260px);
+  justify-self: center;
+}
+.guide-card__content {
+  position: relative;
+  z-index: 1;
+}
+.guide-nutrition {
+  margin-top: 14px;
+  overflow-x: auto;
+}
+.guide-nutrition table {
+  min-width: 680px;
+}
+.guide-nutrition th,
+.guide-nutrition td {
+  text-align: right;
+}
+.guide-nutrition th:first-child,
+.guide-nutrition td:first-child {
+  text-align: left;
+}
+.guide-nutrition p {
+  margin: 10px 0 0;
+  color: #7a675a;
+}
+@media (max-width: 820px) {
+  .guide-card {
+    grid-template-columns: 1fr;
+  }
+  .guide-card__photo {
+    width: min(100%, 320px);
+    margin-inline: auto;
+  }
+}
