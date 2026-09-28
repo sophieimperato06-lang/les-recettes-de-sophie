@@ -5355,6 +5355,278 @@
         "conservationCongelateur": "2_mois"
       },
       "recipePdf": "assets/fiches-pdf/gaufres-salees-lentilles-corail.pdf"
+    },
+    {
+      "id": "PUDDING-CHIA-LEGER-FRAMBOISE-VANILLE",
+      "slug": "pudding-chia-leger-framboise-vanille",
+      "title": "Pudding de chia léger",
+      "subtitle": "framboise-vanille",
+      "description": "Un petit-déjeuner frais, très riche en fibres et naturellement protéiné.",
+      "category": "Petit-déjeuner • Collation • Dessert",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Objectif 30 g",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Sans cuisson",
+        "Meal prep",
+        "Végétarien",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/pudding-chia-leger-framboise-vanille.webp",
+      "imageAlt": "Pudding de chia léger framboise vanille en pot",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "15 min",
+      "cookTime": "4 h repos",
+      "cookingMode": "Sans cuisson",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4 pots",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Repos",
+          "value": "4 h min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
+        },
+        {
+          "quantity": 180,
+          "unit": "ml",
+          "labelSingular": "de boisson à l’avoine bio U sans sucres ajoutés",
+          "labelPlural": "de boisson à l’avoine bio U sans sucres ajoutés"
+        },
+        {
+          "quantity": 180,
+          "unit": "ml",
+          "labelSingular": "d’eau",
+          "labelPlural": "d’eau"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave",
+          "labelPlural": "de sirop d’agave"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]",
+          "labelPlural": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]"
+        },
+        {
+          "quantity": 450,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": null,
+          "text": "Poudre de vanille Bourbon KoRo selon le goût"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "labelSingular": "de framboises surgelées",
+          "labelPlural": "de framboises surgelées"
+        },
+        {
+          "quantity": 12,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave pour la compotée",
+          "labelPlural": "de sirop d’agave pour la compotée"
+        }
+      ],
+      "preparation": [
+        "Déposer les framboises surgelées dans une petite casserole avec le sirop d’agave.",
+        "Faire chauffer à feu doux pendant 5 à 7 minutes, en mélangeant régulièrement.",
+        "Écraser légèrement les framboises à la cuillère afin d’obtenir une compotée avec quelques morceaux, puis laisser refroidir complètement.",
+        "La compotée peut aussi être préparée sans cuisson en laissant décongeler les framboises avant de les écraser avec le sirop d’agave.",
+        "Verser la boisson à l’avoine et l’eau dans un grand saladier.",
+        "Ajouter la whey isolate progressivement tout en fouettant pour éviter les grumeaux.",
+        "Incorporer le sirop d’agave et la poudre de vanille.",
+        "Ajouter le skyr et mélanger jusqu’à obtenir une préparation homogène.",
+        "Verser les graines de chia en pluie tout en mélangeant.",
+        "Laisser reposer 10 minutes, puis mélanger une deuxième fois soigneusement.",
+        "Répartir la préparation dans 4 pots identiques.",
+        "Ajouter la compotée refroidie sur chaque pudding.",
+        "Fermer les pots et placer au réfrigérateur au moins 4 heures, idéalement toute une nuit."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Une portion apporte environ 29,9 g de protéines. Avec le Café Bonjour habituel, le petit-déjeuner complet atteint environ 31,2 g de protéines.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Texture",
+          "body": "Le second mélange après 10 minutes est important pour éviter que les graines de chia s’agglutinent au fond du saladier.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement",
+          "body": "À servir nature pour une version très légère, ou avec des fruits frais selon la saison. Pour une version plus gourmande, ajouter une petite portion de [[granola protéiné|GRANOLA-PROTEINE-FRUITS-COQUE]] au dernier moment."
+        },
+        "variant": {
+          "title": "Compotée",
+          "body": "Préparer les framboises 5 à 7 minutes à feu doux, ou simplement les laisser décongeler puis les écraser avec le sirop d’agave."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 3 jours au réfrigérateur dans des pots bien fermés. Mélanger avant dégustation si un peu de liquide remonte à la surface.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Version nature : environ 10 g de glucides, très facile à intégrer. Version framboise avec 1/4 de coulis : environ 18,3 g de glucides, compatible Jour Bas en gardant le reste de la journée pauvre en glucides.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "Nature",
+          "+ 1/4 coulis framboise"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 256 kcal",
+            "≈ 291 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 29,3 g",
+            "≈ 29,9 g"
+          ],
+          [
+            "Glucides",
+            "≈ 10,0 g",
+            "≈ 18,3 g"
+          ],
+          [
+            "Lipides",
+            "≈ 8,2 g",
+            "≈ 8,5 g"
+          ],
+          [
+            "Fibres",
+            "≈ 7,9 g",
+            "≈ 11,2 g"
+          ]
+        ],
+        "note": "La colonne coulis correspond à 1/4 de la compotée : 50 g de framboises et 3 g de sirop d’agave."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Objectif 30 g",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "pudding_chia_leger_framboise_vanille",
+        "nom": "Pudding de chia léger framboise-vanille",
+        "statut": "recette_officielle",
+        "remplace": "variante_legere_du_pudding_chia_pistache",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "dessert",
+          "pudding_chia"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": [
+          "sans_cuisson",
+          "ou_compotee_framboises_casserole"
+        ],
+        "caracteristiques": [
+          "riche_en_proteines",
+          "tres_riche_en_fibres",
+          "meal_prep",
+          "vegetarien",
+          "sans_puree_oleagineux",
+          "tres_facile"
+        ],
+        "saveurs": [
+          "framboise",
+          "vanille"
+        ],
+        "texture": [
+          "epaisse",
+          "cremeuse",
+          "fraiche"
+        ],
+        "difficulte": "tres_facile",
+        "rendement": "4_portions",
+        "portionConseillee": "1_pot",
+        "preparation": "15_minutes",
+        "repos": "4_heures_minimum_ou_une_nuit",
+        "ingredientsPudding": [
+          "90g_graines_chia",
+          "180ml_boisson_avoine_bio_U_SSA",
+          "180ml_eau",
+          "20g_sirop_agave",
+          "60g_whey_isolate_nature_nutripure",
+          "450g_skyr_0",
+          "poudre_vanille_bourbon_koro"
+        ],
+        "ingredientsCompotee": [
+          "200g_framboises_surgelees",
+          "12g_sirop_agave"
+        ],
+        "pureePistache": "aucune",
+        "granolaInclus": "non",
+        "macros1Portion": "291_kcal,29.9g_proteines,18.3g_glucides,8.5g_lipides,11.2g_fibres",
+        "objectif30gProteines": "pratiquement_atteint_avec_1_portion",
+        "macros1PortionAvecCafeBonjour": "378_kcal,31.2g_proteines,29.5g_glucides,11.8g_lipides,12.3g_fibres",
+        "conservationRefrigerateur": "3_jours",
+        "macrosNature": "256_kcal,29.3g_proteines,10g_glucides,8.2g_lipides,7.9g_fibres",
+        "coulisParPortion": "50g_framboises + 3g_sirop_agave"
+      },
+      "recipePdf": "assets/fiches-pdf/pudding-chia-leger-framboise-vanille.pdf"
     }
   ]
 }
