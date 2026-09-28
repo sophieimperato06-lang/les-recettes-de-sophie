@@ -5627,6 +5627,274 @@
         "coulisParPortion": "50g_framboises + 3g_sirop_agave"
       },
       "recipePdf": "assets/fiches-pdf/pudding-chia-leger-framboise-vanille.pdf"
+    },
+    {
+      "id": "PUDDING-CHIA-CHOCOLAT-CACAHUETE",
+      "slug": "pudding-chia-chocolat-cacahuete",
+      "title": "Pudding de chia",
+      "subtitle": "chocolat-cacahuète",
+      "description": "Un pudding crémeux, chocolaté, riche en protéines et en fibres.",
+      "category": "Petit-déjeuner • Collation • Dessert",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Objectif 30 g",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Sans cuisson",
+        "Sans fruit",
+        "Sans boisson végétale",
+        "Meal prep",
+        "Végétarien",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/pudding-chia-chocolat-cacahuete.jpeg",
+      "imageAlt": "Pudding de chia chocolat cacahuète en pot",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "10 min",
+      "cookTime": "4 h repos",
+      "cookingMode": "Sans cuisson",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4 pots",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Repos",
+          "value": "4 h min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
+        },
+        {
+          "quantity": 360,
+          "unit": "ml",
+          "labelSingular": "d’eau",
+          "labelPlural": "d’eau"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[purée de cacahuète KoRo|product:Purée de cacahuète]]",
+          "labelPlural": "de [[purée de cacahuète KoRo|product:Purée de cacahuète]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave",
+          "labelPlural": "de sirop d’agave"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]",
+          "labelPlural": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]"
+        },
+        {
+          "quantity": 450,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[cacao fortement dégraissé KoRo|product:Cacao maigre alcalinisé]]",
+          "labelPlural": "de [[cacao fortement dégraissé KoRo|product:Cacao maigre alcalinisé]]"
+        },
+        {
+          "quantity": null,
+          "text": "Poudre de vanille Bourbon KoRo selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "Option : 60 g de banane épluchée au moment de servir"
+        },
+        {
+          "quantity": null,
+          "text": "Option : 20 g de [[granola protéiné|GRANOLA-PROTEINE-FRUITS-COQUE]] au moment de servir"
+        }
+      ],
+      "preparation": [
+        "Verser l’eau et la purée de cacahuète dans un blender.",
+        "Mixer jusqu’à obtenir un liquide homogène, sans amas de purée de cacahuète.",
+        "Ajouter la whey isolate, le cacao, le sirop d’agave et la poudre de vanille.",
+        "Mixer de nouveau jusqu’à obtenir une préparation parfaitement lisse.",
+        "Ajouter le skyr et mixer brièvement, juste assez pour l’incorporer.",
+        "Verser la préparation dans un grand saladier.",
+        "Ajouter les graines de chia en pluie tout en mélangeant énergiquement au fouet.",
+        "Laisser reposer 10 minutes.",
+        "Mélanger une seconde fois soigneusement afin d’éviter que les graines de chia ne s’agglutinent au fond.",
+        "Répartir la préparation dans 4 pots identiques.",
+        "Fermer les pots et les placer au réfrigérateur pendant au moins 4 heures, idéalement toute une nuit.",
+        "Ajouter éventuellement la banane et le granola au moment de servir."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Objectif atteint dès la version nature avec environ 33,5 g de protéines par portion.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Texture",
+          "body": "Le cacao, la whey et le chia épaississent fortement la préparation. Si le pudding est trop compact, ajouter un peu d’eau au moment de servir, progressivement.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Toppings",
+          "body": "Version nature : sans topping.\n\nVersion fruitée : ajouter 60 g de banane épluchée.\n\nVersion plus gourmande : ajouter 60 g de banane et 20 g de [[granola protéiné|GRANOLA-PROTEINE-FRUITS-COQUE]] au dernier moment."
+        },
+        "variant": {
+          "title": "Saveur",
+          "body": "Pour une saveur plus intense, ajouter une petite pincée de sel afin de renforcer le goût du chocolat et de la cacahuète."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 3 jours au réfrigérateur dans des pots fermés hermétiquement. Mélanger avant dégustation et ajouter un peu d’eau si la texture s’est fortement épaissie.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas",
+          "body": "Version nature recommandée : environ 13,4 g de glucides.\n\nAvec 60 g de banane : environ 25,7 g de glucides.\n\nAvec banane et 20 g de granola : environ 30,7 g de glucides, compatible selon le reste de la journée.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "Nature",
+          "+ 60 g banane",
+          "+ banane & 20 g granola"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 331 kcal",
+            "≈ 384 kcal",
+            "≈ 467 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 33,5 g",
+            "≈ 34,2 g",
+            "≈ 38,4 g"
+          ],
+          [
+            "Glucides",
+            "≈ 13,4 g",
+            "≈ 25,7 g",
+            "≈ 30,7 g"
+          ],
+          [
+            "Lipides",
+            "≈ 12,8 g",
+            "≈ 13,0 g",
+            "≈ 18,7 g"
+          ],
+          [
+            "Fibres",
+            "≈ 10,5 g",
+            "≈ 12,1 g",
+            "≈ 13,9 g"
+          ]
+        ],
+        "note": "Macros pour 1/4 de recette. Les toppings correspondent à 60 g de banane épluchée et/ou 20 g de granola protéiné BD."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Objectif 30 g",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Sans cuisson",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "pudding_chia_chocolat_cacahuete",
+        "nom": "Pudding de chia chocolat-cacahuète",
+        "statut": "recette_officielle",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "dessert",
+          "pudding_chia"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "sans_cuisson",
+        "caracteristiques": [
+          "riche_en_proteines",
+          "riche_en_fibres",
+          "meal_prep",
+          "vegetarien",
+          "sans_fruit",
+          "sans_boisson_vegetale",
+          "tres_facile"
+        ],
+        "saveurs": [
+          "chocolat",
+          "cacahuete",
+          "vanille"
+        ],
+        "texture": [
+          "epaisse",
+          "cremeuse",
+          "fraiche"
+        ],
+        "rendement": "4_portions",
+        "portion": "1_quart_recette",
+        "toppingBanane": "60g_banane_epluchee",
+        "toppingGranola": "20g_granola_proteine_BD",
+        "macrosPuddingNature": "331_kcal, 33.5g_proteines, 13.4g_glucides, 12.8g_lipides, 10.5g_fibres",
+        "macrosPuddingAvecDemiBanane": "384_kcal, 34.2g_proteines, 25.7g_glucides, 13g_lipides, 12.1g_fibres",
+        "macrosPuddingAvecDemiBananeEtGranola": "467_kcal, 38.4g_proteines, 30.7g_glucides, 18.7g_lipides, 13.9g_fibres"
+      },
+      "recipePdf": "assets/fiches-pdf/pudding-chia-chocolat-cacahuete.pdf"
     }
   ]
 }
