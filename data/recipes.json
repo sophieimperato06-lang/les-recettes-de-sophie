@@ -4490,6 +4490,273 @@
       "recipePdf": "assets/fiches-pdf/chili-proteine-sophie.pdf"
     },
     {
+      "id": "CURRY-CREVETTES-COURGETTES-PATATE-DOUCE",
+      "slug": "curry-crevettes-courgettes-patate-douce",
+      "title": "Curry crémeux de crevettes",
+      "subtitle": "courgettes & patate douce",
+      "description": "Un curry léger, crémeux et très riche en protéines.",
+      "category": "Déjeuner • Dîner • Plat complet",
+      "tags": [
+        "Déjeuner",
+        "Dîner",
+        "Plat",
+        "Jour Bas",
+        "Jour Modéré",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Crevettes",
+        "Curry",
+        "Facile"
+      ],
+      "webImage": "assets/photos-recettes/curry-crevettes-courgettes-patate-douce.jpeg",
+      "imageAlt": "Curry crémeux de crevettes, courgettes et patate douce",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "15 min",
+      "cookTime": "25-30 min",
+      "cookingMode": "Poêle",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4 portions",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "25-30 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 500,
+          "unit": "g",
+          "labelSingular": "de crevettes cuites décortiquées",
+          "labelPlural": "de crevettes cuites décortiquées"
+        },
+        {
+          "quantity": 4,
+          "unit": "",
+          "labelSingular": "courgette, environ 800 g",
+          "labelPlural": "courgettes, environ 800 g"
+        },
+        {
+          "quantity": 135,
+          "unit": "g",
+          "labelSingular": "de patate douce en petits dés",
+          "labelPlural": "de patate douce en petits dés"
+        },
+        {
+          "quantity": 150,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "labelSingular": "de lait de coco",
+          "labelPlural": "de lait de coco"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "gousse d’ail",
+          "labelPlural": "gousses d’ail"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de pâte de curry massaman",
+          "labelPlural": "de pâte de curry massaman"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de [[xylitol|product:Xylitol]]",
+          "labelPlural": "de [[xylitol|product:Xylitol]]"
+        },
+        {
+          "quantity": null,
+          "text": "Jus de 1/2 citron jaune ou vert"
+        },
+        {
+          "quantity": null,
+          "text": "Sel, poivre"
+        },
+        {
+          "quantity": null,
+          "text": "150 à 250 ml d’eau, selon le besoin"
+        }
+      ],
+      "preparation": [
+        "Couper les courgettes en demi-rondelles.",
+        "Éplucher la patate douce et la couper en petits dés d’environ 1 cm.",
+        "Précuire la patate douce 5 à 6 minutes au micro-ondes avec une cuillère à soupe d’eau, ou environ 10 minutes à l’Air Fryer à 180 °C.",
+        "Dans une poêle, cuire les courgettes séparément avec l’huile d’olive pendant 8 à 10 minutes à feu assez vif. Elles doivent dorer et perdre une partie de leur eau. Réserver.",
+        "Dans un faitout vide, de préférence en fonte, verser le lait de coco.",
+        "Faire chauffer le lait de coco jusqu’à ce qu’il se déphase : la matière grasse de coco doit commencer à se séparer de la partie aqueuse.",
+        "Ajouter la pâte de curry massaman directement dans la partie grasse.",
+        "Faire revenir 1 à 2 minutes en mélangeant pour développer les arômes.",
+        "Ajouter l’ail haché et le xylitol, puis poursuivre la cuisson quelques secondes.",
+        "Verser progressivement 150 à 250 ml d’eau et bien mélanger afin de former la sauce.",
+        "Ajouter la patate douce précuite et les courgettes dorées.",
+        "Couvrir partiellement et laisser mijoter jusqu’à ce que les légumes soient tendres et que la sauce ait légèrement réduit.",
+        "Ajouter les crevettes cuites et les laisser réchauffer seulement 2 minutes.",
+        "Baisser le feu au minimum. Délayer le skyr avec quelques cuillères de sauce chaude, puis incorporer ce mélange dans le faitout.",
+        "Ne plus faire bouillir après l’ajout du skyr afin qu’il ne graine pas.",
+        "Ajouter le jus de citron, puis rectifier le sel et le poivre."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Repas protéiné",
+          "body": "Une portion de curry seul apporte environ 37 g de protéines. Avec du riz, le repas reste très protéiné et plus adapté aux Jours Modérés ou Hauts.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Ne fais plus bouillir la sauce après l’ajout du skyr. Délaye-le d’abord avec un peu de sauce chaude pour garder une texture crémeuse.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnements",
+          "body": "Jour Bas : 1 portion de curry sans riz.\n\nJour Modéré : 1 portion de curry avec 100 g de riz basmati cuit.\n\nJour Haut ou post-entraînement : 1 portion de curry avec 150 g de riz basmati cuit."
+        },
+        "variant": {
+          "title": "Cuisson légumes",
+          "body": "La cuisson séparée des courgettes évite qu’elles rendent trop d’eau dans la sauce. La patate douce doit être précuite pour rester fondante sans prolonger le mijotage."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 2 jours au réfrigérateur dans une boîte hermétique. Réchauffer doucement sans faire bouillir pour préserver la texture de la sauce.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Jour Bas ou Modéré",
+          "body": "Jour Bas : curry seul, environ 17 g de glucides.\n\nJour Modéré : avec 100 g de riz basmati cuit, environ 45 g de glucides.\n\nJour Haut : avec 150 g de riz, environ 59 g de glucides.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "Curry seul",
+          "+ 100 g riz",
+          "+ 150 g riz"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 288 kcal",
+            "≈ 418 kcal",
+            "≈ 483 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 37 g",
+            "≈ 39,7 g",
+            "≈ 41 g"
+          ],
+          [
+            "Glucides",
+            "≈ 17 g",
+            "≈ 45 g",
+            "≈ 59 g"
+          ],
+          [
+            "Lipides",
+            "≈ 7,3 g",
+            "≈ 7,6 g",
+            "≈ 7,8 g"
+          ],
+          [
+            "Fibres",
+            "≈ 3,3 g",
+            "≈ 3,7 g",
+            "≈ 3,9 g"
+          ]
+        ],
+        "note": "Macros pour 1 portion sur 4. Riz basmati cuit ajouté séparément selon la journée."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Riche en protéines",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Poêle",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "curry_crevettes_courgettes_patate_douce",
+        "nom": "Curry crémeux de crevettes, courgettes et patate douce",
+        "statut": "recette_officielle_sophie",
+        "categories": [
+          "dejeuner",
+          "diner",
+          "plat_complet"
+        ],
+        "jourPrincipal": "jour_bas",
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "poele",
+        "caracteristiques": [
+          "riche_en_proteines",
+          "riche_en_fibres",
+          "facile"
+        ],
+        "ingredientsPrincipaux": [
+          "crevettes",
+          "courgettes",
+          "patate_douce",
+          "skyr",
+          "lait_coco",
+          "curry_massaman"
+        ],
+        "accompagnementJourBas": "1_portion_curry_sans_riz",
+        "accompagnementJourModere": "1_portion_curry_plus_100g_riz_basmati_cuit",
+        "accompagnementJourHaut": "1_portion_curry_plus_150g_riz_basmati_cuit",
+        "macrosCurrySeul": "288_kcal, 37g_proteines, 17g_glucides, 7.3g_lipides, 3.3g_fibres",
+        "macrosAvec100gRizBasmatiCuit": "418_kcal, 39.7g_proteines, 45g_glucides, 7.6g_lipides, 3.7g_fibres",
+        "macrosAvec150gRizBasmatiCuit": "483_kcal, 41g_proteines, 59g_glucides, 7.8g_lipides, 3.9g_fibres"
+      },
+      "recipePdf": ""
+    },
+    {
       "id": "OEUFS-DURS-AIR-FRYER",
       "slug": "oeufs-durs-air-fryer",
       "title": "Œufs durs Air Fryer",
