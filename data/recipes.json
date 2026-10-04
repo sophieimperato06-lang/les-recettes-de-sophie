@@ -4256,6 +4256,279 @@
       "recipePdf": "assets/fiches-pdf/gaufres-classiques-special-enfants.pdf"
     },
     {
+      "id": "CAKE-MOELLEUX-CHOCOLAT-CAROTTE",
+      "slug": "cake-moelleux-chocolat-carotte",
+      "title": "Cake moelleux",
+      "subtitle": "chocolat-carotte",
+      "description": "Un cake chocolaté, fondant et riche en fibres, préparé avec des carottes cuites, de l’avoine et de la purée de noisettes.",
+      "category": "Petit-déjeuner • Collation • Dessert",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut",
+        "Four",
+        "Air Fryer",
+        "Meal prep",
+        "Riche en fibres",
+        "Végétarien",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/cake-moelleux-chocolat-carotte.jpeg",
+      "imageAlt": "Mini-cakes moelleux chocolat carotte",
+      "servingsLabel": "9 mini-cakes",
+      "baseServings": 9,
+      "defaultServings": 9,
+      "prepTime": "10 min",
+      "cookTime": "20-23 min",
+      "cookingMode": "Four",
+      "difficulty": "Très facile",
+      "fixedQuantities": true,
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "9 mini-cakes",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "20-23 min",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 350,
+          "unit": "g",
+          "labelSingular": "de carottes cuites et bien égouttées",
+          "labelPlural": "de carottes cuites et bien égouttées"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]",
+          "labelPlural": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "œuf",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[xylitol|product:Xylitol]]",
+          "labelPlural": "de [[xylitol|product:Xylitol]]"
+        },
+        {
+          "quantity": 150,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[purée de noisettes|product:Purée de noisettes]]",
+          "labelPlural": "de [[purée de noisettes|product:Purée de noisettes]]"
+        },
+        {
+          "quantity": 6,
+          "unit": "g",
+          "labelSingular": "de levure chimique",
+          "labelPlural": "de levure chimique"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        },
+        {
+          "quantity": null,
+          "text": "Facultatif : vanille, cannelle ou une petite pincée de café soluble pour intensifier le chocolat"
+        }
+      ],
+      "preparation": [
+        "Faire cuire les carottes jusqu’à ce qu’elles soient parfaitement tendres.",
+        "Les laisser égoutter et refroidir, puis peser 350 g de carottes après cuisson.",
+        "Mettre dans le blender les carottes cuites, les œufs, le skyr, la purée de noisettes, le xylitol, les flocons d’avoine, le cacao, le sel et les arômes facultatifs.",
+        "Mixer jusqu’à obtenir une pâte parfaitement lisse et homogène.",
+        "Ajouter la levure chimique.",
+        "Mixer seulement quelques secondes supplémentaires ou incorporer la levure à la spatule.",
+        "Pour les mini-cakes, répartir la pâte dans 9 empreintes, soit environ 78 g de pâte crue par empreinte.",
+        "Pour le cake entier, verser toute la pâte dans un moule à cake compatible avec l’appareil utilisé.",
+        "Cuisson officielle : four Miele HydroCook, chaleur tournante Plus, 160 °C, 1 diffusion de vapeur immédiate, 20 à 23 minutes.",
+        "Vérifier la cuisson à partir de 20 minutes : la lame doit ressortir sans pâte crue, mais elle peut conserver quelques miettes humides.",
+        "Laisser reposer 5 minutes dans le moule, puis déposer sur une grille."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Portions conseillées",
+          "body": "Collation légère : 1 mini-cake.\n\nPetit-déjeuner ou collation plus complète : 2 mini-cakes.\n\nPour augmenter les protéines, accompagner d’un yaourt riche en protéines.",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        "tip": {
+          "title": "Texture moelleuse",
+          "body": "Les carottes doivent être très tendres et bien égouttées. Ne mixe pas trop après l’ajout de la levure et ne prolonge pas inutilement la cuisson.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Compatibilité",
+          "body": "Jour Bas : privilégier 1 mini-cake.\n\nJour Modéré : 1 à 2 mini-cakes selon le reste de la journée.\n\nJour Haut : possible en portion plus généreuse ou avec un accompagnement glucidique."
+        },
+        "variant": {
+          "title": "Cuissons alternatives",
+          "body": "Mini-cakes sans vapeur : 160 °C chaleur tournante 20 à 25 min, ou 170 °C chaleur statique 22 à 27 min.\n\nCake entier : 160 °C chaleur tournante 35 à 45 min, ou Air Fryer mode BAKE 150 °C pendant 35 à 42 min."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 3 jours au réfrigérateur dans une boîte hermétique. Réchauffer 10 à 15 secondes au micro-ondes. Congélation possible jusqu’à 1 mois.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Attention xylitol",
+          "body": "Le xylitol est extrêmement toxique pour les chiens. Conserver le cake et le xylitol totalement hors de leur portée.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 mini-cake",
+          "2 mini-cakes",
+          "100 g cuit"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 122 kcal",
+            "≈ 244 kcal",
+            "≈ 175 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 6,3 g",
+            "≈ 12,7 g",
+            "≈ 9 g"
+          ],
+          [
+            "Glucides",
+            "≈ 13,8 g",
+            "≈ 27,6 g",
+            "≈ 19,7 g"
+          ],
+          [
+            "Lipides",
+            "≈ 4,7 g",
+            "≈ 9,3 g",
+            "≈ 6,7 g"
+          ],
+          [
+            "Fibres",
+            "≈ 3,6 g",
+            "≈ 7,1 g",
+            "≈ 5,1 g"
+          ]
+        ],
+        "note": "La recette complète apporte environ 1 100 kcal, 57 g de protéines, 124 g de glucides, 42 g de lipides et 32 g de fibres. Les glucides comprennent les polyols du xylitol."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Jour Bas",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        },
+        {
+          "label": "Jour Modéré",
+          "icon": "assets/pictos/web/picto_jour_modere_officiel.png"
+        },
+        {
+          "label": "Four",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        {
+          "label": "Air Fryer",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "cake_moelleux_chocolat_carotte",
+        "nom": "Cake moelleux chocolat-carotte",
+        "statut": "recette_officielle",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "dessert",
+          "cake"
+        ],
+        "joursCompatibles": [
+          "jour_bas",
+          "jour_modere",
+          "jour_haut"
+        ],
+        "caracteristiques": [
+          "moelleux",
+          "riche_en_fibres",
+          "vegetarien",
+          "meal_prep",
+          "tres_facile"
+        ],
+        "saveurs": [
+          "chocolat",
+          "noisette"
+        ],
+        "texture": [
+          "moelleuse",
+          "fondante"
+        ],
+        "rendement": [
+          "9_mini_cakes",
+          "1_cake_entier"
+        ],
+        "poidsPateCrueTotal": "environ_700g",
+        "poidsPateCrueParMiniCake": "environ_78g",
+        "poidsCuitEstimeTotal": "environ_630g",
+        "poidsCuitEstimeParMiniCake": "environ_70g",
+        "cuissonOfficielleMiniCakes": "four_miele_hydrocook, chaleur_tournante_plus, 160_degres, 1_diffusion_vapeur_immediate, 20_a_23_minutes",
+        "cuissonAlternativeCakeEntierAirFryer": "mode_bake, 150_degres, 35_a_42_minutes",
+        "macrosRecetteComplete": "1100_kcal, 57g_proteines, 124g_glucides, 42g_lipides, 32g_fibres",
+        "macros1MiniCake": "122_kcal, 6.3g_proteines, 13.8g_glucides, 4.7g_lipides, 3.6g_fibres",
+        "macros2MiniCakes": "244_kcal, 12.7g_proteines, 27.6g_glucides, 9.3g_lipides, 7.1g_fibres",
+        "macros100gCuit": "175_kcal, 9g_proteines, 19.7g_glucides, 6.7g_lipides, 5.1g_fibres",
+        "polyolsXylitol": "3.3g_par_mini_cake, 4.8g_par_100g",
+        "conservation": [
+          "3_jours_refrigerateur",
+          "1_mois_congelateur"
+        ]
+      },
+      "recipePdf": "assets/fiches-pdf/cake-moelleux-chocolat-carotte.pdf"
+    },
+    {
       "id": "CHILI-PROTEINE-SOPHIE",
       "slug": "chili-proteine-sophie",
       "title": "Chili con carne",
