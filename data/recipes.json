@@ -4260,7 +4260,7 @@
       "slug": "cake-moelleux-chocolat-carotte",
       "title": "Cake moelleux",
       "subtitle": "chocolat-carotte",
-      "description": "Un cake chocolaté, fondant et riche en fibres, préparé avec des carottes cuites, de l’avoine et de la purée de noisettes.",
+      "description": "Un cake chocolaté, fondant et riche en fibres, préparé avec des carottes cuites, de l’avoine, de la protéine végétale et de la purée de noisettes.",
       "category": "Petit-déjeuner • Collation • Dessert",
       "tags": [
         "Petit-déjeuner",
@@ -4277,8 +4277,8 @@
         "Très facile"
       ],
       "webImage": "assets/photos-recettes/cake-moelleux-chocolat-carotte.jpeg",
-      "imageAlt": "Mini-cakes moelleux chocolat carotte",
-      "servingsLabel": "9 mini-cakes",
+      "imageAlt": "Muffins moelleux chocolat carotte",
+      "servingsLabel": "9 muffins",
       "baseServings": 9,
       "defaultServings": 9,
       "prepTime": "10 min",
@@ -4289,7 +4289,7 @@
       "heroMeta": [
         {
           "label": "Rendement",
-          "value": "9 mini-cakes",
+          "value": "9 muffins",
           "icon": "assets/pictos/web/picto_portions_officiel.png"
         },
         {
@@ -4310,7 +4310,7 @@
       ],
       "ingredients": [
         {
-          "quantity": 350,
+          "quantity": 310,
           "unit": "g",
           "labelSingular": "de carottes cuites et bien égouttées",
           "labelPlural": "de carottes cuites et bien égouttées"
@@ -4322,16 +4322,20 @@
           "labelPlural": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]"
         },
         {
-          "quantity": 2,
-          "unit": "",
-          "labelSingular": "œuf",
-          "labelPlural": "œufs"
+          "quantity": null,
+          "text": "2 œufs"
         },
         {
-          "quantity": 90,
+          "quantity": 65,
           "unit": "g",
           "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
           "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]"
         },
         {
           "quantity": 30,
@@ -4340,7 +4344,7 @@
           "labelPlural": "de [[xylitol|product:Xylitol]]"
         },
         {
-          "quantity": 150,
+          "quantity": 220,
           "unit": "g",
           "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
           "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
@@ -4352,28 +4356,22 @@
           "labelPlural": "de [[purée de noisettes|product:Purée de noisettes]]"
         },
         {
-          "quantity": 6,
-          "unit": "g",
-          "labelSingular": "de levure chimique",
-          "labelPlural": "de levure chimique"
+          "quantity": null,
+          "text": "5 à 6 g de levure chimique"
         },
         {
           "quantity": null,
           "text": "1 pincée de sel"
-        },
-        {
-          "quantity": null,
-          "text": "Facultatif : vanille, cannelle ou une petite pincée de café soluble pour intensifier le chocolat"
         }
       ],
       "preparation": [
         "Faire cuire les carottes jusqu’à ce qu’elles soient parfaitement tendres.",
-        "Les laisser égoutter et refroidir, puis peser 350 g de carottes après cuisson.",
-        "Mettre dans le blender les carottes cuites, les œufs, le skyr, la purée de noisettes, le xylitol, les flocons d’avoine, le cacao, le sel et les arômes facultatifs.",
+        "Les laisser égoutter et refroidir, puis peser 310 g de carottes après cuisson.",
+        "Mettre dans le blender les carottes cuites, les œufs, le skyr, la purée de noisettes, le xylitol, les flocons d’avoine, la protéine végétale, le cacao et le sel.",
         "Mixer jusqu’à obtenir une pâte parfaitement lisse et homogène.",
         "Ajouter la levure chimique.",
         "Mixer seulement quelques secondes supplémentaires ou incorporer la levure à la spatule.",
-        "Pour les mini-cakes, répartir la pâte dans 9 empreintes, soit environ 78 g de pâte crue par empreinte.",
+        "Pour les muffins, répartir la pâte dans 9 empreintes.",
         "Pour le cake entier, verser toute la pâte dans un moule à cake compatible avec l’appareil utilisé.",
         "Cuisson officielle : four Miele HydroCook, chaleur tournante Plus, 160 °C, 1 diffusion de vapeur immédiate, 20 à 23 minutes.",
         "Vérifier la cuisson à partir de 20 minutes : la lame doit ressortir sans pâte crue, mais elle peut conserver quelques miettes humides.",
@@ -4382,7 +4380,7 @@
       "sections": {
         "goal": {
           "title": "Portions conseillées",
-          "body": "Collation légère : 1 mini-cake.\n\nPetit-déjeuner ou collation plus complète : 2 mini-cakes.\n\nPour augmenter les protéines, accompagner d’un yaourt riche en protéines.",
+          "body": "Collation légère : 1 muffin.\n\nPetit-déjeuner ou collation plus complète : 2 muffins.\n\nPour augmenter les protéines, accompagner d’un yaourt riche en protéines.",
           "icon": "assets/pictos/web/picto_portions_officiel.png"
         },
         "tip": {
@@ -4392,11 +4390,11 @@
         },
         "serving": {
           "title": "Compatibilité",
-          "body": "Jour Bas : privilégier 1 mini-cake.\n\nJour Modéré : 1 à 2 mini-cakes selon le reste de la journée.\n\nJour Haut : possible en portion plus généreuse ou avec un accompagnement glucidique."
+          "body": "Jour Bas : privilégier 1 muffin.\n\nJour Modéré : 1 à 2 muffins selon le reste de la journée.\n\nJour Haut : possible en portion plus généreuse ou avec un accompagnement glucidique."
         },
         "variant": {
           "title": "Cuissons alternatives",
-          "body": "Mini-cakes sans vapeur : 160 °C chaleur tournante 20 à 25 min, ou 170 °C chaleur statique 22 à 27 min.\n\nCake entier : 160 °C chaleur tournante 35 à 45 min, ou Air Fryer mode BAKE 150 °C pendant 35 à 42 min."
+          "body": "Muffins sans vapeur : 160 °C chaleur tournante 20 à 25 min, ou 170 °C chaleur statique 22 à 27 min.\n\nCake entier au four : 160 °C chaleur tournante 35 à 45 min, ou 170 °C chaleur statique 40 à 50 min.\n\nCake entier à l’Air Fryer : mode BAKE, 150 °C, 38 min. Vérifier dès 36 min, couvrir si le dessus colore trop vite, puis laisser reposer 10 min avant démoulage."
         },
         "storage": {
           "title": "Conservation",
@@ -4412,43 +4410,49 @@
       "nutrition": {
         "title": "Valeurs nutritionnelles estimées",
         "columns": [
-          "1 mini-cake",
-          "2 mini-cakes",
-          "100 g cuit"
+          "Recette complète",
+          "1 muffin",
+          "100 g cuit",
+          "1 tranche de 60 g"
         ],
         "rows": [
           [
             "Calories",
-            "≈ 122 kcal",
-            "≈ 244 kcal",
-            "≈ 175 kcal"
+            "≈ 1 172 kcal",
+            "≈ 130 kcal",
+            "≈ 176 kcal",
+            "≈ 106 kcal"
           ],
           [
             "Protéines",
-            "≈ 6,3 g",
-            "≈ 12,7 g",
-            "≈ 9 g"
+            "≈ 86,8 g",
+            "≈ 9,6 g",
+            "≈ 13,1 g",
+            "≈ 7,8 g"
           ],
           [
             "Glucides",
-            "≈ 13,8 g",
-            "≈ 27,6 g",
-            "≈ 19,7 g"
+            "≈ 108 g",
+            "≈ 12 g",
+            "≈ 16,2 g",
+            "≈ 9,7 g"
           ],
           [
             "Lipides",
-            "≈ 4,7 g",
-            "≈ 9,3 g",
-            "≈ 6,7 g"
+            "≈ 43,3 g",
+            "≈ 4,8 g",
+            "≈ 6,5 g",
+            "≈ 3,9 g"
           ],
           [
             "Fibres",
-            "≈ 3,6 g",
-            "≈ 7,1 g",
-            "≈ 5,1 g"
+            "≈ 25,8 g",
+            "≈ 2,9 g",
+            "≈ 3,9 g",
+            "≈ 2,3 g"
           ]
         ],
-        "note": "La recette complète apporte environ 1 100 kcal, 57 g de protéines, 124 g de glucides, 42 g de lipides et 32 g de fibres. Les glucides comprennent les polyols du xylitol."
+        "note": "Les glucides incluent les polyols du xylitol. Les valeurs pour 100 g et pour une tranche de 60 g sont calculées sur un poids cuit total estimé à environ 665 g. Si le cake entier est pesé après refroidissement, recalculer les valeurs au poids avec le poids cuit réellement obtenu."
       },
       "tagsDetailed": [
         {
@@ -4479,7 +4483,7 @@
       "codex": {
         "identifiant": "cake_moelleux_chocolat_carotte",
         "nom": "Cake moelleux chocolat-carotte",
-        "statut": "recette_officielle",
+        "statut": "recette_officielle_modifiee",
         "categories": [
           "petit_dejeuner",
           "collation",
@@ -4507,20 +4511,17 @@
           "fondante"
         ],
         "rendement": [
-          "9_mini_cakes",
+          "9_muffins",
           "1_cake_entier"
         ],
-        "poidsPateCrueTotal": "environ_700g",
-        "poidsPateCrueParMiniCake": "environ_78g",
-        "poidsCuitEstimeTotal": "environ_630g",
-        "poidsCuitEstimeParMiniCake": "environ_70g",
-        "cuissonOfficielleMiniCakes": "four_miele_hydrocook, chaleur_tournante_plus, 160_degres, 1_diffusion_vapeur_immediate, 20_a_23_minutes",
-        "cuissonAlternativeCakeEntierAirFryer": "mode_bake, 150_degres, 35_a_42_minutes",
-        "macrosRecetteComplete": "1100_kcal, 57g_proteines, 124g_glucides, 42g_lipides, 32g_fibres",
-        "macros1MiniCake": "122_kcal, 6.3g_proteines, 13.8g_glucides, 4.7g_lipides, 3.6g_fibres",
-        "macros2MiniCakes": "244_kcal, 12.7g_proteines, 27.6g_glucides, 9.3g_lipides, 7.1g_fibres",
-        "macros100gCuit": "175_kcal, 9g_proteines, 19.7g_glucides, 6.7g_lipides, 5.1g_fibres",
-        "polyolsXylitol": "3.3g_par_mini_cake, 4.8g_par_100g",
+        "poidsCuitEstimeTotal": "environ_665g",
+        "cuissonOfficielleMuffins": "four_miele_hydrocook, chaleur_tournante_plus, 160_degres, 1_diffusion_vapeur_immediate, 20_a_23_minutes",
+        "cuissonAlternativeCakeEntierAirFryer": "mode_bake, 150_degres, 38_minutes, verifier_des_36_minutes, repos_10_minutes",
+        "macrosRecetteComplete": "1172_kcal, 86.8g_proteines, 108g_glucides, 43.3g_lipides, 25.8g_fibres",
+        "macros1MuffinSur9": "130_kcal, 9.6g_proteines, 12g_glucides, 4.8g_lipides, 2.9g_fibres",
+        "macros100gCuitEstimees": "176_kcal, 13.1g_proteines, 16.2g_glucides, 6.5g_lipides, 3.9g_fibres",
+        "macrosTranche60g": "106_kcal, 7.8g_proteines, 9.7g_glucides, 3.9g_lipides, 2.3g_fibres",
+        "noteMacros": "glucides_incluent_polyols_xylitol, valeurs_au_poids_a_recalculer_si_poids_cuit_reel_disponible",
         "conservation": [
           "3_jours_refrigerateur",
           "1_mois_congelateur"
