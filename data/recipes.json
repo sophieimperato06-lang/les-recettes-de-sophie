@@ -6436,6 +6436,252 @@
         "macrosPuddingAvecDemiBananeEtGranola": "467_kcal, 38.4g_proteines, 30.7g_glucides, 18.7g_lipides, 13.9g_fibres"
       },
       "recipePdf": "assets/fiches-pdf/pudding-chia-chocolat-cacahuete.pdf"
+    },
+    {
+      "id": "PUDDING-CHIA-BOUNTY",
+      "slug": "pudding-chia-bounty",
+      "title": "Pudding de chia",
+      "subtitle": "Bounty",
+      "description": "Un pudding façon Bounty, crémeux, protéiné, coco-chocolat, avec une coque croquante au chocolat noir.",
+      "category": "Petit-déjeuner • Collation • Dessert",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Objectif 30 g",
+        "Riche en protéines",
+        "Riche en fibres",
+        "Sans cuisson",
+        "Meal prep",
+        "Végétarien",
+        "Très facile"
+      ],
+      "webImage": "assets/photos-recettes/pudding-chia-bounty.jfif",
+      "imageAlt": "Pudding de chia Bounty avec coque chocolat",
+      "servingsLabel": "4 pots",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "15 min",
+      "cookTime": "Repos nuit",
+      "cookingMode": "Sans cuisson",
+      "difficulty": "Très facile",
+      "fixedQuantities": true,
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "4 pots",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Repos",
+          "value": "1 nuit",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
+        },
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "de lait de coco cuisine ou conserve, bien mélangé",
+          "labelPlural": "de lait de coco cuisine ou conserve, bien mélangé"
+        },
+        {
+          "quantity": 240,
+          "unit": "g",
+          "labelSingular": "d’eau",
+          "labelPlural": "d’eau"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[whey|product:Whey Isolate Native]]",
+          "labelPlural": "de [[whey|product:Whey Isolate Native]]"
+        },
+        {
+          "quantity": 450,
+          "unit": "g",
+          "labelSingular": "de [[skyr|product:Skyr nature]]",
+          "labelPlural": "de [[skyr|product:Skyr nature]]"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave ou de [[sirop d’érable|product:Sirop d'érable bio]]",
+          "labelPlural": "de sirop d’agave ou de [[sirop d’érable|product:Sirop d'érable bio]]"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de noix de coco râpée",
+          "labelPlural": "de noix de coco râpée"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        },
+        {
+          "quantity": 80,
+          "unit": "g",
+          "labelSingular": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]] pour la coque",
+          "labelPlural": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]] pour la coque"
+        }
+      ],
+      "preparation": [
+        "Mettre dans le blender le lait de coco, l’eau, la whey, le skyr, le sirop d’agave ou d’érable, la noix de coco râpée, la vanille et la pincée de sel.",
+        "Mixer jusqu’à obtenir une préparation parfaitement lisse et homogène.",
+        "Répartir équitablement le mélange dans 4 petits bols ou pots.",
+        "Ajouter directement dans chaque bol 22,5 g de graines de chia.",
+        "Bien mélanger chaque portion afin de répartir uniformément les graines de chia.",
+        "Laisser reposer quelques minutes, puis mélanger une nouvelle fois pour éviter que les graines ne s’agglomèrent.",
+        "Placer au réfrigérateur plusieurs heures, idéalement une nuit, jusqu’à ce que le pudding soit bien épaissi.",
+        "Faire fondre les 80 g de chocolat noir 70 %.",
+        "Verser 20 g de chocolat fondu par portion sur le dessus du pudding afin de former une coque.",
+        "Remettre au réfrigérateur jusqu’à ce que le chocolat soit complètement figé."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Une portion apporte environ 29,6 g de protéines, avec une texture très rassasiante grâce au chia, au skyr et à la whey.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Texture",
+          "body": "Le deuxième mélange après quelques minutes est important : il évite que les graines de chia se regroupent au fond du pot.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Répartition par portion",
+          "body": "Chaque portion contient 22,5 g de graines de chia, 1/4 du mélange préparé au blender et 20 g de chocolat noir 70 % pour la coque."
+        },
+        "variant": {
+          "title": "Saveur Bounty",
+          "body": "Utiliser un lait de coco bien mélangé et ajouter le chocolat en couche fine pour obtenir une coque croquante sans alourdir la texture."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Jusqu’à 3 jours au réfrigérateur dans des pots fermés. Garder au frais jusqu’au service pour conserver la coque chocolat bien croquante.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Végétarien",
+          "body": "Recette compatible végétarienne. Elle convient très bien en petit-déjeuner, collation protéinée ou dessert gourmand.",
+          "icon": "assets/pictos/web/picto_vegetarien.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 portion",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 431 kcal",
+            "≈ 161 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 29,6 g",
+            "≈ 11,0 g"
+          ],
+          [
+            "Glucides",
+            "≈ 18,5 g",
+            "≈ 6,9 g"
+          ],
+          [
+            "Lipides",
+            "≈ 24,2 g",
+            "≈ 9,0 g"
+          ],
+          [
+            "Fibres",
+            "≈ 10,3 g",
+            "≈ 3,8 g"
+          ]
+        ],
+        "note": "Une portion correspond à environ 269 g, avec 20 g de chocolat noir 70 % pour la coque."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Collation",
+          "icon": "assets/pictos/web/picto_collation.png"
+        },
+        {
+          "label": "Dessert",
+          "icon": "assets/pictos/web/picto_gourmand.png"
+        },
+        {
+          "label": "Objectif 30 g",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_vegetarien.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "pudding_chia_bounty",
+        "nom": "Pudding de chia Bounty",
+        "statut": "recette_officielle",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "dessert",
+          "pudding"
+        ],
+        "caracteristiques": [
+          "vegetarien",
+          "riche_en_proteines",
+          "riche_en_fibres",
+          "sans_cuisson",
+          "meal_prep",
+          "tres_facile"
+        ],
+        "saveurs": [
+          "coco",
+          "chocolat",
+          "vanille"
+        ],
+        "texture": [
+          "cremeux",
+          "croquant"
+        ],
+        "rendement": "4_portions",
+        "portion": "269g_environ",
+        "macros1Portion": "431_kcal, 29.6g_proteines, 18.5g_glucides, 24.2g_lipides, 10.3g_fibres",
+        "macros100g": "161_kcal, 11g_proteines, 6.9g_glucides, 9g_lipides, 3.8g_fibres"
+      },
+      "recipePdf": "assets/fiches-pdf/pudding-chia-bounty.pdf"
     }
   ]
 }
