@@ -4394,7 +4394,7 @@
         },
         "variant": {
           "title": "Cuissons alternatives",
-          "body": "Muffins sans vapeur : 160 °C chaleur tournante 20 à 25 min, ou 170 °C chaleur statique 22 à 27 min.\n\nCake entier au four : 160 °C chaleur tournante 35 à 45 min, ou 170 °C chaleur statique 40 à 50 min.\n\nCake entier à l’Air Fryer : mode BAKE, 150 °C, 38 min. Vérifier dès 36 min, couvrir si le dessus colore trop vite, puis laisser reposer 10 min avant démoulage."
+          "body": "9 muffins — cuisson officielle Miele HydraCook :\nFour préchauffé.\nMode HydraCook — Chaleur tournante Plus.\n160 °C.\n1 diffusion de vapeur immédiate à l’enfournement.\n20 à 23 min.\n\n9 muffins — four traditionnel sans vapeur :\nChaleur tournante : 160 °C, 20 à 25 min.\nChaleur statique : 170 °C, 22 à 27 min.\n\nCake entier — four traditionnel :\nChaleur tournante : 160 °C, 35 à 45 min.\nChaleur statique : 170 °C, 40 à 50 min.\n\nCake entier — Air Fryer :\nMode BAKE, 150 °C, 38 min.\nVérifier dès 36 min.\nCouvrir si le dessus colore trop vite.\nLaisser reposer 10 min avant démoulage."
         },
         "storage": {
           "title": "Conservation",
@@ -4527,7 +4527,7 @@
           "1_mois_congelateur"
         ]
       },
-      "recipePdf": "assets/fiches-pdf/cake-moelleux-chocolat-carotte.pdf"
+      "recipePdf": ""
     },
     {
       "id": "CHILI-PROTEINE-SOPHIE",
