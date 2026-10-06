@@ -1542,6 +1542,228 @@
       "recipePdf": "assets/fiches-pdf/sauce-legere-basilic-cajou-pistaches.pdf"
     },
     {
+      "id": "AIOLI-ALLEGEE-CREMEUSE",
+      "slug": "aioli-allegee-cremeuse",
+      "title": "Aïoli allégée",
+      "subtitle": "crémeuse",
+      "description": "Une sauce aïoli plus légère, épaisse et onctueuse, préparée avec skyr ou yaourt grec et une petite quantité de mayonnaise maison.",
+      "category": "Sauce • Accompagnement",
+      "tags": [
+        "Sauce",
+        "Accompagnement",
+        "Sauce froide",
+        "Végétarien",
+        "Allégée",
+        "Aïoli",
+        "Sans cuisson",
+        "Facile"
+      ],
+      "webImage": "assets/photos-recettes/aioli-allegee-cremeuse.jpeg",
+      "imageAlt": "Aïoli allégée crémeuse dans un bol",
+      "servingsLabel": "4 portions",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "prepTime": "15 min",
+      "cookTime": "Aucune",
+      "cookingMode": "Sans cuisson",
+      "difficulty": "Facile",
+      "fixedQuantities": true,
+      "heroMeta": [
+        {
+          "label": "Rendement",
+          "value": "170-180 g",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Portions",
+          "value": "4",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "Aucune",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "heading": true,
+          "text": "Aïoli allégée"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "labelSingular": "de [[skyr|product:Skyr nature]] ou de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[skyr|product:Skyr nature]] ou de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de mayonnaise maison",
+          "labelPlural": "de mayonnaise maison"
+        },
+        {
+          "quantity": null,
+          "text": "1 jaune d’œuf dur"
+        },
+        {
+          "quantity": null,
+          "text": "1 à 2 belles gousses d’ail"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de moutarde de Dijon"
+        },
+        {
+          "quantity": null,
+          "text": "Sel et poivre"
+        },
+        {
+          "heading": true,
+          "text": "Mayonnaise maison"
+        },
+        {
+          "quantity": null,
+          "text": "1 jaune d’œuf"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de moutarde de Dijon"
+        },
+        {
+          "quantity": null,
+          "text": "100 ml d’huile de colza"
+        },
+        {
+          "quantity": null,
+          "text": "Un peu de vinaigre"
+        },
+        {
+          "quantity": null,
+          "text": "Sel et poivre"
+        }
+      ],
+      "preparation": [
+        "Préparer la mayonnaise : mettre le jaune d’œuf et la moutarde dans un bol.",
+        "Mélanger au fouet, puis ajouter progressivement l’huile de colza en filet tout en fouettant pour faire monter la mayonnaise.",
+        "Lorsqu’elle est bien prise, ajouter un petit trait de vinaigre, saler et poivrer.",
+        "Prélever 40 g de cette mayonnaise pour réaliser l’aïoli.",
+        "Éplucher et dégermer les gousses d’ail si nécessaire.",
+        "Écraser ou râper très finement l’ail.",
+        "Écraser le jaune d’œuf dur jusqu’à obtenir une texture très fine.",
+        "Dans un bol, mélanger le skyr ou yaourt grec 0 %, les 40 g de mayonnaise maison, le jaune d’œuf dur, la moutarde et l’ail.",
+        "Mélanger énergiquement, ou mixer brièvement au mixeur plongeant, jusqu’à obtenir une sauce lisse, épaisse et crémeuse.",
+        "Saler et poivrer selon le goût.",
+        "Réserver au réfrigérateur avant de servir."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Version allégée",
+          "body": "La proportion 100 g de skyr pour seulement 40 g de mayonnaise conserve le goût et l’onctuosité d’un aïoli, avec moins d’huile qu’une version classique.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "tip": {
+          "title": "Texture",
+          "body": "Pour une sauce très lisse, écraser finement le jaune d’œuf dur et mixer brièvement au mixeur plongeant.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Avec quoi la servir ?",
+          "body": "Très bonne avec du cabillaud, du poisson vapeur, des crevettes, des pommes de terre, des légumes vapeur ou des œufs durs."
+        },
+        "variant": {
+          "title": "Ail",
+          "body": "Commencer avec 1 gousse d’ail pour une version douce, ou monter à 2 belles gousses pour un goût plus marqué."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "À conserver au réfrigérateur dans un récipient hermétique. À consommer rapidement, idéalement dans les 24 à 48 heures.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Végétarien",
+          "body": "Recette compatible végétarienne, idéale en sauce froide ou en accompagnement.",
+          "icon": "assets/pictos/web/picto_vegetarien.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 portion (42-45 g)",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 105 kcal",
+            "≈ 245 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 4 g",
+            "≈ 9 g"
+          ],
+          [
+            "Glucides",
+            "≈ 1,5 g",
+            "≈ 3,5 g"
+          ],
+          [
+            "Lipides",
+            "≈ 9 g",
+            "≈ 21 g"
+          ]
+        ],
+        "note": "Calculées avec 100 g de skyr 0 % et 40 g de mayonnaise maison. Une portion correspond à environ 42 à 45 g."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Sauce",
+          "icon": "assets/pictos/web/picto_sauce_officiel.png"
+        },
+        {
+          "label": "Accompagnement"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_vegetarien.png"
+        },
+        {
+          "label": "Sans cuisson",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "aioli_allegee_cremeuse",
+        "nom": "Aïoli allégée crémeuse",
+        "statut": "recette_officielle",
+        "categories": [
+          "sauce",
+          "accompagnement"
+        ],
+        "caracteristiques": [
+          "vegetarien",
+          "sauce_froide",
+          "allegee",
+          "facile"
+        ],
+        "rendement": "170_a_180g",
+        "portions": "4",
+        "macros1Portion": "105_kcal, 4g_proteines, 1.5g_glucides, 9g_lipides",
+        "macros100g": "245_kcal, 9g_proteines, 3.5g_glucides, 21g_lipides"
+      },
+      "recipePdf": ""
+    },
+    {
       "id": "SALADE-PATES-PROTEINEES-BASILIC",
       "slug": "salade-pates-proteinees-basilic",
       "title": "Salade de pâtes protéinées",
