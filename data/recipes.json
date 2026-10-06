@@ -2500,6 +2500,244 @@
       "recipePdf": "assets/fiches-pdf/brochettes-dinde-ou-poulet-air-fryer.pdf"
     },
     {
+      "id": "POULET-SHAWARMA",
+      "slug": "poulet-shawarma",
+      "title": "Poulet",
+      "subtitle": "shawarma",
+      "description": "Un poulet mariné aux épices orientales, tendre, parfumé et très riche en protéines.",
+      "category": "Plat principal",
+      "tags": [
+        "Plat",
+        "Plat principal",
+        "Poulet",
+        "Protéiné",
+        "Riche en protéines",
+        "Meal prep",
+        "Cuisine orientale",
+        "Shawarma",
+        "Poêle",
+        "Barbecue",
+        "Facile"
+      ],
+      "webImage": "assets/photos-recettes/poulet-shawarma.webp",
+      "imageAlt": "Poulet shawarma mariné et doré",
+      "servingsLabel": "3 portions",
+      "baseServings": 3,
+      "defaultServings": 3,
+      "prepTime": "15 min",
+      "cookTime": "Selon cuisson",
+      "cookingMode": "Poêle • Plancha • Barbecue",
+      "difficulty": "Facile",
+      "fixedQuantities": true,
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "3",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Marinade",
+          "value": "2 h min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 500,
+          "unit": "g",
+          "labelSingular": "de blanc de poulet",
+          "labelPlural": "de blanc de poulet"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de paprika"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de cumin"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de coriandre moulue"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 c. à café de curcuma"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 c. à café d’ail en poudre"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 c. à café de gingembre moulu"
+        },
+        {
+          "quantity": null,
+          "text": "1/4 c. à café de cannelle"
+        },
+        {
+          "quantity": null,
+          "text": "1/4 c. à café de poivre"
+        },
+        {
+          "quantity": null,
+          "text": "1 petite pincée de cardamome, facultatif"
+        },
+        {
+          "quantity": null,
+          "text": "Sel"
+        },
+        {
+          "quantity": null,
+          "text": "Jus de 1/2 citron"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]] ou de [[skyr|product:Skyr nature]]",
+          "labelPlural": "de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]] ou de [[skyr|product:Skyr nature]]"
+        }
+      ],
+      "preparation": [
+        "Couper le poulet en morceaux ou en fines lamelles.",
+        "Mélanger dans un saladier le paprika, le cumin, la coriandre moulue, le curcuma, l’ail en poudre, le gingembre, la cannelle, le poivre, la cardamome et le sel.",
+        "Ajouter le jus de 1/2 citron, les 15 g d’huile d’olive et les 60 g de yaourt grec 0 % ou de skyr.",
+        "Mélanger jusqu’à obtenir une marinade homogène.",
+        "Ajouter le poulet et bien l’enrober de marinade.",
+        "Mettre idéalement le poulet mariné sous vide et laisser reposer au réfrigérateur pendant au moins 2 heures.",
+        "Sans mise sous vide, laisser mariner plus longtemps, idéalement 4 heures ou davantage.",
+        "Cuire à la poêle, à la plancha ou au barbecue jusqu’à ce que le poulet soit bien doré et cuit à cœur."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Riche en protéines",
+          "body": "Une portion apporte environ 40 g de protéines pour une base très pauvre en glucides.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Marinade",
+          "body": "La mise sous vide accélère et intensifie la marinade. Sans sous vide, prévoir plutôt 4 heures ou plus au réfrigérateur.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Suggestion de service",
+          "body": "Très bon avec une galette, un pain pita, des crudités et une sauce tzatziki."
+        },
+        "variant": {
+          "title": "Cuisson",
+          "body": "Cuire à la poêle, à la plancha ou au barbecue jusqu’à obtenir une belle coloration. Le poulet doit être cuit à cœur."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Conserver le poulet cuit jusqu’à 3 jours au réfrigérateur dans une boîte hermétique. Réchauffer doucement pour garder la viande tendre.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Meal prep",
+          "body": "Préparer la marinade à l’avance, laisser reposer au frais, puis cuire au dernier moment ou conserver les portions déjà cuites pour les repas suivants.",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 portion",
+          "100 g avant cuisson"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 243 kcal",
+            "≈ 122 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 40 g",
+            "≈ 20 g"
+          ],
+          [
+            "Glucides",
+            "≈ 2,7 g",
+            "≈ 1,3 g"
+          ],
+          [
+            "Lipides",
+            "≈ 7,3 g",
+            "≈ 3,7 g"
+          ]
+        ],
+        "note": "Les valeurs pour 100 g après cuisson seront plus élevées car le poulet perd de l’eau pendant la cuisson."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Plat principal",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Poulet"
+        },
+        {
+          "label": "Riche en protéines",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        },
+        {
+          "label": "Poêle",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "poulet_shawarma",
+        "nom": "Poulet shawarma",
+        "statut": "recette_officielle",
+        "categories": [
+          "plat_principal",
+          "poulet"
+        ],
+        "filtreVegetarien": "non",
+        "caracteristiques": [
+          "proteine",
+          "meal_prep",
+          "cuisine_orientale",
+          "shawarma",
+          "facile"
+        ],
+        "cuisson": [
+          "poele",
+          "plancha",
+          "barbecue"
+        ],
+        "rendement": "3_portions",
+        "macros1Portion": "243_kcal, 40g_proteines, 2.7g_glucides, 7.3g_lipides",
+        "macros100gAvantCuisson": "122_kcal, 20g_proteines, 1.3g_glucides, 3.7g_lipides"
+      },
+      "recipePdf": ""
+    },
+    {
       "id": "ACAI-BOWL-PROTEINE",
       "slug": "acai-bowl-proteine-signature-sophie",
       "title": "Açaï Bowl Protéiné",

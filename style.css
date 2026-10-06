@@ -585,6 +585,10 @@ summary {
 .web-recipe-photo__image[src*="cake-moelleux-chocolat-carotte"] {
   object-position: 100% 54%;
 }
+.web-recipe-hero:has(.web-recipe-photo__image[src*="poulet-shawarma"]) .web-recipe-title .subtitle {
+  font-size: clamp(3.2rem, 7vw, 6.1rem);
+  line-height: .78;
+}
 .web-recipe-meta { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 22px; }
 .web-recipe-meta div { min-height: 94px; display: grid; place-content: center; gap: 4px; text-align: center; border: 1px solid var(--line); border-radius: 8px; background: rgba(255, 253, 248, .78); }
 .web-recipe-meta strong { color: var(--brown); font-size: 1.25rem; }
