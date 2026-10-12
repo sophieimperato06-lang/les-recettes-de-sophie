@@ -416,6 +416,20 @@
         "delta",
         "protéines"
       ]
+    },
+    {
+      "name": "Purée de courge KoRo",
+      "brand": "KoRo",
+      "store": "KoRo",
+      "category": "Fruits et légumes",
+      "notes": "Purée de courge en conserve KoRo, 100 % courge, pot 425 g. Valeurs pour 100 g : 54 kcal, 1,9 g protéines, 11 g glucides, 0,3 g lipides, 4,5 g fibres, 0 g sel.",
+      "tags": [
+        "courge",
+        "purée de courge",
+        "pumpkin",
+        "koro",
+        "conserve"
+      ]
     }
   ]
 }

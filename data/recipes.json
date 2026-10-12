@@ -4990,6 +4990,282 @@
       "recipePdf": ""
     },
     {
+      "id": "PUMPKIN-CAKE-EXTRA-MOELLEUX",
+      "slug": "pumpkin-cake-extra-moelleux",
+      "title": "Pumpkin Cake",
+      "subtitle": "extra moelleux",
+      "description": "Un cake à la courge ultra-moelleux, parfumé aux épices Pumpkin Spice, enrichi en protéines végétales et recouvert d’un glaçage chocolat-pécan.",
+      "category": "Petit-déjeuner • Collation • Dessert",
+      "tags": [
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Jour Modéré",
+        "Jour Haut",
+        "Air Fryer",
+        "Protéiné",
+        "Riche en fibres",
+        "Végétarien",
+        "Pumpkin Spice",
+        "Cake",
+        "Automne",
+        "Meal prep"
+      ],
+      "webImage": "assets/photos-recettes/pumpkin-cake-extra-moelleux.jfif",
+      "imageAlt": "Pumpkin cake extra moelleux avec glaçage chocolat et noix de pécan",
+      "servingsLabel": "12 parts",
+      "baseServings": 12,
+      "defaultServings": 12,
+      "prepTime": "15 min",
+      "cookTime": "43-48 min",
+      "cookingMode": "Air Fryer Cosori 10 L",
+      "difficulty": "Facile",
+      "fixedQuantities": true,
+      "heroMeta": [
+        {
+          "label": "Parts",
+          "value": "12",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "45 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "heading": true,
+          "text": "Pour le cake"
+        },
+        {
+          "quantity": 250,
+          "unit": "g",
+          "labelSingular": "de [[purée de courge KoRo|product:Purée de courge KoRo]]",
+          "labelPlural": "de [[purée de courge KoRo|product:Purée de courge KoRo]]"
+        },
+        {
+          "quantity": null,
+          "text": "3 œufs entiers"
+        },
+        {
+          "quantity": 220,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]",
+          "labelPlural": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": 130,
+          "unit": "g",
+          "labelSingular": "de farine d’avoine",
+          "labelPlural": "de farine d’avoine"
+        },
+        {
+          "quantity": 50,
+          "unit": "g",
+          "labelSingular": "de [[poudre d’amande|product:Poudre d'amande complète]]",
+          "labelPlural": "de [[poudre d’amande|product:Poudre d'amande complète]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[xylitol|product:Xylitol]]",
+          "labelPlural": "de [[xylitol|product:Xylitol]]"
+        },
+        {
+          "quantity": 11,
+          "unit": "g",
+          "labelSingular": "de levure chimique",
+          "labelPlural": "de levure chimique"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de Pumpkin Spice Monte Nativo"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        },
+        {
+          "heading": true,
+          "text": "Pour le glaçage"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]]",
+          "labelPlural": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]]"
+        },
+        {
+          "quantity": 25,
+          "unit": "g",
+          "labelSingular": "de noix de pécan concassées",
+          "labelPlural": "de noix de pécan concassées"
+        }
+      ],
+      "preparation": [
+        "Préparer la purée de courge KoRo : ouvrir la conserve, bien mélanger la purée et l’égoutter légèrement si elle semble trop humide.",
+        "Fouetter les œufs avec le xylitol. Incorporer le skyr, la compote et la purée de courge.",
+        "Dans un second récipient, réunir la farine d’avoine, la poudre d’amande, la protéine végétale, la levure, les épices Pumpkin Spice et le sel.",
+        "Incorporer les ingrédients secs aux ingrédients humides à la spatule, sans trop travailler la pâte.",
+        "Laisser reposer 5 minutes pour permettre à la protéine végétale de s’hydrater. La pâte doit rester épaisse mais souple.",
+        "Si nécessaire, ajouter 15 à 20 g de compote.",
+        "Verser dans un moule à cake rectangulaire de 25 cm, chemisé de papier cuisson.",
+        "Cuire en Air Fryer Cosori 10 L, mode Bake, 150 °C, grille basse, pendant 45 minutes après 3 minutes de préchauffage.",
+        "Vérifier la cuisson à partir de 42 minutes : la lame doit ressortir sans pâte crue, avec éventuellement quelques miettes humides.",
+        "Si le dessus colore trop rapidement, protéger avec une feuille d’aluminium bien maintenue.",
+        "Laisser reposer 15 minutes dans le moule, puis refroidir complètement sur une grille.",
+        "Faire fondre doucement le chocolat noir, le répartir sur le cake refroidi, parsemer les noix de pécan concassées et laisser figer avant de découper en 12 tranches."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Texture",
+          "body": "La purée de courge KoRo en conserve apporte une mie humide et fondante. Si la pâte paraît trop dense après le repos, ajouter 15 à 20 g de compote.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "tip": {
+          "title": "Cuisson",
+          "body": "Air Fryer Cosori 10 L : mode Bake, 150 °C, grille basse, 45 minutes après 3 minutes de préchauffage.\n\nÉquivalence four classique : chaleur tournante 160 °C pendant 45 à 55 minutes, ou chaleur statique 170 °C pendant 50 à 60 minutes. Vérifier avec la lame d’un couteau.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Conseils nutritionnels",
+          "body": "Jour Modéré : une tranche au petit-déjeuner ou en collation, accompagnée d’une source de protéines si nécessaire.\n\nJour Haut : possibilité de prendre deux tranches selon les apports de la journée."
+        },
+        "variant": {
+          "title": "Four classique",
+          "body": "En chaleur tournante, cuire à 160 °C pendant 45 à 55 minutes. En chaleur statique, cuire à 170 °C pendant 50 à 60 minutes. Couvrir le dessus si le cake colore trop vite."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "4 jours au réfrigérateur dans une boîte hermétique. Congélation jusqu’à 2 mois, en tranches individuelles. Sortir 15 à 20 minutes avant dégustation.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Note macros",
+          "body": "Xylitol inclus dans les calories, exclu des glucides assimilables. Valeurs pour 100 g calculées sur une hypothèse de 950 g de gâteau fini, glaçage compris.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "Cake entier",
+          "1 part (1/12)",
+          "100 g"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 2 385 kcal",
+            "≈ 199 kcal",
+            "≈ 251 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 112 g",
+            "≈ 9,3 g",
+            "≈ 11,8 g"
+          ],
+          [
+            "Glucides",
+            "≈ 174 g",
+            "≈ 14,5 g",
+            "≈ 18,3 g"
+          ],
+          [
+            "Lipides",
+            "≈ 124 g",
+            "≈ 10,3 g",
+            "≈ 13,1 g"
+          ],
+          [
+            "Fibres",
+            "≈ 31 g",
+            "≈ 2,6 g",
+            "≈ 3,3 g"
+          ]
+        ],
+        "note": "Macros indicatives, calculées avec des valeurs moyennes. Les valeurs pour 100 g reposent sur une hypothèse de 950 g de gâteau fini, glaçage compris, à recalculer après pesée du cake refroidi."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Collation"
+        },
+        {
+          "label": "Air Fryer",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Riche en fibres"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_vegetarien.png"
+        },
+        {
+          "label": "Meal prep",
+          "icon": "assets/pictos/web/picto_facile_rapide.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "pumpkin_cake_extra_moelleux",
+        "nom": "Pumpkin Cake extra moelleux",
+        "statut": "recette_officielle",
+        "categories": [
+          "petit_dejeuner",
+          "collation",
+          "dessert",
+          "cake"
+        ],
+        "joursCompatibles": [
+          "jour_modere",
+          "jour_haut"
+        ],
+        "cuisson": "air_fryer_cosori_10l",
+        "caracteristiques": [
+          "vegetarien",
+          "proteine",
+          "riche_en_fibres",
+          "air_fryer",
+          "meal_prep",
+          "automne"
+        ],
+        "rendement": "12_parts",
+        "poidsCakeFiniEstime": "950g",
+        "macrosCakeEntier": "2385_kcal, 112g_proteines, 174g_glucides, 124g_lipides, 31g_fibres",
+        "macros1Part": "199_kcal, 9.3g_proteines, 14.5g_glucides, 10.3g_lipides, 2.6g_fibres",
+        "macros100g": "251_kcal, 11.8g_proteines, 18.3g_glucides, 13.1g_lipides, 3.3g_fibres"
+      },
+      "recipePdf": "assets/fiches-pdf/pumpkin-cake-extra-moelleux.pdf"
+    },
+    {
       "id": "CHILI-PROTEINE-SOPHIE",
       "slug": "chili-proteine-sophie",
       "title": "Chili con carne",
