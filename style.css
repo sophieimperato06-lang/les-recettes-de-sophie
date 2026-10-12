@@ -152,11 +152,25 @@ main {
   border: 1px solid var(--line);
   background: var(--cream);
 }
+.recipe-tile strong {
+  display: block;
+  color: var(--brown);
+  font-family: "Allura Sophie", cursive;
+  font-size: clamp(2rem, 2.6vw, 2.55rem);
+  font-weight: 700;
+  line-height: .82;
+  letter-spacing: 0;
+  text-shadow: .25px 0 currentColor, -.25px 0 currentColor;
+}
 .recipe-tile span {
   color: var(--orange);
+  font-size: .9rem;
+  line-height: 1.15;
 }
 .recipe-tile small {
   color: #7a675a;
+  font-size: .88rem;
+  line-height: 1.2;
 }
 .recipe-tile .favorite-button {
   align-self: end;
