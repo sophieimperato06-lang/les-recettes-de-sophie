@@ -200,6 +200,244 @@
       ]
     },
     {
+      "id": "BOWLCAKE-BANANE-CHOCOLAT-PROTEINE",
+      "slug": "bowlcake-banane-chocolat-proteine",
+      "title": "Bowlcake banane",
+      "subtitle": "chocolat protéiné",
+      "description": "Deux bowlcakes moelleux banane-chocolat, enrichis en protéines et pensés pour le petit-déjeuner des enfants.",
+      "category": "Petit-déjeuner • Enfants",
+      "tags": [
+        "Petit-déjeuner",
+        "Enfants",
+        "Petit-déjeuner enfants",
+        "Collation",
+        "Végétarien",
+        "Protéiné",
+        "Rapide",
+        "Blender",
+        "Micro-ondes",
+        "Air Fryer"
+      ],
+      "webImage": "assets/photos-recettes/bowlcake-banane-chocolat-proteine-v2.jfif",
+      "imageAlt": "Bowlcake banane chocolat protéiné moelleux",
+      "servingsLabel": "2 bowlcakes",
+      "baseServings": 2,
+      "defaultServings": 2,
+      "fixedQuantities": true,
+      "prepTime": "10 min",
+      "cookTime": "2 min 30",
+      "cookingMode": "Micro-ondes ou Air Fryer",
+      "difficulty": "Très facile",
+      "heroMeta": [
+        {
+          "label": "Bowlcakes",
+          "value": "2",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "2 min 30",
+          "icon": "assets/pictos/web/picto_micro_ondes_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Très facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 130,
+          "unit": "g",
+          "labelSingular": "de banane bien mûre sans peau",
+          "labelPlural": "de banane bien mûre sans peau"
+        },
+        {
+          "quantity": null,
+          "text": "2 œufs"
+        },
+        {
+          "quantity": 80,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature|product:Skyr nature]]"
+        },
+        {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale Nutripure vanille ou neutre|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale Nutripure vanille ou neutre|product:Protéine végétale nature]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[compote de pommes sans sucre ajouté|product:Compote de pommes SSA]]",
+          "labelPlural": "de [[compote de pommes sans sucre ajouté|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": 8,
+          "unit": "g",
+          "labelSingular": "de levure chimique",
+          "labelPlural": "de levure chimique"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]",
+          "labelPlural": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]"
+        },
+        {
+          "quantity": null,
+          "text": "1/2 c. à café de vanille"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        }
+      ],
+      "preparation": [
+        "Mettre directement dans le blender la banane, les œufs, le skyr, la compote, les flocons d’avoine, la protéine végétale, la levure, la vanille et le sel.",
+        "Mixer 20 à 30 secondes jusqu’à obtenir une pâte lisse, homogène et bien fluide.",
+        "Répartir dans deux bols légèrement huilés, adaptés au micro-ondes, en les remplissant aux deux tiers maximum.",
+        "Parsemer de pépites de chocolat.",
+        "Option très gourmande : enfoncer un carré de chocolat noir de 5 g au centre de chaque bowlcake pour obtenir un cœur fondant.",
+        "Cuire au micro-ondes à 800 W pendant 2 min 30 par bol.",
+        "Vérifier la texture après cuisson : le dessus doit être pris et le centre rester moelleux. Ajouter 10 secondes seulement si nécessaire.",
+        "Laisser tiédir 1 à 2 minutes avant de servir."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Petit-déjeuner enfants",
+          "body": "Recette pensée pour 2 enfants : 1 bowlcake chacun, moelleux, rassasiant et plus protéiné qu’un gâteau classique.",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        "tip": {
+          "title": "Moelleux",
+          "body": "La compote et la banane apportent l’humidité et donnent une pâte naturellement fluide. Ne pas trop cuire : le bowlcake continue de prendre légèrement après cuisson.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Accompagnement",
+          "body": "Option rassasiante : servir 1 bowlcake avec 100 g de [[skyr nature|product:Skyr nature]] mélangé à 7 g de [[purée de cacahuète|product:Purée de cacahuète]].\n\nOption fraîche : servir 1 bowlcake avec 1 kiwi en morceaux."
+        },
+        "variant": {
+          "title": "Air Fryer Cosori 10 L",
+          "body": "Alternative Air Fryer : utiliser des ramequins compatibles et cuire à 160 °C pendant 12 à 15 minutes. Surveiller dès 12 minutes pour éviter de dessécher le gâteau."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "Meilleur dégusté tiède juste après cuisson. Si besoin, conserver 24 heures au réfrigérateur et réchauffer quelques secondes au micro-ondes.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Cuisson",
+          "body": "Cuisson officielle : micro-ondes 800 W, 2 min 30 par bol.\n\nAlternative : Air Fryer 160 °C, 12 à 15 minutes."
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 bowlcake",
+          "1 bowlcake + 100 g skyr + 7 g cacahuète",
+          "1 bowlcake + 1 kiwi"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 340 kcal",
+            "≈ 440 kcal",
+            "≈ 386 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 20 g",
+            "≈ 32 g",
+            "≈ 21 g"
+          ],
+          [
+            "Glucides",
+            "≈ 41 g",
+            "≈ 45 g",
+            "≈ 52 g"
+          ],
+          [
+            "Lipides",
+            "≈ 11 g",
+            "≈ 15 g",
+            "≈ 11,5 g"
+          ],
+          [
+            "Fibres",
+            "≈ 6 g",
+            "≈ 6,5 g",
+            "≈ 8 g"
+          ]
+        ],
+        "note": "Valeurs estimées avec 10 g de chocolat noir au total, sans carré fondant. Version skyr-cacahuète calculée avec 100 g de skyr nature 0 % et 7 g de purée de cacahuète. Version kiwi calculée avec 1 kiwi moyen."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Enfants",
+          "icon": "assets/pictos/web/picto_petit_dejeuner_enfants.png"
+        },
+        {
+          "label": "Blender",
+          "icon": "assets/pictos/web/picto_blender_officiel_recadre.png"
+        },
+        {
+          "label": "Micro-ondes",
+          "icon": "assets/pictos/web/picto_micro_ondes_officiel.png"
+        },
+        {
+          "label": "Végétarien",
+          "icon": "assets/pictos/web/picto_vegetarien.png"
+        }
+      ],
+      "codex": {
+        "identifiant": "bowlcake_banane_chocolat_proteine",
+        "nom": "Bowlcake banane chocolat protéiné",
+        "statut": "recette_officielle",
+        "categories": [
+          "petit_dejeuner",
+          "enfants",
+          "bowlcake"
+        ],
+        "cuisson": [
+          "micro_ondes",
+          "air_fryer_option"
+        ],
+        "caracteristiques": [
+          "proteine",
+          "vegetarien",
+          "rapide",
+          "blender",
+          "moelleux"
+        ],
+        "rendement": "2_bowlcakes",
+        "portion": "1_bowlcake",
+        "macros1Bowlcake": "340_kcal,20g_proteines,41g_glucides,11g_lipides,6g_fibres",
+        "macrosRecetteEntiere": "680_kcal,40g_proteines,82g_glucides,22g_lipides,12g_fibres",
+        "macros1BowlcakeAvecSkyrCacahuete": "440_kcal,32g_proteines,45g_glucides,15g_lipides,6.5g_fibres",
+        "macros1BowlcakeAvecKiwi": "386_kcal,21g_proteines,52g_glucides,11.5g_lipides,8g_fibres"
+      },
+      "recipePdf": "assets/fiches-pdf/bowlcake-banane-chocolat-proteine.pdf"
+    },
+    {
       "id": "PUDDING-CHIA-PISTACHE-FRAMBOISE",
       "slug": "pudding-chia-pistache-framboise",
       "title": "Pudding de chia",

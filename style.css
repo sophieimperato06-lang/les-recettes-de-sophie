@@ -162,6 +162,11 @@ main {
   letter-spacing: 0;
   text-shadow: .25px 0 currentColor, -.25px 0 currentColor;
 }
+.recipe-tile-title--stacked em {
+  display: block;
+  margin-top: 3px;
+  font: inherit;
+}
 .recipe-tile span {
   color: var(--orange);
   font-size: .9rem;
