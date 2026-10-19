@@ -5225,7 +5225,7 @@
           "1_mois_congelateur"
         ]
       },
-      "recipePdf": ""
+      "recipePdf": "assets/fiches-pdf/cake-moelleux-chocolat-carotte.pdf"
     },
     {
       "id": "PUMPKIN-CAKE-EXTRA-MOELLEUX",
@@ -7656,6 +7656,178 @@
         "macros100g": "161_kcal, 11g_proteines, 6.9g_glucides, 9g_lipides, 3.8g_fibres"
       },
       "recipePdf": "assets/fiches-pdf/pudding-chia-bounty.pdf"
+    },
+    {
+      "id": "BOWLCAKE-SON-AVOINE",
+      "slug": "bowlcake-son-avoine",
+      "title": "Bowlcake",
+      "subtitle": "son d’avoine",
+      "description": "Ultra moelleux, protéiné et personnalisable. Recette pour 4 bowlcakes.",
+      "category": "Petit-déjeuner",
+      "tags": [
+        "Petit-déjeuner",
+        "Jour Bas",
+        "Jour Modéré",
+        "Bowlcake",
+        "Protéiné",
+        "Micro-ondes",
+        "Meal prep",
+        "Végétarien",
+        "Rapide"
+      ],
+      "webImage": "assets/photos-recettes/bowlcake-son-avoine.jpg",
+      "imageAlt": "Bowlcake au son d’avoine photographié, découpé et garni de chocolat",
+      "recipePdf": "assets/fiches-pdf/bowlcake-son-avoine-officiel-jour-bas.pdf",
+      "servingsLabel": "4 bowlcakes",
+      "baseServings": 4,
+      "defaultServings": 4,
+      "fixedQuantities": true,
+      "prepTime": "8 min",
+      "cookTime": "2 min 30 à 3 min",
+      "cookingMode": "Micro-ondes",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Bowlcakes",
+          "value": "4",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "8 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "2 min 30 à 3 min",
+          "icon": "assets/pictos/web/picto_micro_ondes_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "3 œufs"
+        },
+        {
+          "quantity": null,
+          "text": "55 g de son d’avoine"
+        },
+        {
+          "quantity": null,
+          "text": "55 g de protéine végétale KoRo vanille"
+        },
+        {
+          "quantity": null,
+          "text": "215 g de [[compote de pomme sans sucre|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": null,
+          "text": "80 ml de boisson d’avoine sans sucre"
+        },
+        {
+          "quantity": null,
+          "text": "160 g de yaourt grec BD"
+        },
+        {
+          "quantity": null,
+          "text": "3/4 de sachet de levure chimique"
+        }
+      ],
+      "preparation": [
+        "Mélange les œufs, la compote, le yaourt grec BD et la boisson d’avoine.",
+        "Ajoute le son d’avoine, la protéine vanille et la levure.",
+        "Répartis la pâte dans 4 bols ou moules adaptés au micro-ondes.",
+        "Pour une version fruitée, ajoute les fruits sur le dessus ou au centre.",
+        "Pour la version chocolat, enfonce 20 g de chocolat au centre d’un bowlcake.",
+        "Cuis environ 2 min 30 à 3 min au micro-ondes, selon la puissance.",
+        "Laisse tiédir 2 minutes avant de déguster."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "1 bowlcake nature + 110 g de yaourt grec BD ou 1 bowlcake nature + 100 g de [[skyr|product:Skyr nature]].\nAvec 110 g de yaourt grec BD : ≈ 270 kcal, ≈ 30 g de protéines, ≈ 22 g de glucides et ≈ 6 g de lipides. Valeurs du yaourt BD vérifiées sur son étiquette.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Astuce",
+          "body": "Pour garder une texture nuageuse, laisse reposer la pâte 2 minutes avant cuisson. Le centre doit rester moelleux.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Options Jour Bas par bowlcake",
+          "body": "Nature : ≈ 211 kcal · P 20,7 g · G 17,5 g · L 5,9 g\n+ 50 g d’abricots : ≈ 235 kcal · P 21,2 g · G 20,2 g · L 6,0 g\n+ 80 g de framboises : ≈ 252 kcal · P 21,7 g · G 21,8 g · L 6,4 g\n+ 40 g de myrtilles : ≈ 234 kcal · P 21,0 g · G 23,3 g · L 6,0 g\n+ 50 g d’abricots + 5 g de [[purée de cacahuète|product:Purée de cacahuète]] : ≈ 265 kcal · P 22,5 g · G 20,9 g · L 8,5 g"
+        },
+        "variant": {
+          "title": "Variante Jour Modéré",
+          "body": "Ajouter 20 g de chocolat noir Nestlé Dessert 70 % au centre d’un bowlcake. Par portion : ≈ 329 kcal, ≈ 22,5 g de protéines, ≈ 24,1 g de glucides et ≈ 14,9 g de lipides."
+        },
+        "storage": {
+          "title": "Conservation",
+          "body": "2 jours au réfrigérateur. Réchauffer quelques secondes avant de servir.",
+          "icon": "assets/pictos/web/picto_conservation_officiel.png"
+        },
+        "day": {
+          "title": "Compatibilité nutritionnelle",
+          "body": "Jour Bas : version nature ou avec les fruits indiqués. Jour Modéré : version chocolat.",
+          "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "Recette entière",
+          "1 bowlcake nature",
+          "+ 20 g chocolat"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 845 kcal",
+            "≈ 211 kcal",
+            "≈ 329 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 83 g",
+            "≈ 20,7 g",
+            "≈ 22,5 g"
+          ],
+          [
+            "Glucides",
+            "≈ 70 g",
+            "≈ 17,5 g",
+            "≈ 24,1 g"
+          ],
+          [
+            "Lipides",
+            "≈ 24 g",
+            "≈ 5,9 g",
+            "≈ 14,9 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Petit-déjeuner"
+        },
+        {
+          "label": "Jour Bas"
+        },
+        {
+          "label": "Jour Modéré"
+        },
+        {
+          "label": "Micro-ondes"
+        },
+        {
+          "label": "Meal prep"
+        }
+      ]
     }
   ]
 }
