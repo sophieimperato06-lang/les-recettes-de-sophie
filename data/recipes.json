@@ -7750,30 +7750,30 @@
       "sections": {
         "goal": {
           "title": "Objectif 30 g de protéines",
-          "body": "1 bowlcake nature + 110 g de yaourt grec BD ou 1 bowlcake nature + 100 g de [[skyr|product:Skyr nature]].\nAvec 110 g de yaourt grec BD : ≈ 270 kcal, ≈ 30 g de protéines, ≈ 22 g de glucides et ≈ 6 g de lipides. Valeurs du yaourt BD vérifiées sur son étiquette.",
+          "body": "1 bowlcake nature + 110 g de yaourt grec BD\nou 1 bowlcake nature + 100 g de [[skyr|product:Skyr nature]].\n\nAvec 110 g de yaourt grec BD :\n≈ 270 kcal, ≈ 30 g de protéines, ≈ 22 g de glucides et ≈ 6 g de lipides.\nValeurs du yaourt BD vérifiées sur son étiquette.",
           "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
         },
         "tip": {
           "title": "Astuce",
-          "body": "Pour garder une texture nuageuse, laisse reposer la pâte 2 minutes avant cuisson. Le centre doit rester moelleux.",
+          "body": "Pour garder une texture nuageuse, laisse reposer la pâte 2 minutes avant cuisson.\nLe centre doit rester moelleux.",
           "icon": "assets/pictos/web/picto_astuce_officiel.png"
         },
         "serving": {
           "title": "Options Jour Bas par bowlcake",
-          "body": "Nature : ≈ 211 kcal · P 20,7 g · G 17,5 g · L 5,9 g\n+ 50 g d’abricots : ≈ 235 kcal · P 21,2 g · G 20,2 g · L 6,0 g\n+ 80 g de framboises : ≈ 252 kcal · P 21,7 g · G 21,8 g · L 6,4 g\n+ 40 g de myrtilles : ≈ 234 kcal · P 21,0 g · G 23,3 g · L 6,0 g\n+ 50 g d’abricots + 5 g de [[purée de cacahuète|product:Purée de cacahuète]] : ≈ 265 kcal · P 22,5 g · G 20,9 g · L 8,5 g"
+          "body": "Nature :\n≈ 211 kcal · P 20,7 g · G 17,5 g · L 5,9 g\n\n+ 50 g d’abricots :\n≈ 235 kcal · P 21,2 g · G 20,2 g · L 6,0 g\n\n+ 80 g de framboises :\n≈ 252 kcal · P 21,7 g · G 21,8 g · L 6,4 g\n\n+ 40 g de myrtilles :\n≈ 234 kcal · P 21,0 g · G 23,3 g · L 6,0 g\n\n+ 50 g d’abricots + 5 g de [[purée de cacahuète|product:Purée de cacahuète]] :\n≈ 265 kcal · P 22,5 g · G 20,9 g · L 8,5 g"
         },
         "variant": {
           "title": "Variante Jour Modéré",
-          "body": "Ajouter 20 g de chocolat noir Nestlé Dessert 70 % au centre d’un bowlcake. Par portion : ≈ 329 kcal, ≈ 22,5 g de protéines, ≈ 24,1 g de glucides et ≈ 14,9 g de lipides."
+          "body": "Ajouter 20 g de chocolat noir Nestlé Dessert 70 % au centre d’un bowlcake.\nPar portion :\n≈ 329 kcal, ≈ 22,5 g de protéines, ≈ 24,1 g de glucides et ≈ 14,9 g de lipides."
         },
         "storage": {
           "title": "Conservation",
-          "body": "2 jours au réfrigérateur. Réchauffer quelques secondes avant de servir.",
+          "body": "2 jours au réfrigérateur.\nRéchauffer quelques secondes avant de servir.",
           "icon": "assets/pictos/web/picto_conservation_officiel.png"
         },
         "day": {
           "title": "Compatibilité nutritionnelle",
-          "body": "Jour Bas : version nature ou avec les fruits indiqués. Jour Modéré : version chocolat.",
+          "body": "Jour Bas : version nature ou avec les fruits indiqués.\nJour Modéré : version chocolat.",
           "icon": "assets/pictos/web/picto_jour_bas_officiel.png"
         }
       },
