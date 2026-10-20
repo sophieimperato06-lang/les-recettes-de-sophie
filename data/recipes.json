@@ -223,7 +223,7 @@
       "servingsLabel": "2 bowlcakes",
       "baseServings": 2,
       "defaultServings": 2,
-      "fixedQuantities": true,
+      "fixedQuantities": false,
       "prepTime": "10 min",
       "cookTime": "2 min 30",
       "cookingMode": "Micro-ondes ou Air Fryer",
@@ -258,8 +258,10 @@
           "labelPlural": "de banane bien mûre sans peau"
         },
         {
-          "quantity": null,
-          "text": "2 œufs"
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "œuf",
+          "labelPlural": "œufs"
         },
         {
           "quantity": 80,
@@ -298,16 +300,26 @@
           "labelPlural": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]"
         },
         {
-          "quantity": null,
-          "text": "1/2 c. à café de vanille"
+          "quantity": 1,
+          "unit": "c. à soupe",
+          "labelSingular": "de [[cacao en poudre dégraissé KoRo|product:Cacao maigre alcalinisé]]",
+          "labelPlural": "de [[cacao en poudre dégraissé KoRo|product:Cacao maigre alcalinisé]]"
         },
         {
-          "quantity": null,
-          "text": "1 pincée de sel"
+          "quantity": 0.5,
+          "unit": "c. à café",
+          "labelSingular": "de vanille",
+          "labelPlural": "de vanille"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "pincée de sel",
+          "labelPlural": "pincées de sel"
         }
       ],
       "preparation": [
-        "Mettre directement dans le blender la banane, les œufs, le skyr, la compote, les flocons d’avoine, la protéine végétale, la levure, la vanille et le sel.",
+        "Mettre directement dans le blender la banane, les œufs, le skyr, la compote, les flocons d’avoine, la protéine végétale, le cacao, la levure, la vanille et le sel.",
         "Mixer 20 à 30 secondes jusqu’à obtenir une pâte lisse, homogène et bien fluide.",
         "Répartir dans deux bols légèrement huilés, adaptés au micro-ondes, en les remplissant aux deux tiers maximum.",
         "Parsemer de pépites de chocolat.",
@@ -435,7 +447,8 @@
         "macros1BowlcakeAvecSkyrCacahuete": "440_kcal,32g_proteines,45g_glucides,15g_lipides,6.5g_fibres",
         "macros1BowlcakeAvecKiwi": "386_kcal,21g_proteines,52g_glucides,11.5g_lipides,8g_fibres"
       },
-      "recipePdf": "assets/fiches-pdf/bowlcake-banane-chocolat-proteine.pdf"
+      "recipePdf": "assets/fiches-pdf/bowlcake-banane-chocolat-proteine.pdf",
+      "calculatorNote": "Prévoir un bol par portion. La cuisson reste de 2 min 30 par bol ; les valeurs nutritionnelles sont indiquées pour 1 bowlcake."
     },
     {
       "id": "PUDDING-CHIA-PISTACHE-FRAMBOISE",
@@ -7829,6 +7842,240 @@
         }
       ],
       "tileTitle": "Bowlcake son d’avoine"
+    },
+    {
+      "id": "CAKE-CHOCOLAT-PROTEINE-ULTRA-MOELLEUX",
+      "slug": "cake-chocolat-proteine-ultra-moelleux",
+      "title": "Cake chocolat protéiné",
+      "tileTitle": "Cake chocolat protéiné ultra-moelleux",
+      "subtitle": "ultra-moelleux",
+      "description": "Un cake chocolaté à la mie moelleuse, pour 10 tranches. Cuisson au Cosori 10 L ou au four.",
+      "category": "Petit-déjeuner • Collation • Dessert",
+      "tags": [
+        "Végétarien",
+        "Cake",
+        "Chocolat",
+        "Protéiné",
+        "Petit-déjeuner",
+        "Collation",
+        "Dessert",
+        "Jour Bas",
+        "Jour Modéré",
+        "Jour Haut"
+      ],
+      "webImage": "assets/photos-recettes/cake-chocolat-proteine-ultra-moelleux.webp",
+      "imageAlt": "Tranches de cake chocolat protéiné ultra-moelleux",
+      "recipePdf": "assets/fiches-pdf/cake-chocolat-proteine-ultra-moelleux.pdf",
+      "servingsLabel": "10 tranches",
+      "baseServings": 10,
+      "defaultServings": 10,
+      "fixedQuantities": true,
+      "prepTime": "15 min",
+      "cookTime": "35 min Cosori ; 38 à 45 min four",
+      "cookingMode": "Cosori 10 L ou four",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Tranches",
+          "value": "10",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "35 à 45 min",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": null,
+          "text": "3 œufs"
+        },
+        {
+          "quantity": null,
+          "text": "120 g de skyr nature"
+        },
+        {
+          "quantity": null,
+          "text": "80 g de compote de pommes sans sucre ajouté"
+        },
+        {
+          "quantity": null,
+          "text": "90 g de farine de grand épeautre T110, ou 45 g de farine d’avoine + 45 g de farine de grand épeautre T110"
+        },
+        {
+          "quantity": null,
+          "text": "25 g de poudre d’amande"
+        },
+        {
+          "quantity": null,
+          "text": "20 g de protéine végétale Nutripure"
+        },
+        {
+          "quantity": null,
+          "text": "20 g de cacao dégraissé KoRo"
+        },
+        {
+          "quantity": null,
+          "text": "40 g de sucre de coco"
+        },
+        {
+          "quantity": null,
+          "text": "35 g d’huile de colza désodorisée ou autre huile neutre"
+        },
+        {
+          "quantity": null,
+          "text": "40 g de chocolat noir 70 %"
+        },
+        {
+          "quantity": null,
+          "text": "25 g de noix de cajou"
+        },
+        {
+          "quantity": null,
+          "text": "10 g de levure chimique"
+        },
+        {
+          "quantity": null,
+          "text": "30 ml de lait végétal"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille"
+        }
+      ],
+      "preparation": [
+        "Séparer les blancs des jaunes d’œufs.",
+        "Fouetter les jaunes avec le sucre de coco pendant 2 à 3 minutes, jusqu’à obtenir un mélange mousseux.",
+        "Faire fondre doucement les 40 g de chocolat noir 70 %, puis laisser tiédir quelques instants.",
+        "Ajouter aux jaunes le skyr, la compote de pommes, l’huile de colza, le chocolat noir fondu et la vanille.",
+        "Mélanger jusqu’à obtenir une préparation lisse et homogène.",
+        "Dans un autre récipient, mélanger la farine, la poudre d’amande, la protéine végétale, le cacao dégraissé et la levure chimique.",
+        "Incorporer progressivement les ingrédients secs à la préparation liquide.",
+        "Ajouter les 30 ml de lait végétal et mélanger juste assez pour homogénéiser la pâte.",
+        "Monter les blancs d’œufs en neige souple avec une pincée de sel.",
+        "Incorporer délicatement les blancs à la spatule, en 3 fois, afin de conserver un maximum d’air dans la pâte.",
+        "Verser immédiatement la préparation dans un moule à cake de 20 à 22 cm, préalablement chemisé.",
+        "Concasser grossièrement les 25 g de noix de cajou.",
+        "Répartir les noix de cajou sur toute la surface du cake.",
+        "Cuire au Cosori 10 L en mode Bake à 155 °C pendant 35 minutes, ou au four préchauffé à 170 °C en chaleur traditionnelle pendant 40 à 45 minutes ou à 160 °C en chaleur tournante pendant environ 38 à 42 minutes.",
+        "Vérifier la cuisson au centre : la lame doit ressortir sans pâte liquide, mais peut conserver quelques miettes humides. Pour le four, commencer à vérifier vers 38 à 40 minutes. Ne pas prolonger inutilement la cuisson.",
+        "Laisser tiédir avant de démouler, puis refroidir avant de découper en 10 tranches."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Cuisson Cosori 10 L",
+          "body": "Mode Bake : 155 °C pendant 35 minutes.\nVérifier la cuisson au centre : la lame doit ressortir sans pâte liquide, avec éventuellement quelques miettes humides.",
+          "icon": "assets/pictos/web/picto_air_fryer_officiel.png"
+        },
+        "tip": {
+          "title": "Texture ultra-moelleuse",
+          "body": "Incorporer les blancs en neige souple délicatement, en 3 fois, pour garder l’air dans la pâte. Ne pas prolonger inutilement la cuisson.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Farine au choix",
+          "body": "90 g de farine de grand épeautre T110, ou 45 g de farine d’avoine et 45 g de farine de grand épeautre T110.\nLes macros communiquées concernent la formule principale ; la variante n’a pas de valeurs distinctes."
+        },
+        "variant": {
+          "title": "Four classique préchauffé",
+          "body": "Chaleur traditionnelle : 170 °C pendant 40 à 45 minutes.\nOu chaleur tournante : 160 °C pendant environ 38 à 42 minutes.\nCommencer à vérifier vers 38 à 40 minutes.",
+          "icon": "assets/pictos/web/picto_four_officiel_recadre.png"
+        },
+        "storage": {
+          "title": "Avant de découper",
+          "body": "Laisser tiédir avant de démouler, puis refroidir avant de couper le cake en 10 tranches."
+        },
+        "day": {
+          "title": "Compatibilité nutritionnelle",
+          "body": "Jour Bas : 1 tranche maximum, à intégrer dans un petit-déjeuner ou une collation plutôt légère autour (environ 15 g de glucides et presque 10 g de lipides par tranche).\nJour Modéré : 1 tranche, voire 2 ponctuellement selon le reste de la journée.\nJour Haut : 1 à 2 tranches facilement intégrables.",
+          "boldLabels": [
+            "Jour Bas",
+            "Jour Modéré",
+            "Jour Haut"
+          ]
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": [
+          "1 tranche (1/10)",
+          "100 g avant cuisson"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 177 kcal",
+            "≈ 258 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 7,6 g",
+            "≈ 11,0 g"
+          ],
+          [
+            "Glucides",
+            "≈ 15,1 g",
+            "≈ 22,0 g"
+          ],
+          [
+            "Lipides",
+            "≈ 9,6 g",
+            "≈ 14,0 g"
+          ],
+          [
+            "Fibres",
+            "≈ 2,4 g",
+            "≈ 3,5 g"
+          ]
+        ]
+      },
+      "tagsDetailed": [
+        {
+          "label": "Végétarien"
+        },
+        {
+          "label": "Cake"
+        },
+        {
+          "label": "Chocolat"
+        },
+        {
+          "label": "Protéiné"
+        },
+        {
+          "label": "Petit-déjeuner"
+        },
+        {
+          "label": "Collation"
+        },
+        {
+          "label": "Dessert"
+        },
+        {
+          "label": "Jour Bas"
+        },
+        {
+          "label": "Jour Modéré"
+        },
+        {
+          "label": "Jour Haut"
+        }
+      ]
     }
   ]
 }
