@@ -8076,6 +8076,225 @@
           "label": "Jour Haut"
         }
       ]
+    },
+    {
+      "id": "PANCAKES-BANANE-PROTEINES",
+      "slug": "pancakes-banane-proteines",
+      "title": "Pancakes banane protéinés",
+      "tileTitle": "Pancakes banane protéinés",
+      "subtitle": "moelleux & gourmands",
+      "description": "Des pancakes épais et moelleux, à environ 30 g de protéines par portion.",
+      "category": "Petit-déjeuner",
+      "tags": [
+        "Végétarien",
+        "PDJ enfant",
+        "Petit-déjeuner",
+        "Pancakes",
+        "Protéiné",
+        "Banane",
+        "Épeautre",
+        "Objectif 30 g protéines",
+        "Jour Modéré",
+        "Jour Haut"
+      ],
+      "webImage": "assets/photos-recettes/pancakes-banane-proteines.jfif",
+      "imageAlt": "Pancakes à la banane servis avec des garnitures illustratives",
+      "recipePdf": "assets/fiches-pdf/pancakes-banane-proteines.pdf",
+      "servingsLabel": "2 portions",
+      "baseServings": 2,
+      "defaultServings": 2,
+      "fixedQuantities": false,
+      "prepTime": "15 min",
+      "cookTime": "10 min",
+      "cookingMode": "Poêle avec couvercle",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {
+          "label": "Portions",
+          "value": "2",
+          "icon": "assets/pictos/web/picto_portions_officiel.png"
+        },
+        {
+          "label": "Préparation",
+          "value": "15 min",
+          "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"
+        },
+        {
+          "label": "Cuisson",
+          "value": "10 min",
+          "icon": "assets/pictos/web/picto_poele_officiel_recadre.png"
+        },
+        {
+          "label": "Niveau",
+          "value": "Facile",
+          "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"
+        }
+      ],
+      "ingredients": [
+        {
+          "quantity": 130,
+          "unit": "g",
+          "labelSingular": "de banane bien mûre sans peau (1 grosse banane)",
+          "labelPlural": "de banane bien mûre sans peau (1 grosse banane)"
+        },
+        {
+          "quantity": 2,
+          "unit": "",
+          "labelSingular": "œuf",
+          "labelPlural": "œufs"
+        },
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "de skyr nature",
+          "labelPlural": "de skyr nature"
+        },
+        {
+          "quantity": 65,
+          "unit": "g",
+          "labelSingular": "de farine de grand épeautre T110",
+          "labelPlural": "de farine de grand épeautre T110"
+        },
+        {
+          "quantity": 25,
+          "unit": "g",
+          "labelSingular": "de farine d’amande déshuilée KoRo",
+          "labelPlural": "de farine d’amande déshuilée KoRo"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "de protéine végétale Nutripure",
+          "labelPlural": "de protéine végétale Nutripure"
+        },
+        {
+          "quantity": 50,
+          "unit": "ml",
+          "labelSingular": "de lait d’avoine",
+          "labelPlural": "de lait d’avoine"
+        },
+        {
+          "quantity": 8,
+          "unit": "g",
+          "labelSingular": "de levure chimique",
+          "labelPlural": "de levure chimique"
+        },
+        {
+          "quantity": 0.5,
+          "unit": "c. à café",
+          "labelSingular": "de vanille",
+          "labelPlural": "de vanille"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "pincée de sel",
+          "labelPlural": "pincées de sel"
+        }
+      ],
+      "preparation": [
+        "Séparer les blancs des jaunes d’œufs et écraser finement la banane à la fourchette.",
+        "Ajouter les jaunes, le skyr, le lait d’avoine et la vanille à la banane. Mélanger jusqu’à homogénéité.",
+        "Ajouter la farine de grand épeautre T110, la farine d’amande déshuilée, la protéine végétale et la levure. Mélanger juste assez pour incorporer les ingrédients.",
+        "La pâte doit rester épaisse mais retomber lentement de la cuillère. Ajuster avec un peu de lait d’avoine si nécessaire.",
+        "Monter les blancs en neige souple avec la pincée de sel. Les incorporer délicatement à la spatule, en 2 fois, sans casser les bulles d’air.",
+        "Faire chauffer une poêle antiadhésive à feu doux-moyen et la graisser très légèrement.",
+        "Déposer de petits tas de pâte épais, sans les étaler. Couvrir et cuire 2 à 3 minutes.",
+        "Retourner délicatement, puis cuire encore 1 à 2 minutes. Le couvercle aide les pancakes à gonfler et à cuire à cœur sans brûler.",
+        "Servir avec du chocolat noir 70 % fondu ou en copeaux, ou du sirop d’érable, si souhaité. Ces toppings ne sont pas inclus dans les macros de base."
+      ],
+      "sections": {
+        "goal": {
+          "title": "Objectif 30 g de protéines",
+          "body": "Une portion (la moitié de la recette) apporte environ 29,1 g de protéines, proche de l’objectif de 30 g.",
+          "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"
+        },
+        "tip": {
+          "title": "Pancakes bien gonflés",
+          "body": "Garder une pâte épaisse, incorporer les blancs en neige souple délicatement et cuire à couvert à feu doux-moyen.",
+          "icon": "assets/pictos/web/picto_astuce_officiel.png"
+        },
+        "serving": {
+          "title": "Toppings au moment de servir",
+          "body": "Chocolat noir 70 % fondu ou en copeaux, ou sirop d’érable. Les garnitures visibles sur la photo et les toppings ne sont pas inclus dans les macros de base."
+        },
+        "variant": {
+          "title": "Texture de la pâte",
+          "body": "La pâte doit retomber lentement de la cuillère. Ajouter un peu de lait d’avoine seulement si nécessaire."
+        },
+        "day": {
+          "title": "Compatibilité nutritionnelle",
+          "body": "Jour Bas : peu adapté.\nJour Modéré : compatible.\nJour Haut : très compatible.",
+          "boldLabels": [
+            "Jour Bas",
+            "Jour Modéré",
+            "Jour Haut"
+          ]
+        }
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées (sans toppings)",
+        "columns": [
+          "1 portion (1/2)",
+          "100 g avant cuisson"
+        ],
+        "rows": [
+          [
+            "Calories",
+            "≈ 372 kcal",
+            "≈ 144 kcal"
+          ],
+          [
+            "Protéines",
+            "≈ 29,1 g",
+            "≈ 11,2 g"
+          ],
+          [
+            "Glucides",
+            "≈ 42,0 g",
+            "≈ 16,2 g"
+          ],
+          [
+            "Lipides",
+            "≈ 8,8 g",
+            "≈ 3,4 g"
+          ]
+        ],
+        "note": "Valeurs communiquées pour la recette de base, sans toppings. Les valeurs pour 100 g concernent la pâte avant cuisson."
+      },
+      "tagsDetailed": [
+        {
+          "label": "Végétarien"
+        },
+        {
+          "label": "PDJ enfant"
+        },
+        {
+          "label": "Petit-déjeuner"
+        },
+        {
+          "label": "Pancakes"
+        },
+        {
+          "label": "Protéiné"
+        },
+        {
+          "label": "Banane"
+        },
+        {
+          "label": "Épeautre"
+        },
+        {
+          "label": "Objectif 30 g protéines"
+        },
+        {
+          "label": "Jour Modéré"
+        },
+        {
+          "label": "Jour Haut"
+        }
+      ],
+      "calculatorNote": "Les valeurs nutritionnelles sont indiquées pour 1 portion (la moitié de la recette) et excluent les toppings. Pour 100 g : pâte avant cuisson."
     }
   ]
 }
