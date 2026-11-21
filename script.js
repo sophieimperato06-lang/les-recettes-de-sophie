@@ -1,4 +1,4 @@
-const FAVORITES_KEY="sophieRecipeFavorites";const SEARCH_FILTERS=["Petit-d\u00e9jeuner","Jour Mod\u00e9r\u00e9","Jour Bas","Plat","Dessert","Collation","V\u00e9g\u00e9tarien","Meal prep","Rapide","Printemps","\u00c9t\u00e9","Automne","Hiver","Entr\u00e9e / salade","Sandwichs & wraps"];let RECIPES=[];
+const FAVORITES_KEY="sophieRecipeFavorites";const SEARCH_FILTERS=["Petit-d\u00e9jeuner","Jour Mod\u00e9r\u00e9","Jour Bas","Plat","Dessert","Collation","Goûter","V\u00e9g\u00e9tarien","Meal prep","Rapide","Printemps","\u00c9t\u00e9","Automne","Hiver","Entr\u00e9e / salade","Sandwichs & wraps"];let RECIPES=[];
 function readFavorites(){try{return JSON.parse(localStorage.getItem(FAVORITES_KEY)||"[]")}catch{return[]}}
 function writeFavorites(ids){localStorage.setItem(FAVORITES_KEY,JSON.stringify(ids))}
 function escapeHtml(v){return String(v??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}

@@ -8295,6 +8295,87 @@
         }
       ],
       "calculatorNote": "Les valeurs nutritionnelles sont indiquées pour 1 portion (la moitié de la recette) et excluent les toppings. Pour 100 g : pâte avant cuisson."
+    },
+    {
+      "id": "COOKIES-CHOCOLAT-CROUSTILLANTS-MOELLEUX",
+      "slug": "cookies-chocolat-croustillants-moelleux",
+      "title": "Cookies chocolat",
+      "subtitle": "croustillants et moelleux",
+      "description": "Des cookies au chocolat noir, aux bords croustillants et au cœur moelleux.",
+      "category": "Goûter • Collation",
+      "tags": ["Goûter", "Collation", "Végétarien", "Cookies", "Chocolat", "Enfants", "Épeautre", "Avoine"],
+      "webImage": "assets/photos-recettes/cookies-chocolat-croustillants-moelleux.jpeg",
+      "imageAlt": "Cookies au chocolat noir sur une assiette",
+      "servingsLabel": "9 cookies",
+      "baseServings": 9,
+      "defaultServings": 9,
+      "fixedQuantities": true,
+      "prepTime": "20 à 30 min de repos",
+      "cookTime": "12 min",
+      "cookingMode": "Four à chaleur tournante, 175 °C",
+      "difficulty": "Facile",
+      "heroMeta": [
+        {"label": "Rendement", "value": "9 cookies", "icon": "assets/pictos/web/picto_portions_officiel.png"},
+        {"label": "Repos", "value": "20–30 min", "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"},
+        {"label": "Cuisson", "value": "12 min", "icon": "assets/pictos/web/picto_four_officiel_recadre.png"},
+        {"label": "Niveau", "value": "Facile", "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"}
+      ],
+      "ingredients": [
+        {"quantity": null, "text": "60 g de beurre mou"},
+        {"quantity": null, "text": "36 g de [[sucre de coco|product:Sucre de fleur de coco bio]]"},
+        {"quantity": null, "text": "10 g de [[sirop d’érable|product:Sirop d'érable bio]]"},
+        {"quantity": null, "text": "1 œuf entier"},
+        {"quantity": null, "text": "1 c. à café de vanille"},
+        {"quantity": null, "text": "80 g de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"},
+        {"quantity": null, "text": "30 g de farine d’avoine"},
+        {"quantity": null, "text": "30 g de [[farine d’amande déshuilée|product:Farine d’amande partiellement déshuilée]]"},
+        {"quantity": null, "text": "½ c. à café de levure chimique"},
+        {"quantity": null, "text": "1 bonne pincée de sel"},
+        {"quantity": null, "text": "60 g de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]], grossièrement haché"}
+      ],
+      "preparation": [
+        "Mélanger le beurre mou, le sucre de coco et le sirop d’érable jusqu’à obtenir une préparation crémeuse.",
+        "Ajouter l’œuf entier et la vanille, puis mélanger.",
+        "Incorporer la farine de grand épeautre T110, la farine d’avoine, la farine d’amande déshuilée, la levure chimique et le sel. Mélanger juste assez pour obtenir une pâte homogène.",
+        "Ajouter le chocolat noir 70 % grossièrement haché et le répartir dans la pâte.",
+        "Placer la pâte au réfrigérateur pendant 20 à 30 minutes.",
+        "Former 9 boules de pâte de taille régulière. Les déposer sur une plaque recouverte de papier cuisson et les aplatir légèrement.",
+        "Cuire 12 minutes au four à chaleur tournante préchauffé à 175 °C. Les bords doivent être légèrement dorés et le centre encore tendre.",
+        "Ne pas prolonger la cuisson si le centre paraît encore un peu mou. Laisser refroidir 10 minutes sur la plaque : les cookies se raffermissent en gardant un cœur moelleux."
+      ],
+      "sections": {
+        "tip": {"title": "Le secret du moelleux", "body": "Retirer les cookies après 12 minutes, même si le centre semble encore tendre. Les laisser 10 minutes sur la plaque avant de les déplacer.", "icon": "assets/pictos/web/picto_astuce_officiel.png"},
+        "serving": {"title": "Texture recherchée", "body": "Bords croustillants.\nCentre moelleux.\nChocolat fondant."},
+        "variant": {"title": "Valeurs pour 100 g", "body": "À calculer après pesée des 9 cookies cuits et refroidis."},
+        "day": {"title": "Végétarien", "body": "Cookies adaptés à une alimentation végétarienne.", "icon": "assets/pictos/web/picto_vegetarien.png"}
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": ["1 cookie (1/9)", "Recette entière"],
+        "rows": [
+          ["Calories", "≈ 195 kcal", "≈ 1 755 kcal"],
+          ["Protéines", "≈ 4,5 g", "≈ 40,5 g"],
+          ["Glucides", "≈ 19 g", "≈ 171 g"],
+          ["Lipides", "≈ 11 g", "≈ 99 g"]
+        ],
+        "note": "Macros par cookie fournies pour 1/9 de la recette ; total obtenu en multipliant par 9. Les valeurs pour 100 g demandent le poids réel des cookies après cuisson."
+      },
+      "tagsDetailed": [
+        {"label": "Goûter"},
+        {"label": "Collation"},
+        {"label": "Végétarien"},
+        {"label": "Chocolat"}
+      ],
+      "codex": {
+        "identifiant": "cookies_chocolat_croustillants_moelleux",
+        "nom": "Cookies chocolat croustillants et moelleux",
+        "statut": "recette_officielle",
+        "categories": ["gouter", "collation"],
+        "caracteristiques": ["vegetarien", "chocolat", "enfant"],
+        "rendement": "9_cookies",
+        "macros1Cookie": "195_kcal,4.5g_proteines,19g_glucides,11g_lipides"
+      },
+      "recipePdf": "assets/fiches-pdf/cookies-chocolat-croustillants-moelleux.pdf"
     }
   ]
 }
