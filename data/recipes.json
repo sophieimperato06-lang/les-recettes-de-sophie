@@ -8309,7 +8309,9 @@
       "servingsLabel": "9 cookies",
       "baseServings": 9,
       "defaultServings": 9,
-      "fixedQuantities": true,
+      "calculatorMultipliers": [1, 2, 3],
+      "calculatorUnit": "cookie",
+      "calculatorNote": "Le nombre de cookies et les ingrédients suivent le multiplicateur choisi. Les macros ci-dessous restent celles d’un cookie et de la recette de base (9 cookies).",
       "prepTime": "20 à 30 min de repos",
       "cookTime": "12 min",
       "cookingMode": "Four à chaleur tournante, 175 °C",
@@ -8321,17 +8323,17 @@
         {"label": "Niveau", "value": "Facile", "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"}
       ],
       "ingredients": [
-        {"quantity": null, "text": "60 g de beurre mou"},
-        {"quantity": null, "text": "36 g de [[sucre de coco|product:Sucre de fleur de coco bio]]"},
-        {"quantity": null, "text": "10 g de [[sirop d’érable|product:Sirop d'érable bio]]"},
-        {"quantity": null, "text": "1 œuf entier"},
-        {"quantity": null, "text": "1 c. à café de vanille"},
-        {"quantity": null, "text": "80 g de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"},
-        {"quantity": null, "text": "30 g de farine d’avoine"},
-        {"quantity": null, "text": "30 g de [[farine d’amande déshuilée|product:Farine d’amande partiellement déshuilée]]"},
-        {"quantity": null, "text": "½ c. à café de levure chimique"},
-        {"quantity": null, "text": "1 bonne pincée de sel"},
-        {"quantity": null, "text": "60 g de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]], grossièrement haché"}
+        {"quantity": 60, "unit": "g", "labelSingular": "de beurre mou"},
+        {"quantity": 36, "unit": "g", "labelSingular": "de [[sucre de coco|product:Sucre de fleur de coco bio]]"},
+        {"quantity": 10, "unit": "g", "labelSingular": "de [[sirop d’érable|product:Sirop d'érable bio]]"},
+        {"quantity": 1, "labelSingular": "œuf entier", "labelPlural": "œufs entiers"},
+        {"quantity": 1, "unit": "c. à café", "labelSingular": "de vanille"},
+        {"quantity": 80, "unit": "g", "labelSingular": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"},
+        {"quantity": 30, "unit": "g", "labelSingular": "de farine d’avoine"},
+        {"quantity": 30, "unit": "g", "labelSingular": "de [[farine d’amande déshuilée|product:Farine d’amande partiellement déshuilée]]"},
+        {"quantity": 0.5, "unit": "c. à café", "labelSingular": "de levure chimique"},
+        {"quantity": 1, "labelSingular": "bonne pincée de sel", "labelPlural": "bonnes pincées de sel"},
+        {"quantity": 60, "unit": "g", "labelSingular": "de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]], grossièrement haché"}
       ],
       "preparation": [
         "Mélanger le beurre mou, le sucre de coco et le sirop d’érable jusqu’à obtenir une préparation crémeuse.",
@@ -8461,6 +8463,95 @@
         "macros1Tranche": "185_kcal,9.5_a_10g_proteines,19g_glucides,11_a_12g_lipides"
       },
       "recipePdf": "assets/fiches-pdf/banana-bread-proteine-chocolat-pecan.pdf"
+    },
+    {
+      "id": "PAIN-PROTEINE-EXPRESS-AVOINE-SKYR-GRAINES",
+      "slug": "pain-proteine-express-avoine-skyr-graines",
+      "title": "Pain protéiné express",
+      "subtitle": "avoine, skyr et graines",
+      "description": "Un pain moelleux aux flocons d’avoine et aux graines, à cuire au four ou à l’Air Fryer.",
+      "category": "Petit-déjeuner • Brunch • Tartines",
+      "tags": ["Petit-déjeuner", "Brunch", "Tartines", "Végétarien", "Pain protéiné", "Protéiné", "Four", "Air Fryer"],
+      "webImage": "assets/photos-recettes/pain-proteine-express-avoine-skyr-graines.png",
+      "imageAlt": "Visuel illustratif d’un pain aux flocons d’avoine et aux graines coupé en tranches",
+      "servingsLabel": "Environ 10 tranches",
+      "baseServings": 10,
+      "defaultServings": 10,
+      "fixedQuantities": true,
+      "cookTime": "30 à 40 min au four ou 25 à 35 min à l’Air Fryer",
+      "cookingMode": "Four ou Air Fryer Cosori, mode Bake",
+      "heroMeta": [
+        {"label": "Rendement", "value": "≈ 10 tranches", "icon": "assets/pictos/web/picto_portions_officiel.png"},
+        {"label": "Four 180 °C", "value": "30–40 min", "icon": "assets/pictos/web/picto_four_officiel_recadre.png"},
+        {"label": "Air Fryer 160 °C", "value": "25–35 min", "icon": "assets/pictos/web/picto_air_fryer_officiel.png"},
+        {"label": "Petit-déjeuner", "value": "≥ 30 g prot.", "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"}
+      ],
+      "ingredients": [
+        {"quantity": null, "text": "250 g de [[skyr nature|product:Skyr nature]]"},
+        {"quantity": null, "text": "2 œufs"},
+        {"quantity": null, "text": "20 g d’huile d’olive"},
+        {"quantity": null, "text": "1 c. à café de miel, facultative"},
+        {"quantity": null, "text": "100 g de [[flocons d’avoine|product:Flocons d'avoine bio]] à mixer en farine"},
+        {"quantity": null, "text": "50 g de [[flocons d’avoine|product:Flocons d'avoine bio]] entiers"},
+        {"quantity": null, "text": "50 g de son d’avoine"},
+        {"quantity": null, "text": "10 g de levure chimique"},
+        {"quantity": null, "text": "4 g de sel"},
+        {"quantity": null, "text": "20 g de graines de courge"},
+        {"quantity": null, "text": "10 g de graines de tournesol"},
+        {"quantity": null, "text": "10 g de graines de sésame"},
+        {"quantity": null, "text": "½ c. à café d’ail en poudre ou un peu de thym, facultatif"},
+        {"quantity": null, "text": "20 à 40 ml d’eau, uniquement si nécessaire"},
+        {"quantity": null, "text": "Quelques graines supplémentaires pour le dessus, facultatif"}
+      ],
+      "preparation": [
+        "Mixer les 100 g de flocons d’avoine jusqu’à obtenir une farine.",
+        "Mélanger le skyr, les œufs, l’huile d’olive et, si souhaité, le miel.",
+        "Ajouter les flocons mixés, les 50 g de flocons entiers, le son d’avoine, la levure chimique, le sel, les graines de courge, de tournesol et de sésame, puis l’ail en poudre ou le thym si utilisé.",
+        "Mélanger simplement à la cuillère. La pâte doit être épaisse, collante et souple. Si elle est trop compacte, ajouter progressivement 20 à 40 ml d’eau.",
+        "Verser dans un petit moule à cake d’environ 20 cm, chemisé de papier cuisson.",
+        "Lisser la surface avec une cuillère humide et ajouter éventuellement quelques graines sur le dessus.",
+        "Au four classique : cuire à 180 °C en chaleur tournante pendant 30 à 40 minutes.",
+        "À l’Air Fryer Cosori : cuire en mode Bake à 160 °C pendant 25 à 35 minutes.",
+        "Vérifier la cuisson avec une lame : elle doit ressortir sans pâte crue. Laisser tiédir avant de trancher."
+      ],
+      "sections": {
+        "goal": {"title": "Petit-déjeuner complet — objectif 30 g de protéines", "body": "2 petites tranches de pain protéiné\n½ avocat\n20 g de [[bacon maigre 3 %|product:Bacon maigre 3 % MG]]\n2 œufs\n≈ 520 kcal · 34–35 g de protéines · 28 g de glucides · 33 g de lipides · 10 g de fibres.\nObjectif 30 g atteint.", "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"},
+        "tip": {"title": "Texture de la pâte", "body": "La pâte reste épaisse, collante et souple. N’ajouter l’eau que si elle est trop compacte, progressivement, sans dépasser 40 ml.", "icon": "assets/pictos/web/picto_astuce_officiel.png"},
+        "serving": {"title": "Repère nutritionnel", "body": "Pain estimé à 10 tranches et 550 g après cuisson, sans miel ni graines supplémentaires. La valeur pour 100 g sera recalculée lorsque le pain cuit aura été pesé."},
+        "variant": {"title": "Deux cuissons", "body": "Four : 180 °C, chaleur tournante, 30 à 40 min.\nAir Fryer Cosori : mode Bake, 160 °C, 25 à 35 min.\nDans les deux cas, vérifier le centre avec une lame."},
+        "day": {"title": "Végétarien", "body": "Le pain seul est végétarien. Le petit-déjeuner proposé avec bacon ne l’est pas.", "icon": "assets/pictos/web/picto_vegetarien.png"}
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": ["1 tranche", "100 g cuits*", "PDJ complet"],
+        "rows": [
+          ["Calories", "≈ 144 kcal", "≈ 261 kcal", "≈ 520 kcal"],
+          ["Protéines", "≈ 7,7 g", "≈ 14 g", "≈ 34–35 g"],
+          ["Glucides", "≈ 12,6 g", "≈ 22,9 g", "≈ 28 g"],
+          ["Lipides", "≈ 6,4 g", "≈ 11,7 g", "≈ 33 g"],
+          ["Fibres", "≈ 2,4 g", "≈ 4,4 g", "≈ 10 g"]
+        ],
+        "note": "Pain estimé sans miel ni graines supplémentaires. Colonne 100 g calculée sur 550 g de pain cuit supposés, à recalculer après pesée. Macros du petit-déjeuner complet fournies par Sophie."
+      },
+      "tagsDetailed": [
+        {"label": "Petit-déjeuner"},
+        {"label": "Brunch"},
+        {"label": "Tartines"},
+        {"label": "Végétarien", "showIcon": true, "icon": "assets/pictos/web/picto_vegetarien.png"}
+      ],
+      "codex": {
+        "identifiant": "pain_proteine_express_avoine_skyr_graines",
+        "statut": "recette_officielle",
+        "rendement": "environ_10_tranches",
+        "categories": ["petit_dejeuner", "brunch", "tartines"],
+        "caracteristiques": ["vegetarien", "proteine", "four", "air_fryer"],
+        "macrosSansOptions": "1437_kcal,77g_proteines,126g_glucides,64g_lipides,24g_fibres",
+        "objectif30g": "2_petites_tranches_plus_demi_avocat_plus_20g_bacon_3_pourcent_plus_2_oeufs",
+        "poidsCuitEstime": "550_g",
+        "macrosPetitDejeunerComplet": "520_kcal,34_a_35g_proteines,28g_glucides,33g_lipides,10g_fibres",
+        "nutritionEstimee": true
+      },
+      "recipePdf": "assets/fiches-pdf/pain-proteine-express-avoine-skyr-graines.pdf"
     }
   ]
 }
