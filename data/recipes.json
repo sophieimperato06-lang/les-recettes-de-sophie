@@ -8376,6 +8376,91 @@
         "macros1Cookie": "195_kcal,4.5g_proteines,19g_glucides,11g_lipides"
       },
       "recipePdf": "assets/fiches-pdf/cookies-chocolat-croustillants-moelleux.pdf"
+    },
+    {
+      "id": "BANANA-BREAD-PROTEINE-CHOCOLAT-PECAN",
+      "slug": "banana-bread-proteine-chocolat-pecan",
+      "title": "Banana bread protéiné",
+      "subtitle": "chocolat–pécan",
+      "description": "Un banana bread moelleux aux éclats de chocolat noir et aux noix de pécan.",
+      "category": "Petit-déjeuner • Goûter",
+      "tags": ["Petit-déjeuner", "Goûter", "Enfants", "PDJ enfant", "Végétarien", "Protéiné", "Jour Modéré", "Jour Haut", "Air Fryer"],
+      "webImage": "assets/photos-recettes/banana-bread-proteine-chocolat-pecan.jpeg",
+      "imageAlt": "Banana bread au chocolat coupé en tranches",
+      "servingsLabel": "10 tranches",
+      "baseServings": 10,
+      "defaultServings": 10,
+      "fixedQuantities": true,
+      "cookTime": "55 min",
+      "cookingMode": "Air Fryer Cosori, mode Bake à 150 °C",
+      "heroMeta": [
+        {"label": "Rendement", "value": "10 tranches", "icon": "assets/pictos/web/picto_portions_officiel.png"},
+        {"label": "Cuisson", "value": "55 min", "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"},
+        {"label": "Air Fryer Bake", "value": "150 °C", "icon": "assets/pictos/web/picto_air_fryer_officiel.png"},
+        {"label": "Petit-déjeuner", "value": "≈ 30 g prot.", "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"}
+      ],
+      "ingredients": [
+        {"quantity": null, "text": "300 g de bananes très mûres"},
+        {"quantity": null, "text": "3 œufs"},
+        {"quantity": null, "text": "150 g de [[skyr nature|product:Skyr nature]]"},
+        {"quantity": null, "text": "30 g d’huile de colza désodorisée"},
+        {"quantity": null, "text": "25 g de [[sucre de coco|product:Sucre de fleur de coco bio]]"},
+        {"quantity": null, "text": "Vanille selon le goût"},
+        {"quantity": null, "text": "80 g de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"},
+        {"quantity": null, "text": "35 g de [[farine d’amande déshuilée|product:Farine d’amande partiellement déshuilée]]"},
+        {"quantity": null, "text": "25 g de [[poudre d’amande classique|product:Poudre d'amande complète]]"},
+        {"quantity": null, "text": "25 g de [[protéine végétale Nutripure|product:Protéine végétale nature]]"},
+        {"quantity": null, "text": "10 g de levure chimique"},
+        {"quantity": null, "text": "1 bonne pincée de sel"},
+        {"quantity": null, "text": "50 g de [[chocolat noir 70 %|product:Chocolat noir Dessert 70 %]], grossièrement haché"},
+        {"quantity": null, "text": "40 g de noix de pécan, grossièrement concassées"}
+      ],
+      "preparation": [
+        "Écraser très finement les bananes jusqu’à obtenir une purée.",
+        "Ajouter les œufs, puis mélanger.",
+        "Incorporer le skyr, l’huile de colza, le sucre de coco et la vanille. Mélanger jusqu’à obtenir une préparation homogène.",
+        "Ajouter la farine de grand épeautre T110, la farine d’amande déshuilée, la poudre d’amande, la protéine végétale Nutripure, la levure chimique et le sel.",
+        "Mélanger juste assez pour obtenir une pâte homogène, sans travailler excessivement la préparation.",
+        "Ajouter le chocolat noir 70 % grossièrement haché.",
+        "Ajouter les noix de pécan concassées, en gardant éventuellement quelques morceaux pour le dessus.",
+        "Verser la pâte dans un moule à cake compatible avec l’Air Fryer. Répartir les éventuels morceaux de noix de pécan réservés sur le dessus.",
+        "Cuire dans l’Air Fryer Cosori, mode Bake, à 150 °C pendant 55 minutes. Vérifier la cuisson au centre avec une lame ou un pique : il doit ressortir sans pâte liquide, avec éventuellement quelques miettes humides.",
+        "Ne pas chercher un intérieur totalement sec : le cake doit rester moelleux et fondant. Laisser tiédir avant de démouler, puis refroidir avant de découper en 10 tranches."
+      ],
+      "sections": {
+        "goal": {"title": "Objectif 30 g de protéines", "body": "1 tranche de banana bread\n170 g de [[skyr nature|product:Skyr nature]]\n15 g de [[purée de cacahuète|product:Purée de cacahuète]]\nPetit-déjeuner estimé à ≈ 370–390 kcal et ≈ 30–31 g de protéines.", "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"},
+        "tip": {"title": "Texture moelleuse", "body": "Vérifier le centre avec un pique. Quelques miettes humides sont normales ; ne pas prolonger la cuisson jusqu’à dessécher le cake.", "icon": "assets/pictos/web/picto_astuce_officiel.png"},
+        "serving": {"title": "Au petit-déjeuner", "body": "Déposer la purée de cacahuète sur la tranche et servir le skyr à côté, ou l’utiliser comme topping."},
+        "day": {"title": "Compatibilité des journées", "body": "Jour Bas : à limiter.\nJour Modéré : compatible.\nJour Haut : compatible."}
+      },
+      "nutrition": {
+        "title": "Valeurs nutritionnelles estimées",
+        "columns": ["1 tranche (1/10)", "+ 170 g skyr et 15 g de purée"],
+        "rows": [
+          ["Calories", "≈ 185 kcal", "≈ 370–390 kcal"],
+          ["Protéines", "≈ 9,5–10 g", "≈ 30–31 g"],
+          ["Glucides", "≈ 19 g", "≈ 27 g"],
+          ["Lipides", "≈ 11–12 g", "≈ 19–20 g"]
+        ],
+        "note": "Petit-déjeuner : 1 tranche, 170 g de skyr et 15 g de purée de cacahuète. Énergie et protéines communiquées par Sophie ; glucides et lipides de l’accompagnement estimés à partir de la base et d’une recette existante."
+      },
+      "tagsDetailed": [
+        {"label": "Petit-déjeuner"},
+        {"label": "Enfants"},
+        {"label": "Végétarien", "showIcon": true, "icon": "assets/pictos/web/picto_vegetarien.png"},
+        {"label": "Jour Modéré"}
+      ],
+      "codex": {
+        "identifiant": "banana_bread_proteine_chocolat_pecan",
+        "statut": "recette_officielle",
+        "rendement": "10_tranches",
+        "categories": ["petit_dejeuner", "gouter"],
+        "caracteristiques": ["vegetarien", "proteine", "enfant", "air_fryer"],
+        "compatibilite": ["jour_modere", "jour_haut"],
+        "jour_bas": "a_limiter",
+        "macros1Tranche": "185_kcal,9.5_a_10g_proteines,19g_glucides,11_a_12g_lipides"
+      },
+      "recipePdf": "assets/fiches-pdf/banana-bread-proteine-chocolat-pecan.pdf"
     }
   ]
 }
