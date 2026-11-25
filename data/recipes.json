@@ -63,12 +63,6 @@
       ],
       "ingredients": [
         {
-          "quantity": 30,
-          "unit": "g",
-          "labelSingular": "de flocons d'avoine KoRo",
-          "labelPlural": "de flocons d'avoine KoRo"
-        },
-        {
           "quantity": 1,
           "unit": "",
           "labelSingular": "œuf",
@@ -87,20 +81,26 @@
           "labelPlural": "de compote de pommes sans sucres ajoutés"
         },
         {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de flocons d'avoine KoRo",
+          "labelPlural": "de flocons d'avoine KoRo"
+        },
+        {
           "quantity": 3,
           "unit": "g",
           "labelSingular": "de levure chimique",
           "labelPlural": "de levure chimique"
         },
         {
+          "quantity": null,
+          "text": "Vanille ou cannelle"
+        },
+        {
           "quantity": 10,
           "unit": "g",
           "labelSingular": "de chocolat noir 70 %",
           "labelPlural": "de chocolat noir 70 %"
-        },
-        {
-          "quantity": null,
-          "text": "Vanille ou cannelle"
         },
         {
           "quantity": null,
@@ -270,6 +270,12 @@
           "labelPlural": "de [[skyr nature|product:Skyr nature]]"
         },
         {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[compote de pommes sans sucre ajouté|product:Compote de pommes SSA]]",
+          "labelPlural": "de [[compote de pommes sans sucre ajouté|product:Compote de pommes SSA]]"
+        },
+        {
           "quantity": 60,
           "unit": "g",
           "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
@@ -282,28 +288,16 @@
           "labelPlural": "de [[protéine végétale Nutripure vanille ou neutre|product:Protéine végétale nature]]"
         },
         {
-          "quantity": 40,
-          "unit": "g",
-          "labelSingular": "de [[compote de pommes sans sucre ajouté|product:Compote de pommes SSA]]",
-          "labelPlural": "de [[compote de pommes sans sucre ajouté|product:Compote de pommes SSA]]"
+          "quantity": 1,
+          "unit": "c. à soupe",
+          "labelSingular": "de [[cacao en poudre dégraissé KoRo|product:Cacao maigre alcalinisé]]",
+          "labelPlural": "de [[cacao en poudre dégraissé KoRo|product:Cacao maigre alcalinisé]]"
         },
         {
           "quantity": 8,
           "unit": "g",
           "labelSingular": "de levure chimique",
           "labelPlural": "de levure chimique"
-        },
-        {
-          "quantity": 10,
-          "unit": "g",
-          "labelSingular": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]",
-          "labelPlural": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]"
-        },
-        {
-          "quantity": 1,
-          "unit": "c. à soupe",
-          "labelSingular": "de [[cacao en poudre dégraissé KoRo|product:Cacao maigre alcalinisé]]",
-          "labelPlural": "de [[cacao en poudre dégraissé KoRo|product:Cacao maigre alcalinisé]]"
         },
         {
           "quantity": 0.5,
@@ -316,6 +310,12 @@
           "unit": "",
           "labelSingular": "pincée de sel",
           "labelPlural": "pincées de sel"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]",
+          "labelPlural": "de [[chocolat noir en pépites|product:Chocolat noir Dessert 70 %]]"
         }
       ],
       "preparation": [
@@ -502,22 +502,16 @@
       ],
       "ingredients": [
         {
-          "quantity": 90,
-          "unit": "g",
-          "labelSingular": "de graines de chia",
-          "labelPlural": "de graines de chia"
+          "quantity": 360,
+          "unit": "ml",
+          "labelSingular": "de boisson à l’avoine bio U sans sucre ajouté",
+          "labelPlural": "de boisson à l’avoine bio U sans sucre ajouté"
         },
         {
           "quantity": 30,
           "unit": "g",
           "labelSingular": "de purée de pistache KoRo",
           "labelPlural": "de purée de pistache KoRo"
-        },
-        {
-          "quantity": 360,
-          "unit": "ml",
-          "labelSingular": "de boisson à l’avoine bio U sans sucre ajouté",
-          "labelPlural": "de boisson à l’avoine bio U sans sucre ajouté"
         },
         {
           "quantity": 20,
@@ -530,6 +524,16 @@
           "unit": "g",
           "labelSingular": "de whey isolate nature",
           "labelPlural": "de whey isolate nature"
+        },
+        {
+          "quantity": null,
+          "text": "Poudre de vanille KoRo"
+        },
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
         },
         {
           "quantity": 450,
@@ -548,10 +552,6 @@
           "unit": "g",
           "labelSingular": "de sirop d’agave pour les framboises",
           "labelPlural": "de sirop d’agave pour les framboises"
-        },
-        {
-          "quantity": null,
-          "text": "Poudre de vanille KoRo"
         },
         {
           "quantity": null,
@@ -720,12 +720,6 @@
         {
           "quantity": 120,
           "unit": "g",
-          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
-          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
-        },
-        {
-          "quantity": 120,
-          "unit": "g",
           "labelSingular": "d’amandes entières",
           "labelPlural": "d’amandes entières"
         },
@@ -740,6 +734,12 @@
           "unit": "g",
           "labelSingular": "de cacahuètes non salées",
           "labelPlural": "de cacahuètes non salées"
+        },
+        {
+          "quantity": 120,
+          "unit": "g",
+          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
         },
         {
           "quantity": 60,
@@ -778,6 +778,18 @@
           "labelPlural": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]"
         },
         {
+          "quantity": null,
+          "text": "Cannelle selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille selon le goût"
+        },
+        {
+          "quantity": null,
+          "text": "1 pincée de sel"
+        },
+        {
           "quantity": 190,
           "unit": "g",
           "labelSingular": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]",
@@ -794,18 +806,6 @@
           "unit": "g",
           "labelSingular": "de [[sirop d’érable|product:Sirop d'érable bio]]",
           "labelPlural": "de [[sirop d’érable|product:Sirop d'érable bio]]"
-        },
-        {
-          "quantity": null,
-          "text": "Cannelle selon le goût"
-        },
-        {
-          "quantity": null,
-          "text": "Vanille selon le goût"
-        },
-        {
-          "quantity": null,
-          "text": "1 pincée de sel"
         }
       ],
       "preparation": [
@@ -987,12 +987,6 @@
       ],
       "ingredients": [
         {
-          "quantity": 180,
-          "unit": "g",
-          "labelSingular": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]",
-          "labelPlural": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]"
-        },
-        {
           "quantity": 1,
           "unit": "",
           "labelSingular": "œuf entier",
@@ -1003,6 +997,28 @@
           "unit": "",
           "labelSingular": "blanc d’œuf monté en neige",
           "labelPlural": "blancs d’œufs montés en neige"
+        },
+        {
+          "quantity": 180,
+          "unit": "g",
+          "labelSingular": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]",
+          "labelPlural": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "cuillère à café de jus de citron",
+          "labelPlural": "cuillères à café de jus de citron"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille selon le goût, facultative"
         },
         {
           "quantity": 15,
@@ -1023,12 +1039,6 @@
           "labelPlural": "de [[farine d’amande partiellement déshuilée KoRo|product:Farine d’amande partiellement déshuilée]]"
         },
         {
-          "quantity": 40,
-          "unit": "g",
-          "labelSingular": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]",
-          "labelPlural": "de [[compote de pommes sans sucres ajoutés|product:Compote de pommes SSA]]"
-        },
-        {
           "quantity": 4,
           "unit": "g",
           "labelSingular": "de levure chimique",
@@ -1041,18 +1051,8 @@
           "labelPlural": "de bicarbonate alimentaire"
         },
         {
-          "quantity": 1,
-          "unit": "",
-          "labelSingular": "cuillère à café de jus de citron",
-          "labelPlural": "cuillères à café de jus de citron"
-        },
-        {
           "quantity": null,
           "text": "1 pincée de sel"
-        },
-        {
-          "quantity": null,
-          "text": "Vanille selon le goût, facultative"
         },
         {
           "quantity": null,
@@ -1248,22 +1248,16 @@
           "labelPlural": "d’abricots bien mûrs"
         },
         {
-          "quantity": 200,
-          "unit": "g",
-          "labelSingular": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]",
-          "labelPlural": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]"
-        },
-        {
           "quantity": 6,
           "unit": "",
           "labelSingular": "œufs",
           "labelPlural": "œufs"
         },
         {
-          "quantity": 40,
+          "quantity": 200,
           "unit": "g",
-          "labelSingular": "de Maïzena",
-          "labelPlural": "de Maïzena"
+          "labelSingular": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[yaourt grec nature 0 %|product:Yaourt grec nature 0 %]]"
         },
         {
           "quantity": 15,
@@ -1278,6 +1272,12 @@
         {
           "quantity": null,
           "text": "½ cuillère à café rase de [[poudre de vanille Bourbon KoRo|product:Vanille en poudre]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de Maïzena",
+          "labelPlural": "de Maïzena"
         },
         {
           "quantity": 1,
@@ -1461,6 +1461,12 @@
       ],
       "ingredients": [
         {
+          "quantity": 70,
+          "unit": "g",
+          "labelSingular": "d’amandes entières",
+          "labelPlural": "d’amandes entières"
+        },
+        {
           "quantity": 1300,
           "unit": "g",
           "labelSingular": "de pastèque",
@@ -1471,12 +1477,6 @@
           "unit": "g",
           "labelSingular": "de feta",
           "labelPlural": "de feta"
-        },
-        {
-          "quantity": 70,
-          "unit": "g",
-          "labelSingular": "d’amandes entières",
-          "labelPlural": "d’amandes entières"
         },
         {
           "quantity": 1,
@@ -1844,38 +1844,6 @@
       "ingredients": [
         {
           "heading": true,
-          "text": "Aïoli allégée"
-        },
-        {
-          "quantity": 100,
-          "unit": "g",
-          "labelSingular": "de [[skyr|product:Skyr nature]] ou de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]",
-          "labelPlural": "de [[skyr|product:Skyr nature]] ou de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]"
-        },
-        {
-          "quantity": 40,
-          "unit": "g",
-          "labelSingular": "de mayonnaise maison",
-          "labelPlural": "de mayonnaise maison"
-        },
-        {
-          "quantity": null,
-          "text": "1 jaune d’œuf dur"
-        },
-        {
-          "quantity": null,
-          "text": "1 à 2 belles gousses d’ail"
-        },
-        {
-          "quantity": null,
-          "text": "1 c. à café de moutarde de Dijon"
-        },
-        {
-          "quantity": null,
-          "text": "Sel et poivre"
-        },
-        {
-          "heading": true,
           "text": "Mayonnaise maison"
         },
         {
@@ -1893,6 +1861,38 @@
         {
           "quantity": null,
           "text": "Un peu de vinaigre"
+        },
+        {
+          "quantity": null,
+          "text": "Sel et poivre"
+        },
+        {
+          "heading": true,
+          "text": "Aïoli allégée"
+        },
+        {
+          "quantity": null,
+          "text": "1 à 2 belles gousses d’ail"
+        },
+        {
+          "quantity": null,
+          "text": "1 jaune d’œuf dur"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "labelSingular": "de [[skyr|product:Skyr nature]] ou de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]",
+          "labelPlural": "de [[skyr|product:Skyr nature]] ou de [[yaourt grec 0 %|product:Yaourt grec nature 0 %]]"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de mayonnaise maison",
+          "labelPlural": "de mayonnaise maison"
+        },
+        {
+          "quantity": null,
+          "text": "1 c. à café de moutarde de Dijon"
         },
         {
           "quantity": null,
@@ -2070,12 +2070,6 @@
           "labelPlural": "de fusilli protéinés, poids cru"
         },
         {
-          "quantity": 3,
-          "unit": "",
-          "labelSingular": "portion de [[sauce basilic légère|SAUCE-BASILIC-CAJOU-PISTACHES]]",
-          "labelPlural": "portions de [[sauce basilic légère|SAUCE-BASILIC-CAJOU-PISTACHES]]"
-        },
-        {
           "quantity": 1,
           "unit": "",
           "labelSingular": "tomate, idéalement tomates cerises coupées en deux",
@@ -2086,6 +2080,12 @@
           "unit": "",
           "labelSingular": "avocat",
           "labelPlural": "avocats"
+        },
+        {
+          "quantity": 3,
+          "unit": "",
+          "labelSingular": "portion de [[sauce basilic légère|SAUCE-BASILIC-CAJOU-PISTACHES]]",
+          "labelPlural": "portions de [[sauce basilic légère|SAUCE-BASILIC-CAJOU-PISTACHES]]"
         },
         {
           "quantity": 140,
@@ -2629,12 +2629,6 @@
           "heading": true
         },
         {
-          "quantity": 350,
-          "unit": "g",
-          "labelSingular": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]",
-          "labelPlural": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"
-        },
-        {
           "quantity": 200,
           "unit": "g",
           "labelSingular": "d’eau tiède",
@@ -2643,20 +2637,8 @@
         {
           "quantity": 5,
           "unit": "g",
-          "labelSingular": "de sel",
-          "labelPlural": "de sel"
-        },
-        {
-          "quantity": 5,
-          "unit": "g",
           "labelSingular": "de levure boulangère sèche",
           "labelPlural": "de levure boulangère sèche"
-        },
-        {
-          "quantity": 20,
-          "unit": "g",
-          "labelSingular": "d’huile d’olive",
-          "labelPlural": "d’huile d’olive"
         },
         {
           "quantity": 15,
@@ -2665,9 +2647,37 @@
           "labelPlural": "de miel"
         },
         {
+          "quantity": 350,
+          "unit": "g",
+          "labelSingular": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]",
+          "labelPlural": "de [[farine de grand épeautre T110|product:Farine de grand épeautre T110]]"
+        },
+        {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de sel",
+          "labelPlural": "de sel"
+        },
+        {
+          "quantity": 20,
+          "unit": "g",
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
+        },
+        {
           "quantity": null,
           "text": "Tzatziki",
           "heading": true
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "concombre",
+          "labelPlural": "concombres"
+        },
+        {
+          "quantity": null,
+          "text": "Aneth fraîche, sel et poivre"
         },
         {
           "quantity": 200,
@@ -2678,33 +2688,17 @@
         {
           "quantity": 1,
           "unit": "",
-          "labelSingular": "concombre",
-          "labelPlural": "concombres"
+          "labelSingular": "gousse d’ail",
+          "labelPlural": "gousses d’ail"
         },
         {
           "quantity": null,
           "text": "Jus d’un citron"
         },
         {
-          "quantity": 1,
-          "unit": "",
-          "labelSingular": "gousse d’ail",
-          "labelPlural": "gousses d’ail"
-        },
-        {
-          "quantity": null,
-          "text": "Aneth fraîche, sel et poivre"
-        },
-        {
           "quantity": null,
           "text": "Poulet citron-origan",
           "heading": true
-        },
-        {
-          "quantity": 640,
-          "unit": "g",
-          "labelSingular": "de blanc de poulet",
-          "labelPlural": "de blanc de poulet"
         },
         {
           "quantity": null,
@@ -2729,6 +2723,12 @@
         {
           "quantity": null,
           "text": "Sel, poivre et piment d’Espelette"
+        },
+        {
+          "quantity": 640,
+          "unit": "g",
+          "labelSingular": "de blanc de poulet",
+          "labelPlural": "de blanc de poulet"
         }
       ],
       "preparation": [
@@ -2886,11 +2886,11 @@
         },
         {
           "quantity": null,
-          "text": "Spray d’huile d’olive"
+          "text": "Beaucoup de thym"
         },
         {
           "quantity": null,
-          "text": "Beaucoup de thym"
+          "text": "Spray d’huile d’olive"
         }
       ],
       "preparation": [
@@ -3457,16 +3457,16 @@
           "labelPlural": "de [[pâtes Protein+|product:Pâtes Protein+]] crues"
         },
         {
-          "quantity": 250,
-          "unit": "ml",
-          "labelSingular": "de crème légère liquide 12 %",
-          "labelPlural": "de crème légère liquide 12 %"
-        },
-        {
           "quantity": 10,
           "unit": "g",
           "labelSingular": "de Maïzena",
           "labelPlural": "de Maïzena"
+        },
+        {
+          "quantity": 250,
+          "unit": "ml",
+          "labelSingular": "de crème légère liquide 12 %",
+          "labelPlural": "de crème légère liquide 12 %"
         },
         {
           "quantity": null,
@@ -3478,11 +3478,11 @@
         },
         {
           "quantity": null,
-          "text": "Aneth fraîche ou séchée"
+          "text": "Poivre noir"
         },
         {
           "quantity": null,
-          "text": "Poivre noir"
+          "text": "Aneth fraîche ou séchée"
         },
         {
           "quantity": null,
@@ -3686,18 +3686,6 @@
           "labelPlural": "aubergines"
         },
         {
-          "quantity": 1,
-          "unit": "",
-          "labelSingular": "gousse d’ail râpée",
-          "labelPlural": "gousses d’ail râpées"
-        },
-        {
-          "quantity": 15,
-          "unit": "g",
-          "labelSingular": "de gingembre frais râpé",
-          "labelPlural": "de gingembre frais râpé"
-        },
-        {
           "quantity": 20,
           "unit": "g",
           "labelSingular": "de miel d’acacia, ou 15 g de sirop de yacon",
@@ -3708,6 +3696,18 @@
           "unit": "c. à soupe",
           "labelSingular": "de sauce soja légère",
           "labelPlural": "de sauce soja légère"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "labelSingular": "gousse d’ail râpée",
+          "labelPlural": "gousses d’ail râpées"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "labelSingular": "de gingembre frais râpé",
+          "labelPlural": "de gingembre frais râpé"
         },
         {
           "quantity": 2,
@@ -3898,18 +3898,6 @@
       ],
       "ingredients": [
         {
-          "quantity": 1000,
-          "unit": "g",
-          "labelSingular": "de bœuf haché à 5 % MG",
-          "labelPlural": "de bœuf haché à 5 % MG"
-        },
-        {
-          "quantity": 100,
-          "unit": "g",
-          "labelSingular": "de ricotta",
-          "labelPlural": "de ricotta"
-        },
-        {
           "quantity": 3,
           "unit": "",
           "labelSingular": "échalote",
@@ -3922,14 +3910,26 @@
           "labelPlural": "gousses d’ail"
         },
         {
+          "quantity": null,
+          "text": "Persil frais"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "labelSingular": "de ricotta",
+          "labelPlural": "de ricotta"
+        },
+        {
+          "quantity": 1000,
+          "unit": "g",
+          "labelSingular": "de bœuf haché à 5 % MG",
+          "labelPlural": "de bœuf haché à 5 % MG"
+        },
+        {
           "quantity": 1,
           "unit": "",
           "labelSingular": "œuf",
           "labelPlural": "œufs"
-        },
-        {
-          "quantity": null,
-          "text": "Persil frais"
         },
         {
           "quantity": null,
@@ -4133,18 +4133,6 @@
           "labelPlural": "de [[farine de grand épeautre T110 Du Grain au Pain|product:Farine de grand épeautre T110]]"
         },
         {
-          "quantity": 40,
-          "unit": "g",
-          "labelSingular": "de [[poudre d'amande complète KoRo|product:Poudre d'amande complète]]",
-          "labelPlural": "de [[poudre d'amande complète KoRo|product:Poudre d'amande complète]]"
-        },
-        {
-          "quantity": 10,
-          "unit": "g",
-          "labelSingular": "de psyllium",
-          "labelPlural": "de psyllium"
-        },
-        {
           "quantity": 455,
           "unit": "g",
           "labelSingular": "d'eau tiède, à ajuster entre 450 et 460 g",
@@ -4157,6 +4145,24 @@
           "labelPlural": "de levure boulangère sèche"
         },
         {
+          "quantity": 5,
+          "unit": "g",
+          "labelSingular": "de miel d'acacia",
+          "labelPlural": "de miel d'acacia"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "labelSingular": "de [[poudre d'amande complète KoRo|product:Poudre d'amande complète]]",
+          "labelPlural": "de [[poudre d'amande complète KoRo|product:Poudre d'amande complète]]"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "labelSingular": "de psyllium",
+          "labelPlural": "de psyllium"
+        },
+        {
           "quantity": 14,
           "unit": "g",
           "labelSingular": "de sel",
@@ -4167,12 +4173,6 @@
           "unit": "g",
           "labelSingular": "d'huile d'olive",
           "labelPlural": "d'huile d'olive"
-        },
-        {
-          "quantity": 5,
-          "unit": "g",
-          "labelSingular": "de miel d'acacia",
-          "labelPlural": "de miel d'acacia"
         },
         {
           "quantity": null,
@@ -4369,12 +4369,6 @@
           "labelPlural": "œufs"
         },
         {
-          "quantity": 30,
-          "unit": "g",
-          "labelSingular": "d'eau, à ajuster entre 20 et 40 g",
-          "labelPlural": "d'eau, à ajuster entre 20 et 40 g"
-        },
-        {
           "quantity": null,
           "text": "Sel"
         },
@@ -4385,6 +4379,12 @@
         {
           "quantity": null,
           "text": "Origan"
+        },
+        {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "d'eau, à ajuster entre 20 et 40 g",
+          "labelPlural": "d'eau, à ajuster entre 20 et 40 g"
         }
       ],
       "preparation": [
@@ -4574,6 +4574,12 @@
           "labelPlural": "bananes mûres, environ 240 g épluchées"
         },
         {
+          "quantity": 3,
+          "unit": "",
+          "labelSingular": "œufs",
+          "labelPlural": "œufs"
+        },
+        {
           "quantity": 50,
           "unit": "g",
           "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
@@ -4596,12 +4602,6 @@
           "unit": "g",
           "labelSingular": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]",
           "labelPlural": "de [[farine de cacahuète dégraissée KoRo|product:Farine de cacahuète]]"
-        },
-        {
-          "quantity": 3,
-          "unit": "",
-          "labelSingular": "œufs",
-          "labelPlural": "œufs"
         },
         {
           "quantity": 20,
@@ -4822,7 +4822,7 @@
         },
         {
           "quantity": null,
-          "text": "4 œufs"
+          "text": "1 sachet de levure chimique"
         },
         {
           "quantity": null,
@@ -4834,11 +4834,11 @@
         },
         {
           "quantity": null,
-          "text": "1 sachet de levure chimique"
+          "text": "1 pincée de sel"
         },
         {
           "quantity": null,
-          "text": "500 ml de lait ou de lait végétal"
+          "text": "4 œufs"
         },
         {
           "quantity": null,
@@ -4846,11 +4846,11 @@
         },
         {
           "quantity": null,
-          "text": "80 g de beurre fondu"
+          "text": "500 ml de lait ou de lait végétal"
         },
         {
           "quantity": null,
-          "text": "1 pincée de sel"
+          "text": "80 g de beurre fondu"
         }
       ],
       "preparation": [
@@ -5027,32 +5027,8 @@
           "labelPlural": "de carottes cuites et bien égouttées"
         },
         {
-          "quantity": 35,
-          "unit": "g",
-          "labelSingular": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]",
-          "labelPlural": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]"
-        },
-        {
           "quantity": null,
           "text": "2 œufs"
-        },
-        {
-          "quantity": 65,
-          "unit": "g",
-          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
-          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
-        },
-        {
-          "quantity": 35,
-          "unit": "g",
-          "labelSingular": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]",
-          "labelPlural": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]"
-        },
-        {
-          "quantity": 30,
-          "unit": "g",
-          "labelSingular": "de [[xylitol|product:Xylitol]]",
-          "labelPlural": "de [[xylitol|product:Xylitol]]"
         },
         {
           "quantity": 220,
@@ -5067,12 +5043,36 @@
           "labelPlural": "de [[purée de noisettes|product:Purée de noisettes]]"
         },
         {
-          "quantity": null,
-          "text": "5 à 6 g de levure chimique"
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[xylitol|product:Xylitol]]",
+          "labelPlural": "de [[xylitol|product:Xylitol]]"
+        },
+        {
+          "quantity": 65,
+          "unit": "g",
+          "labelSingular": "de [[flocons d’avoine|product:Flocons d'avoine bio]]",
+          "labelPlural": "de [[flocons d’avoine|product:Flocons d'avoine bio]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]",
+          "labelPlural": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]"
+        },
+        {
+          "quantity": 35,
+          "unit": "g",
+          "labelSingular": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]",
+          "labelPlural": "de [[cacao dégraissé KoRo|product:Cacao maigre alcalinisé]]"
         },
         {
           "quantity": null,
           "text": "1 pincée de sel"
+        },
+        {
+          "quantity": null,
+          "text": "5 à 6 g de levure chimique"
         }
       ],
       "preparation": [
@@ -5310,6 +5310,12 @@
           "text": "3 œufs entiers"
         },
         {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de [[xylitol|product:Xylitol]]",
+          "labelPlural": "de [[xylitol|product:Xylitol]]"
+        },
+        {
           "quantity": 220,
           "unit": "g",
           "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
@@ -5338,12 +5344,6 @@
           "unit": "g",
           "labelSingular": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]",
           "labelPlural": "de [[protéine végétale Nutripure|product:Protéine végétale nature]]"
-        },
-        {
-          "quantity": 30,
-          "unit": "g",
-          "labelSingular": "de [[xylitol|product:Xylitol]]",
-          "labelPlural": "de [[xylitol|product:Xylitol]]"
         },
         {
           "quantity": 11,
@@ -5572,15 +5572,11 @@
       "ingredients": [
         {
           "quantity": null,
-          "text": "700 g de viande de bœuf hachée à 5 % de matières grasses"
-        },
-        {
-          "quantity": null,
           "text": "1 kg de haricots rouges égouttés, rincés"
         },
         {
           "quantity": null,
-          "text": "700 g de purée de tomate"
+          "text": "1 oignon rouge, environ 150 g"
         },
         {
           "quantity": null,
@@ -5588,7 +5584,11 @@
         },
         {
           "quantity": null,
-          "text": "1 oignon rouge, environ 150 g"
+          "text": "700 g de viande de bœuf hachée à 5 % de matières grasses"
+        },
+        {
+          "quantity": null,
+          "text": "700 g de purée de tomate"
         },
         {
           "quantity": null,
@@ -5802,12 +5802,6 @@
       ],
       "ingredients": [
         {
-          "quantity": 500,
-          "unit": "g",
-          "labelSingular": "de crevettes cuites décortiquées",
-          "labelPlural": "de crevettes cuites décortiquées"
-        },
-        {
           "quantity": 4,
           "unit": "",
           "labelSingular": "courgette, environ 800 g",
@@ -5820,10 +5814,10 @@
           "labelPlural": "de patate douce en petits dés"
         },
         {
-          "quantity": 150,
+          "quantity": 5,
           "unit": "g",
-          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
-          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+          "labelSingular": "d’huile d’olive",
+          "labelPlural": "d’huile d’olive"
         },
         {
           "quantity": 100,
@@ -5832,22 +5826,16 @@
           "labelPlural": "de lait de coco"
         },
         {
-          "quantity": 5,
+          "quantity": 30,
           "unit": "g",
-          "labelSingular": "d’huile d’olive",
-          "labelPlural": "d’huile d’olive"
+          "labelSingular": "de pâte de curry massaman",
+          "labelPlural": "de pâte de curry massaman"
         },
         {
           "quantity": 2,
           "unit": "",
           "labelSingular": "gousse d’ail",
           "labelPlural": "gousses d’ail"
-        },
-        {
-          "quantity": 30,
-          "unit": "g",
-          "labelSingular": "de pâte de curry massaman",
-          "labelPlural": "de pâte de curry massaman"
         },
         {
           "quantity": 10,
@@ -5857,15 +5845,27 @@
         },
         {
           "quantity": null,
+          "text": "150 à 250 ml d’eau, selon le besoin"
+        },
+        {
+          "quantity": 500,
+          "unit": "g",
+          "labelSingular": "de crevettes cuites décortiquées",
+          "labelPlural": "de crevettes cuites décortiquées"
+        },
+        {
+          "quantity": 150,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": null,
           "text": "Jus de 1/2 citron jaune ou vert"
         },
         {
           "quantity": null,
           "text": "Sel, poivre"
-        },
-        {
-          "quantity": null,
-          "text": "150 à 250 ml d’eau, selon le besoin"
         }
       ],
       "preparation": [
@@ -6939,10 +6939,16 @@
       ],
       "ingredients": [
         {
-          "quantity": 90,
+          "quantity": 200,
           "unit": "g",
-          "labelSingular": "de graines de chia",
-          "labelPlural": "de graines de chia"
+          "labelSingular": "de framboises surgelées",
+          "labelPlural": "de framboises surgelées"
+        },
+        {
+          "quantity": 12,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave pour la compotée",
+          "labelPlural": "de sirop d’agave pour la compotée"
         },
         {
           "quantity": 180,
@@ -6957,16 +6963,20 @@
           "labelPlural": "d’eau"
         },
         {
+          "quantity": 60,
+          "unit": "g",
+          "labelSingular": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]",
+          "labelPlural": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]"
+        },
+        {
           "quantity": 20,
           "unit": "g",
           "labelSingular": "de sirop d’agave",
           "labelPlural": "de sirop d’agave"
         },
         {
-          "quantity": 60,
-          "unit": "g",
-          "labelSingular": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]",
-          "labelPlural": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]"
+          "quantity": null,
+          "text": "Poudre de vanille Bourbon KoRo selon le goût"
         },
         {
           "quantity": 450,
@@ -6975,20 +6985,10 @@
           "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
         },
         {
-          "quantity": null,
-          "text": "Poudre de vanille Bourbon KoRo selon le goût"
-        },
-        {
-          "quantity": 200,
+          "quantity": 90,
           "unit": "g",
-          "labelSingular": "de framboises surgelées",
-          "labelPlural": "de framboises surgelées"
-        },
-        {
-          "quantity": 12,
-          "unit": "g",
-          "labelSingular": "de sirop d’agave pour la compotée",
-          "labelPlural": "de sirop d’agave pour la compotée"
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
         }
       ],
       "preparation": [
@@ -7213,12 +7213,6 @@
       ],
       "ingredients": [
         {
-          "quantity": 90,
-          "unit": "g",
-          "labelSingular": "de graines de chia",
-          "labelPlural": "de graines de chia"
-        },
-        {
           "quantity": 360,
           "unit": "ml",
           "labelSingular": "d’eau",
@@ -7231,22 +7225,10 @@
           "labelPlural": "de [[purée de cacahuète KoRo|product:Purée de cacahuète]]"
         },
         {
-          "quantity": 30,
-          "unit": "g",
-          "labelSingular": "de sirop d’agave",
-          "labelPlural": "de sirop d’agave"
-        },
-        {
           "quantity": 60,
           "unit": "g",
           "labelSingular": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]",
           "labelPlural": "de [[whey isolate nature Nutripure|product:Whey Isolate Native]]"
-        },
-        {
-          "quantity": 450,
-          "unit": "g",
-          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
-          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
         },
         {
           "quantity": 30,
@@ -7255,8 +7237,26 @@
           "labelPlural": "de [[cacao fortement dégraissé KoRo|product:Cacao maigre alcalinisé]]"
         },
         {
+          "quantity": 30,
+          "unit": "g",
+          "labelSingular": "de sirop d’agave",
+          "labelPlural": "de sirop d’agave"
+        },
+        {
           "quantity": null,
           "text": "Poudre de vanille Bourbon KoRo selon le goût"
+        },
+        {
+          "quantity": 450,
+          "unit": "g",
+          "labelSingular": "de [[skyr nature 0 %|product:Skyr nature]]",
+          "labelPlural": "de [[skyr nature 0 %|product:Skyr nature]]"
+        },
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
         },
         {
           "quantity": null,
@@ -7477,12 +7477,6 @@
       ],
       "ingredients": [
         {
-          "quantity": 90,
-          "unit": "g",
-          "labelSingular": "de graines de chia",
-          "labelPlural": "de graines de chia"
-        },
-        {
           "quantity": 120,
           "unit": "g",
           "labelSingular": "de lait de coco cuisine ou conserve, bien mélangé",
@@ -7525,6 +7519,12 @@
         {
           "quantity": null,
           "text": "1 pincée de sel"
+        },
+        {
+          "quantity": 90,
+          "unit": "g",
+          "labelSingular": "de graines de chia",
+          "labelPlural": "de graines de chia"
         },
         {
           "quantity": 80,
@@ -7728,15 +7728,11 @@
         },
         {
           "quantity": null,
-          "text": "55 g de son d’avoine"
-        },
-        {
-          "quantity": null,
-          "text": "55 g de protéine végétale KoRo vanille"
-        },
-        {
-          "quantity": null,
           "text": "215 g de [[compote de pomme sans sucre|product:Compote de pommes SSA]]"
+        },
+        {
+          "quantity": null,
+          "text": "160 g de yaourt grec BD"
         },
         {
           "quantity": null,
@@ -7744,7 +7740,11 @@
         },
         {
           "quantity": null,
-          "text": "160 g de yaourt grec BD"
+          "text": "55 g de son d’avoine"
+        },
+        {
+          "quantity": null,
+          "text": "55 g de protéine végétale KoRo vanille"
         },
         {
           "quantity": null,
@@ -7903,11 +7903,27 @@
         },
         {
           "quantity": null,
+          "text": "40 g de sucre de coco"
+        },
+        {
+          "quantity": null,
+          "text": "40 g de chocolat noir 70 %"
+        },
+        {
+          "quantity": null,
           "text": "120 g de skyr nature"
         },
         {
           "quantity": null,
           "text": "80 g de compote de pommes sans sucre ajouté"
+        },
+        {
+          "quantity": null,
+          "text": "35 g d’huile de colza désodorisée ou autre huile neutre"
+        },
+        {
+          "quantity": null,
+          "text": "Vanille"
         },
         {
           "quantity": null,
@@ -7927,22 +7943,6 @@
         },
         {
           "quantity": null,
-          "text": "40 g de sucre de coco"
-        },
-        {
-          "quantity": null,
-          "text": "35 g d’huile de colza désodorisée ou autre huile neutre"
-        },
-        {
-          "quantity": null,
-          "text": "40 g de chocolat noir 70 %"
-        },
-        {
-          "quantity": null,
-          "text": "25 g de noix de cajou"
-        },
-        {
-          "quantity": null,
           "text": "10 g de levure chimique"
         },
         {
@@ -7955,7 +7955,7 @@
         },
         {
           "quantity": null,
-          "text": "Vanille"
+          "text": "25 g de noix de cajou"
         }
       ],
       "preparation": [
@@ -8132,22 +8132,34 @@
       ],
       "ingredients": [
         {
-          "quantity": 130,
-          "unit": "g",
-          "labelSingular": "de banane bien mûre sans peau (1 grosse banane)",
-          "labelPlural": "de banane bien mûre sans peau (1 grosse banane)"
-        },
-        {
           "quantity": 2,
           "unit": "",
           "labelSingular": "œuf",
           "labelPlural": "œufs"
         },
         {
+          "quantity": 130,
+          "unit": "g",
+          "labelSingular": "de banane bien mûre sans peau (1 grosse banane)",
+          "labelPlural": "de banane bien mûre sans peau (1 grosse banane)"
+        },
+        {
           "quantity": 120,
           "unit": "g",
           "labelSingular": "de skyr nature",
           "labelPlural": "de skyr nature"
+        },
+        {
+          "quantity": 50,
+          "unit": "ml",
+          "labelSingular": "de lait d’avoine",
+          "labelPlural": "de lait d’avoine"
+        },
+        {
+          "quantity": 0.5,
+          "unit": "c. à café",
+          "labelSingular": "de vanille",
+          "labelPlural": "de vanille"
         },
         {
           "quantity": 65,
@@ -8168,22 +8180,10 @@
           "labelPlural": "de protéine végétale Nutripure"
         },
         {
-          "quantity": 50,
-          "unit": "ml",
-          "labelSingular": "de lait d’avoine",
-          "labelPlural": "de lait d’avoine"
-        },
-        {
           "quantity": 8,
           "unit": "g",
           "labelSingular": "de levure chimique",
           "labelPlural": "de levure chimique"
-        },
-        {
-          "quantity": 0.5,
-          "unit": "c. à café",
-          "labelSingular": "de vanille",
-          "labelPlural": "de vanille"
         },
         {
           "quantity": 1,
@@ -8306,18 +8306,18 @@
       "tags": ["Goûter", "Collation", "Végétarien", "Cookies", "Chocolat", "Enfants", "Épeautre", "Avoine"],
       "webImage": "assets/photos-recettes/cookies-chocolat-croustillants-moelleux.jpeg",
       "imageAlt": "Cookies au chocolat noir sur une assiette",
-      "servingsLabel": "9 cookies",
-      "baseServings": 9,
-      "defaultServings": 9,
+      "servingsLabel": "7 cookies",
+      "baseServings": 7,
+      "defaultServings": 7,
       "calculatorMultipliers": [1, 2, 3],
       "calculatorUnit": "cookie",
-      "calculatorNote": "Le nombre de cookies et les ingrédients suivent le multiplicateur choisi. Les macros ci-dessous restent celles d’un cookie et de la recette de base (9 cookies).",
+      "calculatorNote": "Le nombre de cookies et les ingrédients suivent le multiplicateur choisi. Les macros ci-dessous restent celles d’un cookie et de la recette de base (7 cookies).",
       "prepTime": "20 à 30 min de repos",
       "cookTime": "12 min",
       "cookingMode": "Four à chaleur tournante, 175 °C",
       "difficulty": "Facile",
       "heroMeta": [
-        {"label": "Rendement", "value": "9 cookies", "icon": "assets/pictos/web/picto_portions_officiel.png"},
+        {"label": "Rendement", "value": "7 cookies", "icon": "assets/pictos/web/picto_portions_officiel.png"},
         {"label": "Repos", "value": "20–30 min", "icon": "assets/pictos/web/picto_temps_preparation_officiel.png"},
         {"label": "Cuisson", "value": "12 min", "icon": "assets/pictos/web/picto_four_officiel_recadre.png"},
         {"label": "Niveau", "value": "Facile", "icon": "assets/pictos/web/picto_difficulte_facile_officiel.png"}
@@ -8341,26 +8341,26 @@
         "Incorporer la farine de grand épeautre T110, la farine d’avoine, la farine d’amande déshuilée, la levure chimique et le sel. Mélanger juste assez pour obtenir une pâte homogène.",
         "Ajouter le chocolat noir 70 % grossièrement haché et le répartir dans la pâte.",
         "Placer la pâte au réfrigérateur pendant 20 à 30 minutes.",
-        "Former 9 boules de pâte de taille régulière. Les déposer sur une plaque recouverte de papier cuisson et les aplatir légèrement.",
+        "Former 7 boules de pâte de taille régulière. Les déposer sur une plaque recouverte de papier cuisson et les aplatir légèrement.",
         "Cuire 12 minutes au four à chaleur tournante préchauffé à 175 °C. Les bords doivent être légèrement dorés et le centre encore tendre.",
         "Ne pas prolonger la cuisson si le centre paraît encore un peu mou. Laisser refroidir 10 minutes sur la plaque : les cookies se raffermissent en gardant un cœur moelleux."
       ],
       "sections": {
         "tip": {"title": "Le secret du moelleux", "body": "Retirer les cookies après 12 minutes, même si le centre semble encore tendre. Les laisser 10 minutes sur la plaque avant de les déplacer.", "icon": "assets/pictos/web/picto_astuce_officiel.png"},
         "serving": {"title": "Texture recherchée", "body": "Bords croustillants.\nCentre moelleux.\nChocolat fondant."},
-        "variant": {"title": "Valeurs pour 100 g", "body": "À calculer après pesée des 9 cookies cuits et refroidis."},
+        "variant": {"title": "Valeurs pour 100 g", "body": "À calculer après pesée des 7 cookies cuits et refroidis."},
         "day": {"title": "Végétarien", "body": "Cookies adaptés à une alimentation végétarienne.", "icon": "assets/pictos/web/picto_vegetarien.png"}
       },
       "nutrition": {
         "title": "Valeurs nutritionnelles estimées",
-        "columns": ["1 cookie (1/9)", "Recette entière"],
+        "columns": ["1 cookie (1/7)", "Recette entière"],
         "rows": [
-          ["Calories", "≈ 195 kcal", "≈ 1 755 kcal"],
-          ["Protéines", "≈ 4,5 g", "≈ 40,5 g"],
-          ["Glucides", "≈ 19 g", "≈ 171 g"],
-          ["Lipides", "≈ 11 g", "≈ 99 g"]
+          ["Calories", "≈ 251 kcal", "≈ 1 755 kcal"],
+          ["Protéines", "≈ 5,8 g", "≈ 40,5 g"],
+          ["Glucides", "≈ 24,4 g", "≈ 171 g"],
+          ["Lipides", "≈ 14,1 g", "≈ 99 g"]
         ],
-        "note": "Macros par cookie fournies pour 1/9 de la recette ; total obtenu en multipliant par 9. Les valeurs pour 100 g demandent le poids réel des cookies après cuisson."
+        "note": "Macros par cookie recalculées pour 1/7 de la recette, à partir des estimations de la recette entière inchangée. Les valeurs pour 100 g demandent le poids réel des cookies après cuisson."
       },
       "tagsDetailed": [
         {"label": "Goûter"},
@@ -8374,8 +8374,8 @@
         "statut": "recette_officielle",
         "categories": ["gouter", "collation"],
         "caracteristiques": ["vegetarien", "chocolat", "enfant"],
-        "rendement": "9_cookies",
-        "macros1Cookie": "195_kcal,4.5g_proteines,19g_glucides,11g_lipides"
+        "rendement": "7_cookies",
+        "macros1Cookie": "251_kcal,5.8g_proteines,24.4g_glucides,14.1g_lipides"
       },
       "recipePdf": "assets/fiches-pdf/cookies-chocolat-croustillants-moelleux.pdf"
     },
@@ -8487,11 +8487,11 @@
         {"label": "Petit-déjeuner", "value": "≥ 30 g prot.", "icon": "assets/pictos/web/picto_objectif_30g_proteines.png"}
       ],
       "ingredients": [
+        {"quantity": null, "text": "100 g de [[flocons d’avoine|product:Flocons d'avoine bio]] à mixer en farine"},
         {"quantity": null, "text": "250 g de [[skyr nature|product:Skyr nature]]"},
         {"quantity": null, "text": "2 œufs"},
         {"quantity": null, "text": "20 g d’huile d’olive"},
         {"quantity": null, "text": "1 c. à café de miel, facultative"},
-        {"quantity": null, "text": "100 g de [[flocons d’avoine|product:Flocons d'avoine bio]] à mixer en farine"},
         {"quantity": null, "text": "50 g de [[flocons d’avoine|product:Flocons d'avoine bio]] entiers"},
         {"quantity": null, "text": "50 g de son d’avoine"},
         {"quantity": null, "text": "10 g de levure chimique"},
